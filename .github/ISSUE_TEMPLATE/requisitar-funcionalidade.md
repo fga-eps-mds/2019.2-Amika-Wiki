@@ -18,3 +18,9 @@ assignees: ''
 
 **Informações adicionais**
 <!-- Comente outra informação relevante sobre o sua funcionalidade requisitada aqui. -->
+
+**Checklist**  
+- [ ] A issue possui nome significativo.
+- [ ] A issue possui descrição significativa.
+- [ ] A issue possui screenshots quando necessárias.
+- [ ] A issue possui labels.
