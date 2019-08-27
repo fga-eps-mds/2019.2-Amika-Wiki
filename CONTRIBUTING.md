@@ -10,7 +10,7 @@ Observe que temos um código de conduta; siga-o em todas as suas interações de
 1. Certifique-se de que todas as dependências de instalação ou compilação sejam removidas antes do _Pull Request_.
 2. Atualize o README.md com detalhes das alterações na interface, incluindo novas portas expostas a variáveis de ambiente, locais úteis de arquivos e parâmetros de contêiner.
 3. Aumente os números de versão em qualquer arquivo de exemplo e o arquivo README.md para a nova versão que este _Pull Request_ representaria.
-4. Você pode mesclar o _Pull Request_ quando tiver a aprovação de um dos desenvolvedores ou, se você não tiver permissão para fazer isso, poderá solicitar a um revisor que a mescla para você.
+4. Você pode mesclar o _Pull Request_ quando tiver a aprovação de um dos desenvolvedores ou, se você não tiver permissão para fazer isso, poderá solicitar a um revisor que mescle para você.
 
 ## Código de conduta
 
