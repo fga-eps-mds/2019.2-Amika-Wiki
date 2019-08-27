@@ -46,7 +46,7 @@ ameaçador, ofensivo ou prejudicial.
 
 Este Código de Conduta se aplica aos espaços do projeto e aos espaços públicos
 quando um indivíduo está representando o projeto ou sua comunidade. Exemplos de
-representando um projeto ou comunidade incluem o uso de um e-mail oficial do projeto, 
+representante um projeto ou comunidade incluem o uso de um e-mail oficial do projeto, 
 publicação por meio de uma conta oficial de mídia social ou como representante designado
 representante em um evento on-line ou off-line. A representação de um projeto pode ser
 definido e esclarecido pelos mantenedores do projeto.
