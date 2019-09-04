@@ -1,6 +1,6 @@
 # Contribuição
 
-Ao contribuir com este repositório, discuta primeiro as alterações que deseja fazer por meio da _issue_, _pull request_,
+Ao contribuir com este repositório, discuta primeiro as alterações que deseja fazer por meio da [_issue_](https://github.com/fga-eps-mds/2019.2-Grupo9/issues), [_pull request_](https://github.com/fga-eps-mds/2019.2-Grupo9/pulls),
 _e-mail_ ou qualquer outro método com os proprietários deste repositório antes de fazer as alterações.
 
 Observe que temos um código de conduta; siga-o em todas as suas interações deste projeto.
@@ -14,4 +14,4 @@ Observe que temos um código de conduta; siga-o em todas as suas interações de
 
 ## Código de conduta
 
-- Você pode encontrar informações úteis sobre o nosso código de conduta em CODE_OF_CONDUCT.md, encontrado na raiz do projeto.
+- Você pode encontrar informações úteis sobre o nosso [código de conduta](https://github.com/fga-eps-mds/2019.2-Grupo9/blob/master/.github/CODE_OF_CONDUCT.md).

@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Grupo 9</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app">Por favor, aguarde...</div>
-  <script>
-    window.$docsify = {
-      name: 'Grupo 9',
-      // logo: '',
-      // themeColor: '',
-      coverpage: true,
-      loadNavbar: true,
-      loadSidebar: true,
-      auto2top: true
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-</body>
+<html lang="en, pt-br">
+    <head>
+        <title>Grupo 9</title>
+        <meta name="description" content="Description">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+    </head>
+    <body>
+        <div id="app">Por favor, aguarde...</div>
+        <script>
+        window.$docsify = {
+            name: 'Grupo 9',
+            // logo: '',
+            coverpage: 'coverpage.md',
+            homepage: 'introducao.md',
+            loadSidebar: 'sidebar.md',
+            auto2top: true,
+            maxLevel   : 2,
+            subMaxLevel: 2,
+        }
+        </script>
+        <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    </body>
 </html>
