@@ -34,7 +34,6 @@ Meio: Presencial
 ## Registros
 
 * Na reunião foi realizado um brainstorm
-* Foi utilizada uma técnica do 
 
 ## Pendências
 
