@@ -18,13 +18,28 @@ International Business Machines Corporation. **Documento de Visão**. Disponíve
 #### 1.5. Visão Geral
 Produzido a partir do processo RUP - Rational Unified Process, este documento é organizado com as ideias, recursos, descrição e posicionamento do produto. Apresentando uma visão geral do produto, seus requisitos e a relação com os envolvidos e usuários do produto.
 
-## 2. Posicionamento
-#### 2.1. Oportunidade de Negócios
+<h2>2. Posicionamento</h2>
 
-#### 2.2. Descrição do problema
+<h3>2.1 Oportunidade de Negócios</h3>
+Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília localizado no Gama, Faculdade do Gama, sofre o problema de organização de notas, trabalhos e eventos. Para solucionar esse problema o professor da disciplina utiliza anotações que tornam o trabalho exaustivo e lento e acabam por não resolver o problema de organização, visto que atrasos quanto ao lançamento de notas, organização de datas e coisas do gênero ainda ocorrem todo semestre. De acordo com essa realidade, o aplicativo (adicionar nome) tem por objetivo tornar mais simples e rápido o processo de organização de datas, comunicação de notas e avisos aos alunos e interação entre esses e o professor.
 
-#### 2.3. Sentença de Posição do Produto
 
+<h3>2.2 Descrição do problema</h3>
+<table>
+<tr><td style="text-align: center;"> O problema de         </td><td style="text-align: center;"> realizar o gerenciamento de notas, grupos da disciplina, coleta de dados da disciplina e monitorar as atividades pessoais dos alunos manualmente                                                                                          </td></tr>
+<tr><td style="text-align: center;"> afeta                 </td><td style="text-align: center;"><center> alunos e professor                                                                                                                                                                                                                        </td></tr>
+<tr><td style="text-align: center;">cujo impacto é        </td><td style="text-align: center;"> um processo de definição e organização de datas e eventos lento e cansativo, além de muitas vezes falhar e ser novamente modificado</td></tr>
+<tr><td style="text-align: center;"> uma boa solução seria </td><td style="text-align: center;"> um sistema capaz de tornar automático o lançamento de notas e avisos, coleta de dados a respeito da disciplina, organização de grupos da mesma e monitorar atividades pessoais dos alunos por um canal não poluído com outras informações </td></tr>
+</table>
+<h3>2.3 Sentença de posição do produto</h3>
+<table>
+<tr><td style="text-align: center;"> Para            </td><td style="text-align: center;"> O professor e discentes da disciplina de Felicidade                                                                        </td></tr>
+<tr><td style="text-align: center;"> Que             </td><td style="text-align: center;"> necessitam de automatizar e tornar simples suas tarefas relacionadas à disciplina                                          </td></tr>
+<tr><td style="text-align: center;"> O               </td><td style="text-align: center;"> (colocar nome do aplicativo quando for definido)                                                                           </td></tr>
+<tr><td style="text-align: center;"> Que             </td><td style="text-align: center;"> gerencia atividades e permite a interação direta entre aluno e professor</td>                                                   </tr>
+<tr><td style="text-align: center;"> Diferente da</td>    <td style="text-align: center;"> plataforma Moodle</td></tr>                                                                                          
+<tr><td style="text-align: center;"> O nosso produto </td><td style="text-align: center;"> Não polui a interface do usuário com informações desnecessárias de outras matérias e possui velocidade de tráfego superior </td></tr>
+</table>
 ## 3. Descrição dos Envolvidos e dos Usuários
 #### 3.1. Resumo dos Envolvidos
 
