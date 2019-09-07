@@ -79,18 +79,16 @@ Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília
 
 	
 ## 7. Intervalos de Qualidade
-#### 7.1. Restrições de Implementação
-
-
-#### 7.2. Requisitos do Sistema
-
-#### 7.3. Requisitos de _Design_
-
-#### 7.4. Requisitos de Portabilidade
-
-#### 7.5. Requisitos de Confiabilidade
-
-#### 7.6. Requisitos de Privacidade
+#### 7.1. Requisitos do Desempenho
+O tempo de resposta do aplicativo depende da velocidade e qualidade da internet do aparelho, a conexão com a internet será essencial para interação do usuário com as funcionalidades do app. Assim como o tempo de execução irá depender da capacidade de processamento do aparelho.
+#### 7.2. Requisitos de _Design_
+O aplicativo terá interface sistemática e clara, cores variadas de acordo com o desempenho dos usuários e componentes gamificados.
+#### 7.3. Requisitos de Portabilidade
+Os usuários terão diferentes sistemas operacionais em seus dispositivos, portanto será necessária a portabilidade de um app que funcione em ambos os sistemas.
+#### 7.4. Requisitos de Confiabilidade
+Alguns dados deverão ser coletados de parte dos usuários e usados num meio acadêmico, desta forma é necessária boa segurança dos dados a serem coletados, transformados e apresentados.
+#### 7.5. Requisitos de Privacidade
+Como os dados coletados pelo app são para um meio acadêmico, apenas usuários com direito à gestão dos dados e do app poderão ter acesso a tais dados.
 
 ## 8. Prioridades e precedência
 As prioridades da aplicação são: o controle das atividades da disciplina Felicidade, melhor compartilhamento de informações entre estudantes, monitores e o professor, e aumentar o engajamento dos usuários através da gamificação. Além disso, a aplicação deverá facilitar a obtenção de dados pelo professor, ajudando na avaliação dos alunos e na análise da disciplina como um todo.
