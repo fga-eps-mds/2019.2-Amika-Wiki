@@ -1,4 +1,7 @@
 - [Introdução](introducao)
+- Projeto
+- [Termo de Abertura do Projeto](projeto/tap)
+- [Estrutura Analitica do Projeto](projeto/eap)
 - Sprint 0
     - [Planejamento](sprints/sprint0/planejamento)
     - [Resultado](sprints/sprint0/resultado)
