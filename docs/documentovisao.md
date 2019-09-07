@@ -1,11 +1,22 @@
 ## 1. Introdução
 #### 1.1. Finalidade
+O presente documento visa proporcionar um panorama claro e detalhado compartilhado pelos integrantes da equipe de desenvolvimento do (nome do projeto) a respeito da proposta do projeto, através da apresentação das suas funcionalidades e utilidades. Dessa forma, será possível o pleno entendimento do leitor sobre os tópicos abordados, mesmo que este não possua conhecimento dos detalhes técnicos que permeiam a execução desse software. 
 
 #### 1.2. Escopo
+Este documento expõe os aspectos fundamentais para o entendimento do produto, desde a formulação até a implantação no meio alvo. Assim como descreve o ambiente em que o produto será implementado e como o aplicativo irá ser relacionado com os usuários e envolvidos. 
 
-#### 1.3. Referências Bibliográficas
+#### 1.3. Definições, Acrônimos e Abreviações
 
-#### 1.4. Visão Geral
+**Acrônimo/Abreviação** | **Definição**
+------------------------|-------------------
+UnB | Universidade de Brasília.
+RUP | Rational Unified Process (Processo Unificado da Rational) - Processo de técnicas da engenharia de software.
+
+#### 1.4. Referências Bibliográficas
+International Business Machines Corporation. **Documento de Visão**. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html. Acesso em: 1 de Setembro de 2019.
+
+#### 1.5. Visão Geral
+Produzido a partir do processo RUP - Rational Unified Process, este documento é organizado com as ideias, recursos, descrição e posicionamento do produto. Apresentando uma visão geral do produto, seus requisitos e a relação com os envolvidos e usuários do produto.
 
 ## 2. Posicionamento
 #### 2.1. Oportunidade de Negócios
