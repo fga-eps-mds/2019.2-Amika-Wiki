@@ -82,7 +82,7 @@ Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília
 
 #### 7.6. Requisitos de Privacidade
 
-#### 8. Prioridades e precedência
+## 8. Prioridades e precedência
 As prioridades da aplicação são: o controle das atividades da disciplina Felicidade, melhor compartilhamento de informações entre estudantes, monitores e o professor, e aumentar o engajamento dos usuários através da gamificação. Além disso, a aplicação deverá facilitar a obtenção de dados pelo professor, ajudando na avaliação dos alunos e na análise da disciplina como um todo.
 
 
