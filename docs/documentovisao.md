@@ -67,6 +67,16 @@ Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília
 ## 5. Recursos do Produto
 
 ## 6. Restrições
+- O aplicativo deve estar utilizável para o usuário até o final de novembro de 2019.
+- Deve-se desenvolver o aplicativo ao decorrer da matéria de Métodos de Desenvolvimento de Software e de Engenharia de Produto de Software, da Universidade de Brasília, é o mesmo deve ser desenvolvido pelo o grupo de estudantes designados.
+- No processo de construção do aplicativo deve-se optar por ferramentas de baixo custo ou de ferramentas livres, que minimizem o custo final do projeto.
+- O aplicativo deve permitir o acesso a internet.
+- Deve possuir um meio de interação entre os alunos, monitores e professor.
+- O aplicativo tem que ser uma plataforma cujo o aluno possa se sentir mais feliz ao utilizá-la.
+- Deve ser implementado um sistema de guildas no aplicativo.
+- Deve rodar em sistemas operacionais de smartphones(Android, IOS).
+
+
 	
 ## 7. Intervalos de Qualidade
 #### 7.1. Restrições de Implementação
