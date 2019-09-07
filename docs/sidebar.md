@@ -1,4 +1,5 @@
 - [Introdução](introducao)
+- [Atas](atas/indice)
 - Sprint 0
     - [Planejamento](sprints/sprint0/planejamento)
     - [Resultado](sprints/sprint0/resultado)
