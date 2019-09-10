@@ -57,18 +57,18 @@
 - Notificar os seus usuários quando houver adição de conteúdo.
 
 # 5. Premissas
-- Possuir um dispostivo com o acesso a um navegador;
-- Dispor de um dispostivo com hardware suficiente para executar a aplicação;
+- Possuir um dispositivo com o acesso a um navegador;
+- Dispor de um dispositivo com hardware suficiente para executar a aplicação;
 - Em caso do iOS, necessário uma versão iguál ou superior ao iOS 11.3;
-- Professor, ou monitor iram fornecer para o sistema a lista de matriculados na disciplina.
+- Professor, ou monitor irão fornecer para o sistema a lista de matriculados na disciplina.
 
 # 6. Restrições  
-## Produto
+## 6.1 Produto
 - Necessário um navegador Browser para utilizar;
 - Dependência de conexão com Internet e de serviços de terceiros.
 - No google chrome o site deve ser visitado duas vezes antes de apresentar a mensagem para baixa-lo.
 
-## Projeto
+## 6.2 Projeto
 - Os integrantes devem trabalhar 8 horas semanais;
 - Conhecimento da equipe em relação as técnologias;
 - Seguir o Plano de Ensino da disciplina;
