@@ -1,7 +1,7 @@
 # Introdução
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/2a597fb8b27931a87045/maintainability)](https://codeclimate.com/github/fga-eps-mds/2019.2-Grupo9/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/2a597fb8b27931a87045/test_coverage)](https://codeclimate.com/github/fga-eps-mds/2019.2-Grupo9/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fa0fbed2c8fa7014e542/maintainability)](https://codeclimate.com/github/fga-eps-mds/2019.2-Amika-Backend/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fa0fbed2c8fa7014e542/test_coverage)](https://codeclimate.com/github/fga-eps-mds/2019.2-Amika-Backend/test_coverage)
 
 ## Sobre
 
