@@ -80,6 +80,19 @@ O sistema terá a função de auxiliar a disciplina de felicidade por meio de re
 
 ## 5. Recursos do Produto
 
+| Recurso  | Descrição dos Recursos |
+| ------------- | ------------- |
+| Agenda pessoal   | Na agenda, atividades individuais podem ser fixadas para organização própria do usuário. A agenda pode ser compartilhadas com outros usuários. |
+| Enquetes  | Nesse ambiente, o professor poderá abrir enquetes para os alunos com questões levantadas em sala de aula. O ambiente de enquetes pode armazenar os dados para análises estatísticas posteriores.  |
+| Controle de cadastro  | Os alunos matriculados na disciplina de Felicidade terão um cadastro na aplicação. O professor da disciplina terá o controle dos cadastros, podendo modificá-los.  |
+| Marcador para o nível de felicidade   | O nível de felicidade individual do aluno deve ser mostrado em seu perfil individual. As variáveis e indicadores dos níveis de felicidade serão decididos posteriormente.  |
+| Ambiente de grupos  | Na aplicação, será possível a criação de grupos. Nestes grupos, os membros poderão interagir mais facilmente. |
+| Customização do perfil pessoal  | Conforme aspectos a serem definidos na gamificação, o aluno poderá personalizar o próprio perfil com recompensas recebidas das atividades propostas na matéria.   |
+| Barra de progresso na disciplina   | Uma barra que acompanha a progressão do aluno será mostrada no perfil individual. As variáveis que alteram o nível de progresso serão definidas posteriormente.  |
+| Tarefas  | As tarefas serão postadas pelo professor/monitor e poderão ser acessadas pelos alunos. Elas poderão ser fixadas na agenda. Completar tarefas pode aumentar os níveis de progresso e/ou felicidade do perfil de cada aluno.  |
+| Mural  | Quadro de aviso para os alunos com lembretes de atividades a serem realizadas. Os lembretes podem ser colocados pelo professor, monitores ou alunos.
+ |
+
 ## 6. Restrições
 - O aplicativo deve estar utilizável para o usuário até o final de novembro de 2019.
 - Deve-se desenvolver o aplicativo ao decorrer da matéria de Métodos de Desenvolvimento de Software e de Engenharia de Produto de Software, da Universidade de Brasília, é o mesmo deve ser desenvolvido pelo o grupo de estudantes designados.
