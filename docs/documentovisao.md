@@ -62,7 +62,21 @@ Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília
 ## 4. Visão Geral do Produto
 #### 4.1. Perspectiva do produto
 
+O sistema terá a função de auxiliar a disciplina de felicidade por meio de recursos que permitam acompanhamento dos alunos e a interação entre os mesmos, tais recursos serão implementados junto a estratégias de gamificação, de forma que seu uso seja mais atraente e natural, outra necessidade é de que o professor e a equipe de monitores tenham acesso a atividades e as interações dos usuários.
+
 #### 4.2. Resumo dos recursos
+
+| Recurso  | Detalhes |
+| ------------- | ------------- |
+| Agenda pessoal   | Nessa agenda o aluno pode listar suas atividades, a agenda pode ser publicada ou ser privada ao aluno |
+| Enquetes  | Feitas em tempo real pelo professor da disciplina para apontar questões levantadas na aula   |
+| Controle de cadastro  | Alunos matriculados podem ter cadastro na aplicação e o controle de cadastros deve estar disponível para o professor e monitores  |
+| Marcador para o nível de felicidade   | O feedback do nível de felicidade dos alunos deve ser mostrado em forma de uma barra de progresso  |
+| Grupos  | Deve ser possível formar grupos entre os alunos, tal recurso vai ser gamificado em forma de guildas previamente definidas|
+| Customização pessoal  | Customização da aplicação conforme aspectos definidos na gamificação, como stickers, badges, troféus e outros recursos cosméticos.   |
+| Barra de progresso na disciplina   | Uma barra de progresso que acompanha a progressão do aluno na disciplina  |
+| Tarefas  | Tarefas que podem ser acessadas pelo alunos   |
+| Mural  | Quadro de avisos para os alunos, colocados pelos próprios alunos ou pelo professor e monitores para avisar sobre tarefas e lembretes |
 
 ## 5. Recursos do Produto
 
