@@ -35,4 +35,4 @@ Para contribuir com o projeto, leia sobre [contribuição](https://github.com/fg
 
 Este projeto está licenciado sob os termos da licença <LICENÇA>.
 
-Copyright (c) 2019 EPS/MDS 
+Copyright (c) 2019 Amika
