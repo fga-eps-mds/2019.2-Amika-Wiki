@@ -1,6 +1,4 @@
-- [Introdução](introducao)
-- [Documento de Visão](documentovisao)
-
+# Sprints
 - Sprint 0
     - [Planejamento](sprints/sprint0/planejamento)
     - [Resultado](sprints/sprint0/resultado)
