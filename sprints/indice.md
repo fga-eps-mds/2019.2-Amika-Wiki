@@ -1,11 +1,4 @@
-<<<<<<< HEAD:docs/sidebar.md
-- [Introdução](introducao)
-- Projeto
-- [Termo de Abertura do Projeto](projeto/tap)
-- [Estrutura Analitica do Projeto](projeto/eap)
-=======
 # Sprints
->>>>>>> c19279e2c7e070e3eddd211e06db2d3320cf7da6:sprints/indice.md
 - Sprint 0
     - [Planejamento](sprints/sprint0/planejamento)
     - [Resultado](sprints/sprint0/resultado)
