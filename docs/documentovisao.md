@@ -40,24 +40,94 @@ Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília
 <tr><td style="text-align: center;"> Diferente da</td>    <td style="text-align: center;"> plataforma Moodle</td></tr>                                                                                          
 <tr><td style="text-align: center;"> O nosso produto </td><td style="text-align: center;"> Não polui a interface do usuário com informações desnecessárias de outras matérias e possui velocidade de tráfego superior </td></tr>
 </table>
+
 ## 3. Descrição dos Envolvidos e dos Usuários
+
 #### 3.1. Resumo dos Envolvidos
+**Nome** | **Descrição** | **Responsabilidades**
+---------|---------------|-----------------------
+Equipe de Gestão de Projeto | Grupo de alunos da UnB matriculados na disciplina de Engenharia de Produto de Software. | Gerenciar a equipe, executando o planejamento, garantindo a comunicação entre os membros da equipe e acompanhando o desenvolvimento do produto.
+Equipe de Desenvolvimento de Projeto | Grupo de alunos da UnB matriculados na disciplina de Métodos de Desenvolvimento de Software. | Auxiliar o planejamento e realizar o desenvolvimento, implantação e testes do produto.
+Cliente | Membro do Corpo Docente da UnB. | Apresentar os problemas e expor informações e demandas do projeto, além de acompanhar o andamento do mesmo e efetuar as validações necessárias.
 
 #### 3.2. Resumo dos Usuários
+Nome | Descrição
+------|----------
+Docente da disciplina Felicidade | Professor que ministra a disciplina Felicidade na UnB. Utilizará o software para organizar as entregas de tarefas, manter a comunicação com os alunos e levantar dados a respeito da matéria.
+Discentes da disciplina Felicidade | Alunos matriculados na disciplina Felicidade, que utilizarão o produto para entregar atividades e manter a comunicação com o professor e outros alunos da matéria.
 
 #### 3.3. Ambiente do Usuário
+Será possível utilizar o software através de navegadores como Google Chrome e Mozilla Firefox. Além disso, será possível utilizar um aplicativo diretamente no dispositivo mobile, sendo este Android ou IOS.
 
 #### 3.4. Perfis dos Envolvidos
 ##### 3.4.1. Equipe de Gestão de Projeto
+|     |     |
+|-------------------|--------------------------------------------------------------------------------------|
+|**Representantes** | Mateus de Oliveira Barbosa, Matheus Roberto Alves da Silva, Vinícius de Castro Cantuária. |
+|**Descrição** | Gestores de projeto. |
+|**Tipo** | Discentes da disciplina de Engenharia de Produto de Software na Universidade de Brasília. |
+|**Critérios de Sucesso**| Manter a motivação, harmonia e organização da equipe, por meio de ações que promovam o nivelamento dos membros. Além de sistematizar as etapas de desenvolvimento do projeto, visando o cumprimento dos prazos estabelecidos junto à qualidade prevista da aplicação. |
+|**Envolvimento**| Alto. |
+|**Problemas/Comentários**| Fazer com que a equipe cumpra os prazos previstos, tendo em vista a relação entre os horários disponíveis dos membros e as atividades a serem executadas. |
 
-##### 3.4.2. Equipe de Desenvolvimento
+##### 3.4.2. Equipe de Desenvolvimento de Projeto
+|     |     |
+|---------|---------|
+|**Representantes**| Arthur Paiva Tavares, Danilo Domingo Vitoriano Silva, Gabrielle Ribeiro Gomes, Gustavo Afonso Pires Severo, Ithalo Luiz de Azevedo Mendes, Maicon Lucas Mares, Rafael da Silva Rodrigues. |
+|**Descrição**| Desenvolvedores de Software. |
+|**Tipo** | Discentes da disciplina de Métodos de Desenvolvimento de Software na Universidade de Brasília. |
+|**Critérios de Sucesso** | Entregar o que for proposto, cumprindo os prazos de entrega e mantendo a qualidade do produto. |
+|**Envolvimento**| Alto. |
+|**Problemas/Comentários** | Equipe inexperiente no desenvolvimento de softwares, além do pouco conhecimento das ferramentas que serão utilizadas.|
+
+##### 3.4.3. Cliente
+|     |      |
+|------|--------|
+|**Representante**| Wander Cleber Maria Pereira da Silva. |
+|**Descrição**| Responsável pelas demandas do projeto. |
+|**Tipo** | Docente da disciplina de Felicidade na Universidade de Brasília. |
+|**Critérios de Sucesso**| - |
+|**Envolvimento**| Médio. |
+|**Problemas/Comentários**| Encontrar horários disponíveis para reuniões, que coincidam com os horários vagos da equipe. |
 
 #### 3.5. Perfis dos Usuários
-##### 3.5.1. Gestor de projeto
+##### 3.5.1. Docente da Disciplina Felicidade
+|      |       |
+|------|-------|
+|**Representantes**| Professor que ministra a disciplina Felicidade na UnB. |
+|**Tipo**| - |
+|**Responsabilidades** |  O atual professor da disciplina é o cliente interessado no projeto. Contribui para o desenvolvimento do software através da entrega das demandas necessárias e efetua a validação do que é realizado. Com o produto em uso, este usuário será capaz de realizar o controle do cadastro de alunos na aplicação. |
+|**Critérios de Sucesso**| A aplicação facilitará o recebimento de tarefas, a comunicação com os discentes e a coleta de dados sobre a disciplina. |
+|**Envolvimento**| Alto. |
+|**Problemas/Comentários**| - |
 
+##### 3.5.2. Discentes da Disciplina Felicidade
+|      |       |
+|------|-------|
+|**Representantes**| Alunos matriculados na disciplina Felicidade na UnB. |
+|**Tipo**| - |
+|**Responsabilidades** | Não possuem responsabilidades quanto ao desenvolvimento e manutenção do software. Porém, necessitam realizar cadastro e estar devidamente matriculados na disciplina Felicidade para utilizar a aplicação. |
+|**Critérios de Sucesso**| Facilidade na entrega de tarefas, melhor comunicação com o docente e demais alunos da disciplina. Além do incentivo a maior participação e envolvimento nas propostas da disciplina, por meio da gamificação do software. |
+|**Envolvimento**| Alto. |
+|**Problemas/Comentários**| - |
 
-#### 3.6. Principais necessidades dos usuários ou envolvidos
+#### 3.6. Principais Necessidades dos Envolvidos ou Usuários
+
+##### 3.6.1. Necessidades dos Envolvidos
+Necessidade | Prioridade | Interesses | Solução Atual | Solução Proposta
+------------|------------|------------|---------------|------------------
+
+##### 3.6.2. Necessidades dos Usuários
+Necessidade | Prioridade | Interesses | Solução Atual | Solução Proposta
+------------|------------|------------|---------------|------------------
+
 #### 3.7. Alternativas e concorrência
+
+##### 3.7.1 Plataforma Moodle
+A plataforma Aprender UnB (moodle), é um site utilizado para entrega de tarefas e comunicação do professor com os alunos através de fóruns da disciplina.
+
+##### 3.7.2 Facebook
+A rede social Facebook traz a possibilidade de criaçao de grupos, onde pode haver a interação entre professor e alunos. 
 
 ## 4. Visão Geral do Produto
 #### 4.1. Perspectiva do produto
