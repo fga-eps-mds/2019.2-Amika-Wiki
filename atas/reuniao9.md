@@ -1,8 +1,8 @@
-# Reunião com o Cliente - 05/09/2019
+# Reunião com o Cliente - 05/08/2019
 
 ## Informações
 
-Data: 05/09/2019
+Data: 05/08/2019
 
 Início: 16:00
 
