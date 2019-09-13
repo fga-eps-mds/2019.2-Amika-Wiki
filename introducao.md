@@ -1,31 +1,111 @@
-# Introdução
+<p align="center"> <img src="assets/img/logo.png" width="auto" height="300" />
+<br>
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/fa0fbed2c8fa7014e542/maintainability)](https://codeclimate.com/github/fga-eps-mds/2019.2-Amika-Backend/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/fa0fbed2c8fa7014e542/test_coverage)](https://codeclimate.com/github/fga-eps-mds/2019.2-Amika-Backend/test_coverage)
+# Introdução
+
 
 ## Sobre
+Amika é um Progressive Web App com o objetivo de auxiliar a organização da disciplina de Felicidade, assim como proporcionar para os alunos um ambiente de interação e ajuda para lidar com problemas de saúde mental, fornecendo assim uma experiência mais agradável.
+
 
 ## Colaboradores
 
 ### Equipe de Gerenciamento
 
-| Membro | E-mail | GitHub |
-| :-----: | :----: | :----: |
-| Mateus de Oliveira Barbosa | mat97_@hotmail.com | [MateusO97](https://github.com/MateusO97) |
-| Matheus Roberto Alves da Silva| matheus456456@gmail.com | [Matheus456](https://github.com/Matheus456) |
-| Vinícius de Castro Cantuária | cantuariavc@gmail.com | [cantuariavc](https://github.com/cantuariavc) |
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm container-img">
+        <img src="./assets/img/time/oliveira.jpeg" alt="..." class="img-thumbnail image">
+            <div class="middle">
+              <div class="text">
+                <a href="https://github.com/MateusO97">Mateus de Oliveira</a>
+              </div>
+            </div>
+    </div>
+    <div class="col-sm container-img">
+      <img src="./assets/img/time/roberto.jpeg" alt="..." class="img-thumbnail image">  
+          <div class="middle">
+            <div class="text">
+            <a href="https://github.com/Matheus456">Matheus Roberto</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm container-img">
+    <img src="./assets/img/time/cantuaria.jpeg" alt="..." class="img-thumbnail image">
+        <div class="middle">
+          <div class="text">
+          <a href="https://github.com/cantuariavc">Vinícius Cantuária</a>
+          </div>
+        </div>
+    </div>
+  </div>
 
 ### Equipe de Desenvolvimento
 
-| Membro | E-mail | GitHub |
-| :-----: | :----: | :----: |
-|Arthur Paiva Tavares | arthur001123@gmail.com | [ArthurPaivaT](https://github.com/ArthurPaivaT) |
-|Danilo Domingo Vitoriano Silva | danilow200@gmail.com | [Danilow200](https://github.com/Danilow200)|
-|Gabrielle Ribeiro Gomes | gabrielleribeiro2010@gmail.com | [Gabrielle-Ribeiro](https://github.com/Gabrielle-Ribeiro) |
-|Gustavo Afonso Pires Severo | gugustavo137@gmail.com | [GustavoAPS](https://github.com/GustavoAPS) |
-|Ithalo Luiz de Azevedo Mendes | ithaloazvd@gmail.com | [ithaloazevedo](https://github.com/ithaloazevedo) |
-|Maicon Lucas Mares | maiconmaresunb@gmail.com | [MaiconMares](https://github.com/MaiconMares) |
-|Rafael da Silva Rodrigues | rafael-rodrigues-@live.com | [thefael](https://github.com/thefael) |
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 container-img">
+        <img src="./assets/img/time/arthur.jpeg" alt="..." class="img-thumbnail image">
+            <div class="middle">
+              <div class="text">
+                <a href="https://github.com/ArthurPaivaT">Arthur Paiva</a>
+              </div>
+            </div>
+    </div>
+    <div class="col-sm-4 container-img">
+      <img src="./assets/img/time/danilo.jpeg" alt="..." class="img-thumbnail image">  
+          <div class="middle">
+            <div class="text">
+            <a href="https://github.com/Danilow200">Danilo Domingo</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-4 container-img">
+    <img src="./assets/img/time/gabrielle.jpeg" alt="..." class="img-thumbnail image">
+        <div class="middle">
+          <div class="text">
+          <a href="https://github.com/Gabrielle-Ribeiro">Gabrielle Ribeiro</a>
+          </div>
+        </div>
+        </div>
+    <div class="col-sm-4 container-img">
+    <img src="./assets/img/time/gustavo.jpeg" alt="..." class="img-thumbnail image">
+        <div class="middle">
+          <div class="text">
+          <a href="https://github.com/GustavoAPS">Gustavo Afonso</a>
+          </div>
+        </div>
+        </div>
+    <div class="col-sm-4 container-img">
+    <img src="./assets/img/time/ithalo.jpeg" alt="..." class="img-thumbnail image">
+        <div class="middle">
+          <div class="text">
+          <a href="https://github.com/ithaloazevedo">Ithalo Luiz</a>
+          </div>
+        </div>
+        </div>
+    <div class="col-sm-4 container-img">
+    <img src="./assets/img/time/maicon.jpeg" alt="..." class="img-thumbnail image">
+        <div class="middle">
+          <div class="text">
+          <a href="https://github.com/MaiconMares">Maicon Lucas</a>
+          </div>
+        </div>
+        </div>
+    <div class="col-sm-4 container-img">
+    <img src="./assets/img/time/rafael.jpg" alt="..." class="img-thumbnail image">
+        <div class="middle">
+          <div class="text">
+          <a href="https://github.com/thefael">Rafael da Silva</a>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
 
 ## Contribuição
 
