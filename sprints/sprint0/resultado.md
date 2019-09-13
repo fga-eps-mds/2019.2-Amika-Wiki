@@ -1,1 +1,0 @@
-# Resultado da Sprint 0

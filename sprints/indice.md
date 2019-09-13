@@ -1,7 +1,6 @@
 # Sprints
 - Sprint 0
     - [Planejamento](sprints/sprint0/planejamento)
-    - [Resultado](sprints/sprint0/resultado)
 - Sprint 1
     - [Planejamento](sprints/sprint1/planejamento)
     - [Resultado](sprints/sprint1/resultado)
@@ -11,3 +10,5 @@
 - Sprint 3
     - [Planejamento](sprints/sprint3/planejamento)
     - [Resultado](sprints/sprint3/resultado)
+- Sprint 4
+    - [Planejamento](sprints/sprint4/planejamento)
