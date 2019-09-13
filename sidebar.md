@@ -3,5 +3,6 @@
 - Projeto
   - [Termo de Abertura do Projeto](docs/projeto/tap)
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
+  - [Backlog do Produto](docs/projeto/backlog)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
