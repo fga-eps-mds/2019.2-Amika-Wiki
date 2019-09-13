@@ -18,7 +18,7 @@ International Business Machines Corporation. **Documento de Visão**. Disponíve
 #### 1.5. Visão Geral
 Produzido a partir do processo RUP - Rational Unified Process, este documento é organizado com as ideias, recursos, descrição e posicionamento do produto. Apresentando uma visão geral do produto, seus requisitos e a relação com os envolvidos e usuários do produto.
 
-<h2>2. Posicionamento</h2>
+## 2. Posicionamento
 
 <h3>2.1 Oportunidade de Negócios</h3>
 Atualmente a matéria Felicidade ofertada no Campus da Universidade de Brasília localizado no Gama, Faculdade do Gama, sofre o problema de organização de notas, trabalhos e eventos. Para solucionar esse problema o professor da disciplina utiliza anotações que tornam o trabalho exaustivo e lento e acabam por não resolver o problema de organização, visto que atrasos quanto ao lançamento de notas, organização de datas e coisas do gênero ainda ocorrem todo semestre. De acordo com essa realidade, o aplicativo Amika tem por objetivo tornar mais simples e rápido o processo de organização de datas, comunicação de notas e avisos aos alunos e interação entre esses e o professor.
