@@ -23,7 +23,7 @@
 
 ## 1.2. O não foi feito e por que não foi feito?
 
-    Não se aplica.
+  * Não se aplica.
 
 # 2. Retrospectiva
 
