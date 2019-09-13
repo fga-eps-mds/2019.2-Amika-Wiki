@@ -42,4 +42,5 @@
 ![Sprint 1 - Velocity](velocity1.png)
 
 # 5. Relato do Scrum Master
-<p align = "justify">Nesta sprint deu para dar uma visão geral da metodologia que iremos usar, algumas dúvidas foram tiradas sobre a metodologia ágil, github e docker. 
+<p align = "justify">Nesta sprint deu para dar uma visão geral da metodologia que iremos usar, algumas dúvidas foram tiradas sobre o ágil, github e docker. 
+Os treinamentos foram feitos ao decorrer da semana, porém só fechamos as issues ao final e por conta disso o burndown apresentou um pico de entregas ao final.
