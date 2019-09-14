@@ -1,5 +1,4 @@
 - [Introdução](introducao)
-- [Documento de Visão](docs/documentovisao)
 - Projeto
   - [Termo de Abertura do Projeto](docs/projeto/tap)
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
