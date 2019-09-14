@@ -1,13 +1,13 @@
+# Backlog do Produto
 
-# Histórico de Versão
+### Histórico de Versão
 
  **Data** | **Versão** | **Descrição** | **Autor(es)**
 ---|---|---|---
 12/09/2019| 0.1| Criação da versão 1 do Backlog| Mateus de Oliveira
 
-## Backlog do Produto
 
-### Versão 1
+## Versão 1
 
 
 |Tema        |Épico                   |ID  |Eu, como     |desejo                                                                             |para que eu possa                                                                    |comentário                                                                                                                     |
@@ -64,4 +64,3 @@
 |            |                        |US50|Administrador|Postar feedback ou confissão no Black Room                                         |compartilhar insatisfações com professor, disciplina ou vida                         |Somente o professor terá acesso a esta informação                                                                              |
 |            |                        |US51|Administrador|Visualizar grupos ordenados pela quantidades de pontos de felicidade               |saber quais grupos realizaram mais atividades ao longo do semestre                   |Somente o professor terá acesso a esta informação                                                                              |
 |            |                        |US52|Administrador|Visualizar alunos dentro do grupo ordenados pela quantidade de pontos de felicidade|saber quais alunos realizaram mais atividades ao longo do semestre                   |Somente o professor terá acesso a esta informação                                                                              |
-
