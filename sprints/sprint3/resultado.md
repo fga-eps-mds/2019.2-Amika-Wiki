@@ -3,7 +3,7 @@
 | História | Foi concluída? |
 | -------- | :----: |
 | DOC01 - Criar documento de visão | :x: |
-| DOC02 - Criar termo de abertura do projeto (TAP) | :x: |
+| DOC02 - Criar termo de abertura do projeto (TAP) | :white_check_mark: |
 | DOC03 - Definir esquema de cores | :white_check_mark: |
 | DOC04 - Definir nome da aplicação | :white_check_mark: |
 | DOC05 - Criar logotipo | :white_check_mark: |
@@ -13,27 +13,25 @@
 
 ## 1.1 O que foi feito?
 * Issue 19: Configurar Github Pages
-
-## 1.2. O não foi feito e por que não foi feito?
-
-*  DOC01 - Documento de visão
-    * Faltou subir as alterações feitas no github
-    * Membro do grupo não entregou a tempo
-
 * DOC03 - Esquema de cores
     * Falta ser validado com o cliente
 * DOC02 - Termo de Abertura do Projeto
     * Falta ser aceito o pull request
 * DOC04 - Definir nome da aplicaçao
     * Falta ser validado com o cliente
-*  DOC06 - Criar protótipo de alta fidelidade
-    * Ainda será necessário adicionar alterações
 
 * Issue 13: Criação das atas
     * Falta ser aceito o pull request
 * Issue 26: Criação de logos
     * Falta ser validado com o cliente
 
+## 1.2. O não foi feito e por que não foi feito?
+
+*  DOC01 - Documento de visão
+    * Faltou subir as alterações feitas no github
+    * Membro do grupo não entregou a tempo
+*  DOC06 - Criar protótipo de alta fidelidade
+    * Ainda será necessário adicionar alterações
 
 # 2. Retrospectiva
 
