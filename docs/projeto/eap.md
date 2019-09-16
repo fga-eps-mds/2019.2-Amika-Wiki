@@ -12,7 +12,7 @@
 
 # Primeira Versão
 
-![](././assets/img/eap.png)  
+![](../../assets/img/EAP.png)  
 
 # Referências
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 5a. ed. - EUA: Project Management Institute, 2013.
