@@ -13,6 +13,8 @@
 # Primeira Versão
 
 ![](../../assets/img/EAP.png)  
+[Imagem Ampliada](https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_22_criar_eap/assets/img/EAP.png)
+
 
 # Referências
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 5a. ed. - EUA: Project Management Institute, 2013.
