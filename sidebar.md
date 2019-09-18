@@ -1,5 +1,6 @@
 - [Introdução](introducao)
 - Projeto
+  - [Documento de Visão](docs/projeto/documentovisao)
   - [Termo de Abertura do Projeto](docs/projeto/tap)
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
   - [Backlog do Produto](docs/projeto/backlog)
