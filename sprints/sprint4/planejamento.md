@@ -30,10 +30,10 @@ A parte de desenvolvimento será feita apenas o backend, por não termos ainda u
 | -------- | :----: |
 | DOC01 - Criar documento de visão | :white_check_mark: |
 | US01 - Cadastrar Usuário(backend) | :x: |
-| AMB01 - Configuração do Ambiente de Desenvolvimento (Docker) | :x: |
-| AMB02 - Configurar um serviço para fazer integração contínua | :x: |
-| AMB03 - Configurar Deploy continuo da aplicação | :x: |
-| AMB04 - Configurar um serviço para supervisionar qualidade do projeto | :x: |
+| AMB01 - Configurar Ambiente de Desenvolvimento do backend (Docker) | :x: |
+| AMB02 - Configurar um serviço para fazer integração contínua do backend | :x: |
+| AMB03 - Configurar Deploy continuo de produção do backend | :x: |
+| AMB04 - Configurar codeclimate do backend | :x: |
 | DOC08 - Definir Tecnologia  | :x: |
 | DOC09 - Definir Backlog | :x: |
 | DOC10 - Criar EAP | :x: |
@@ -47,11 +47,11 @@ A parte de desenvolvimento será feita apenas o backend, por não termos ainda u
 * **Responsáveis:** Arthur, Danilo, Gabrielle, Gustavo, Ithalo, Maicon e Rafael
 * **Pontuação:** 13
 
-### AMB01 - Configuração do Ambiente de Desenvolvimento (Docker)
+### AMB01 - Configurar Ambiente de Desenvolvimento do backend (Docker)
 * **Responsáveis:** Vinícius 
 * **Pontuação:** 2
 
-### AMB02 - Configurar um serviço para fazer integração contínua
+### AMB02 - Configurar um serviço para fazer integração contínua do backend
 * **Responsáveis:** Vinícius 
 * **Pontuação:** 2
 
@@ -59,7 +59,7 @@ A parte de desenvolvimento será feita apenas o backend, por não termos ainda u
 * **Responsáveis:** Vinícius 
 * **Pontuação:** 2
 
-### AMB04 - Configurar um serviço para supervisionar qualidade do projeto
+### AMB04 - Configurar codeclimate do backend
 * **Responsáveis:** Vinícius 
 * **Pontuação:** 1
 
