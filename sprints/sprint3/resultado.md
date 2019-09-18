@@ -64,6 +64,9 @@
 # 4. Velocity
 ![Sprint 3 - Velocity](velocity3.png)
 
-# 5. Relato do Scrum Master
+# 5. Quadro de Conhecimento
+![Sprint 3 - Quadro de conhecimento](quadro_conhecimento3.png)
+
+# 6. Relato do Scrum Master
 <p align = "justify">Nosso maior problema dessa sprint foi a definição tárdia do tema e com isso não tinhamos uma definição concreta do escopo.
 E por conta da falta de validação de algumas issues com o cliente, houve o atraso para fecha-lás, pois estavam prontas e nós ficamos aguardando uma resposta do nosso cliente. Devido a isso, o burndown não apresenta de forma consistente como foi essa sprint.  </p>
