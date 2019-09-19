@@ -1,4 +1,4 @@
-# Planejamento da Sprint 3
+# Planejamento da Sprint 4
 
 **Data de Início:** 07/09/19
 
