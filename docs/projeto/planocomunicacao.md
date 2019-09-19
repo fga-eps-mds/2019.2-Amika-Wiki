@@ -65,6 +65,13 @@ Esta comunicação diz respeito a equipe de desenvolvimento, a equipe de gerênc
     <td>Presencial</td>
   </tr>
   <tr>
+    <td>Daily Scrum</td>
+    <td>EPS/MDS</td>
+    <td>Todos os dias</td>
+    <td><p>Segunda e sexta: 11:50</p><p>Terça e quinta: 15:50</p><p>Quarta: 22:30</p><p>Sábado: 16:00</p></td>
+    <td><p>Presencial,</p><p>exceto Quarta</p></td>
+  </tr>
+  <tr>
     <td>Reunião da equipe de Gerência</td>
     <td>EPS</td>
     <td>Sob demanda</td>
@@ -100,6 +107,9 @@ Esta comunicação diz respeito a interessados pelo projeto que não estão envo
 Para que haja uma comunicação efetiva entre a equipe de gerência e a equipe de desenvolvimento, são feitas reuniões semanais presenciais para fazer o planejamento, revisão e restropectivas das sprints, nivelar o conhecimento dos membros e aplicar treinamentos.
 
 As reuniões são documentadas por meio de atas ou com relatórios sobre a sprint(planejamento e resultado).
+Disponíveis em:
+- [Documentação das sprints](sprints/indice)
+- [Atas](atas/indice)
 
 
 ### 4 Referências
