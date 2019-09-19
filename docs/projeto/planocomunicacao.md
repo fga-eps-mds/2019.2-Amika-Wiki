@@ -6,7 +6,11 @@ O objetivo deste plano é relatar a comunicação entre os membros da equipe de 
 
 ## 2 Introdução
 
-Segundo o PMBOK o gerenciamento de comunicações diz respeito a garantir coleta, distribuição e o armazenamento das informações do projeto de forma a distribuí-las aos interessados da melhor forma possível mantendo clara a comunicação entre os desenvolvedores, a equipe de gerência e outros interessados no projeto. A comunicação tem um papel muito importante na maioria dos projetos pois ela influência diretamente no resultado e na execução do projeto.
+Segundo o PMBOK, o Gerenciamento da Comunicação do Projeto busca assegurar que toda a informação do projeto, incluindo planos
+de projeto, avalições de risco, anotações, etc. sejam coletadas e documentadas. Este processo também assegura
+que a informação seja distribuída e compartilhada com as partes interessadas apropriadas. Garante também que a
+informação de um projeto encerrado seja arquivada e usada como uma referência para futuros projetos, na forma de
+"informação histórica".
 
 ## 3 Comunicação
 
@@ -64,10 +68,9 @@ Esta comunicação diz respeito a equipe de desenvolvimento, a equipe de gerênc
     <td>Reunião da equipe de Gerência</td>
     <td>EPS</td>
     <td>Sob demanda</td>
-    <td>varia</td>
-    <td>varia</td>
+    <td>Varia</td>
+    <td>Varia</td>
   </tr>
-  <tr>
 
 </table>
 
@@ -96,6 +99,7 @@ Esta comunicação diz respeito a interessados pelo projeto que não estão envo
 
 Para que haja uma comunicação efetiva entre a equipe de gerência e a equipe de desenvolvimento, são feitas reuniões semanais presenciais para fazer o planejamento, revisão e restropectivas das sprints, nivelar o conhecimento dos membros e aplicar treinamentos.
 
+As reuniões são documentadas por meio de atas ou com relatórios sobre a sprint(planejamento e resultado).
 
 
 ### 4 Referências
