@@ -4,6 +4,6 @@
   - [Termo de Abertura do Projeto](docs/projeto/tap)
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
   - [Backlog do Produto](docs/projeto/backlog)
-  - [Plano de comunicação](docs/planocomunicacao)
+  - [Plano de comunicação](docs/projeto/planocomunicacao)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
