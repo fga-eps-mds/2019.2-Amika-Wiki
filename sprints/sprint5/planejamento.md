@@ -11,7 +11,8 @@
 **Pontos totais:** _77*_
 
 ## Introdução
-<p align = "justify"> O objetivo dessa sprint é pagar a dívida da US01(backend), criar documentos essenciais para o projeto e finalizar a configuração dos ambientes. 
+<p align = "justify"> 
+O objetivo dessa sprint é pagar a conclusão da US01(backend) que ficou como dívida da sprint passada, criar artefatos essenciais para o projeto, finalizar a configuração do ambiente de desenvolvimento do backend e inicar a configuração do ambiente de desenvolvimenot do frontend. 
 </p>
 
 ## Papéis Scrum

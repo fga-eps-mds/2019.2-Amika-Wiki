@@ -39,7 +39,7 @@
 
 * Pareamentos
 * Estudo sobre a tecnologia
-* Dailys
+* Daily meetings
 * Comunicação via hangouts
 
 
@@ -69,12 +69,16 @@
 ![Sprint 4 - Quadro de conhecimento](quadro_conhecimento4.png)
 
 # 6. Relato do Scrum Master
+
+
+
+
 <p align = "justify">
-    A falta de conhecimento do grupo com a tecnologia foi a maior dificuldade encontrada nesta sprint, por conta disso, foi gasto muito tempo para estudar a tecnologia antes de iniciar o desenvolvimento. 
+A falta de conhecimento do grupo com a tecnologia foi a maior dificuldade enfrentada nesta sprint. Por conta disso, foi gasto muito tempo para estudar a tecnologia, atrasando o desenvolvimento.
 </p>
 <p align = "justify">
-    Outro ponto negativo foi a comunicação, pois nessa sprint foi passado apenas a parte do backend para desenvolver, porém isso não ficou claro para a equipe de desenvolvimento, que não sabia como desenvolver o backend sem mexer no frontend, e essa dúvida foi levada até o final da sprint.
+Uma outra dificuldade foi a falha na comunicação entre os gerente e os desenvolvedores de como funcionaria a arquitetura do projeto. Com isso, não ficou claro para a equipe de desenvolvimento de como funcionaria a parte a ser desenvolvida. Somente no final da sprint, essa dúvida foi esclarecida.
 </p>
 <p align = "justify">
-    Nessa sprint conseguimos criar um bom número de documentos e configurar o ambiente de desenvolvimento do backend.
+Apesar dessas dificuldades, a equipe conseguiu gerar um bom número de artefatos e configurar o ambiente de desenvolvimento do backend foi concluída
 </p>
