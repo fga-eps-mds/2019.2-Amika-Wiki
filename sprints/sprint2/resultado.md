@@ -1,3 +1,5 @@
+# Resultado da Sprint 2
+
 # 1. Revisão
 
 | História | Foi concluída? |
