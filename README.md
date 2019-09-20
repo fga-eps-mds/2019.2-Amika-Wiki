@@ -10,6 +10,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/e6c21399ba32b11ab1d1/maintainability)](https://codeclimate.com/github/fga-eps-mds/2019.2-Amika-Frontend/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e6c21399ba32b11ab1d1/test_coverage)](https://codeclimate.com/github/fga-eps-mds/2019.2-Amika-Frontend/test_coverage)
 
+## Sobre
+
+Amika é um Progressive Web App com o objetivo de auxiliar a organização da disciplina de Felicidade, assim como proporcionar para os alunos um ambiente de interação e ajuda para lidar com problemas de saúde mental, fornecendo assim uma experiência mais agradável.
 
 ## Licença
 
