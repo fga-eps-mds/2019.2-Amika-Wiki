@@ -47,6 +47,8 @@ Meio: Presencial
 
 * Na dinâmica foram tiradas várias dúvidas em relação as etapas de uma sprint
 * O grupo de MDS foi responsável por todas as etapas, sendo apenas acompanhado pelo grupo de EPS
+* [Resultado Sprint 1](sprints/sprint1/resultado)
+* [Planejamento Sprint 2](sprints/sprint2/planejamento)
 
 ## Pendências
 

@@ -35,6 +35,8 @@ Meio: Presencial
 ## Registros
 
 * Pontuação do Backlog
+* [Resultado Sprint 4](sprints/sprint4/resultado)
+* [Planejamento Sprint 5](sprints/sprint5/planejamento)
 
 ## Pendências
 
