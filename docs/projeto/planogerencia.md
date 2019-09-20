@@ -12,7 +12,7 @@ Seguimos o modelo de branch do gitflow, como pode ser visto na imagem abaixo:
 ![Gitflow](gitflow.jpeg)
 
 ### 2.1 Repositório Amika frontend e repositório Amika backend
-No repositório do projeto existem duas branches principais para desenvolvimento, a master e a develop. A partir da develop são geradas as branches auxiliares contendo as funcinalidades desenvolvidas.
+No repositório do projeto existem três branches principais para desenvolvimento: master, develop e release. A partir da develop são geradas as branches auxiliares contendo as funcinalidades desenvolvidas.
 
 A master conterá a versão estável e já validada com o cliente, sendo seu conteúdo proveniente da branch release, que por sua vez é proveniente da branch develop.
 
