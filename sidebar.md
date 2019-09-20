@@ -6,5 +6,6 @@
   - [Backlog do Produto](docs/projeto/backlog)
   - [Plano de comunicação](docs/projeto/planocomunicacao)
   - [Gerência de Configuração de Software](docs/projeto/planogerencia)
+  - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
