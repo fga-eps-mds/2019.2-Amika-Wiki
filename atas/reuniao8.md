@@ -35,6 +35,8 @@ Meio: Presencial
 ## Registros
 
 * No dojo foi realizada a issue de potenciação
+* [Resultado Sprint 2](sprints/sprint2/resultado)
+* [Planejamento Sprint 3](sprints/sprint3/planejamento)
 
 ## Pendências
 

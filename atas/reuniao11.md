@@ -33,3 +33,5 @@ Meio: Hangout
 ## Registros
 
 * Foram realizadas as documentações da Sprint
+* [Resultado Sprint 3](sprints/sprint3/resultado)
+* [Planejamento Sprint 4](sprints/sprint4/planejamento)

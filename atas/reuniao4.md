@@ -39,6 +39,7 @@ Meio: Presencial
 ## Registros
 
 * Dúvidas sobre metodologia ágil, gitflow e docker esclarecidas
+* [Planejamento Sprint 1](sprints/sprint1/planejamento)
 
 ## Pendências
 
