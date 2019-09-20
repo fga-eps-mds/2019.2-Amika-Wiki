@@ -5,5 +5,6 @@
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
   - [Backlog do Produto](docs/projeto/backlog)
   - [Plano de comunicação](docs/projeto/planocomunicacao)
+  - [Gerência de Configuração de Software](docs/projeto/planogerencia)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
