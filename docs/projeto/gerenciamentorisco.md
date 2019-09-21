@@ -30,7 +30,7 @@
 
 ## 2.3. Tabela de prioridade
 
-<p align="justify">Se baseando com no impacto e na probabilidade é calculada a prioridade dos riscos. O que determina a urgência com que medidas devem ser tomadas para mitigar ou resolver um risco que pode impedir o projeto.</p>
+<p align="justify">Com base no impacto e na probabilidade é calculada a prioridades dos riscos. O que determina a urgência com que medidas devem ser tomadas para mitigar ou resolver um risco que pode impedir o projeto.</p>
 
 |Probabilidade / Impacto|Muito baixa|Baixa|Média|Alta|Muito alta|
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -50,24 +50,36 @@
 |Alto|16 a 20|
 |Muito alto|21 a 25|
 
-## 3. Identificação dos Riscos
+## 3. Categoria de Riscos
 
-<p align="justify">O processo de identificação de riscos se utilizou de identificação de riscos atráves da comparação análoga - método que se utiliza de experiências anteriores e similares para facilitar a concepção e identificação comum em projetos do gênero. </p>
+<p align="justify">A estrutura analítica dos riscos(EAR) é uma forma de agrupar possíveis causas dos riscos. Dessa forma, a EAR será utilizada para definir quais as tomadas de decisão devem ser feitas.</p>
+
+
+![EAR](EAR.png)
+
+## 4. Identificação dos Riscos
+
+<p align="justify">As técnicas usadas para identificação de riscos foram: 
+
+* Reuniões e brainstormings com gerente e equipes no projeto
+* Análise de cenários e lições aprendidas em projetos anteriores
+</p>
 
 ## 5. Documentação dos Riscos e Ações
 
 | Risco  | Ação Preventiva  | Ação Reativa  | Categoria | Probabilidade | Impacto | Prioridade |
 |---|---|---|---|---|---|---|
-|Dificuldade de comunicação entre os membros do grupo |Elaborar e seguir plano de comunicações |Reuniões presenciais com a equipe para tomada de decisões | Gerência | 4 | 5 | 20 |
-|Divergência de horários entre membros da equipe   |Elaborar quadro de horários disponíveis da cada membro da equipe. |Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade. | Gerência | 5 | 3 | 15 | 
-|Desistência da disciplina. |Estimular a máxima participação dos membros da equipe |Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível. | Gerência | 4 | 4 | 16 |
-|Alteração do escopo |Documentar e refinar de forma constante os requisitos |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao projeto | Gerência | 3 | 5 | 15 |
+|Dificuldade na comunicação entre os membros do grupo |Elaborar e seguir plano de comunicações |Reuniões presenciais com a equipe para tomada de decisões | Gerência de Projeto | 4 | 5 | 20 |
+|Alteração do escopo |Documentar e refinar de forma constante os requisitos |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao projeto | Gerência de Projeto | 3 | 5 | 15 |
+| Cliente ausente na participação do projeto |Se comunicar frequentemente com o cliente e apresentar evoluções do projeto |Validar funcionalidades com o PO | Externo | 2 | 4 | 8 |
+|Presença dos membros durante Daily e reunião de planejamento |Definir datas, horários e locais que sejam acessíveis a todos. |Manter o time sempre alinhado quanto às decisões tomadas.|  Gerência de Projeto | 2 | 3 | 6 |
 |Alteração das tecnologias |Definir de forma conscisa o escopo do projeto   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao projeto | Técnico | 1 | 5 | 5 |
-|Presença dos membros durante Daily e reunião de planejamento |Definir datas, horários e locais que sejam acessíveis a todos. |Manter o time sempre alinhado quanto às decisões tomadas.|  Gerência | 2 | 3 | 6 |
+|Divergência de horários entre membros da equipe   |Elaborar quadro de horários disponíveis da cada membro da equipe. |Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade. | Gerência de Projeto | 5 | 3 | 15 | 
+|Desistência da disciplina. |Estimular a máxima participação dos membros da equipe |Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível. | Gerência de Projeto | 4 | 4 | 16 |
 |Dependência entre as atividades  |Priorização das atividades |Planejar Sprints de forma a evitar o excesso de dependências entras as issues | Organizacional | 4 | 3 | 12 |
-|Baixa produtividade dos integrantes do grupo |Motivação  da equipe quanto a criação do projeto através de reuniões constantes |Diminuir número de atividades complexas | Gerência | 5 | 4 | 20 |
+|Baixa produtividade dos integrantes do grupo |Motivação  da equipe quanto a criação do projeto através de reuniões constantes |Diminuir número de atividades complexas | Gerência de Projeto | 5 | 4 | 20 |
 | Dificuldades da equipe com as novas tecnologias inseridas  |Seleção de alunos experientes para aplicação de treinamento. |Realização de treinamento sobre tecnologias.   | Técnico | 5 | 4 | 20 |
-| Ausência de cliente na participação do projeto |Se comunicar frequentemente com o cliente e apresentar evoluções do projeto | | Externo |  |  |  |
+|Membro da equipe sem acesso a internet. |Estimular desenvolvimento de atividades em locais onde tem internet |Verificar possibilidade de pareamentos com outros membros que possuem horário em comum e que possam se reunir presencialmente | Gerência de Projeto | 1 | 4 | 4 |
 
 ## 6. Bibliografia
 
