@@ -17,6 +17,21 @@ UnB | Universidade de Brasília.
 
 ## 3. Objetivo e Restrições da arquitetura
 
+#### 3.1. Requisitos para o Amika:
+- Funcionar em web.
+- Uso do PWA, para funcionar em smartphones.
+
+#### 3.2. Tecnologias utilizadas no Amika:
+- Django: Web Framework baseada em Python.
+- Django Rest Framework: caixa de ferramentas e APIs para o Django.
+- Python: Linguagem utilizada no Django.
+- PWA: Software utilizado para implementação do uso em smartphones.
+- Angular: Web Framework utilizado no frontend.
+- Java Script: Linguagem utilizado junto com o HTML e CSS, para desenvolvimento WEB.
+- HTML: Linguagem base utilizado em desenvolvimento WEB.
+- CSS: Linguagem usada juntamente com HTML para estilziar a pagina.
+
+
 ## 4. Visão Geral do Produto
 
 ## 5. Visão Lógica
