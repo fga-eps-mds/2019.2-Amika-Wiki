@@ -24,7 +24,22 @@ Representação Arquitetural | Descreve qual é a arquitetura de software, para 
 Metas e Restrições | Descreve os requisitos e objetivos do software, e se estes  têm algum impacto sobre a arquitetura.
 Visão lógica | Descreve as partes significativas do ponto de vista da arquitetura do modelo de design.
 
-<h2>2. Representação Arquitetural</h2>
+## 2. Representação Arquitetural
+#### PWA (Progressive Web App)
+Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário como aplicativos tradicionais ou aplicativos móveis. Em resumo, os PWA ter uma experiência de uso muito próxima da de mobile apps. As principais funcionalidades oferecidas por essas tecnologias são:
+-Push Notification
+-Ícone na tela home do smartphone
+-Splash screen
+-Processos rodando em background
+-Suporte a funcionamento em modo Offline
+-Acesso à camera e galeria
+-Acesso à geolocalização
+-Acesso à os contatos
+-Django
+-O Django é um framework com arquitetura baseada no MVC (Model-View-Controller), apesar disso, é descrita como MVT (Model-View-Template).
+
+#### Django REST Framework
+O REST é uma extensão do Django Framework que permite implementar API's REST de forma rápida. A arquitetura REST opera por métodos de protocolo HTTP.
 
 ## 3. Objetivo e Restrições da arquitetura
 
