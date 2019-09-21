@@ -55,7 +55,7 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 - Angular: Web Framework utilizado no frontend.
 - Java Script: Linguagem utilizado junto com o HTML e CSS, para desenvolvimento WEB.
 - HTML: Linguagem base utilizado em desenvolvimento WEB.
-- CSS: Linguagem usada juntamente com HTML para estilziar a pagina.
+- CSS: Linguagem usada juntamente com HTML para estilizar a pagina.
 
 
 ## 4. Visão Geral do Produto
