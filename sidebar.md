@@ -6,6 +6,7 @@
   - [Backlog do Produto](docs/projeto/backlog)
   - [Plano de comunicação](docs/projeto/planocomunicacao)
   - [Gerência de Configuração de Software](docs/projeto/planogerencia)
+  - [Definição de Pronto](docs/projeto/definicaopronto)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
