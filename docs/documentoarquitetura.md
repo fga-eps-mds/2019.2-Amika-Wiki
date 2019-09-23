@@ -25,21 +25,39 @@ Metas e Restrições | Descreve os requisitos e objetivos do software, e se este
 Visão lógica | Descreve as partes significativas do ponto de vista da arquitetura do modelo de design.
 
 ## 2. Representação Arquitetural
+
+A arquitetura do Amika é composta por frontend e backend desacoplados, cada um possuindo seu próprio repositório. Por consequência desse desacoplamento, o risco de uma mudança em um dos dois não causará efeitos colaterais na implementação do outro. Podemos classificar a arquitetura como híbrida já que utiliza fundamentos de dois padrões arquiteturais, sendo eles: Cliente-Servidor e MVC. 
+
+#### Cliente Servidor
+É um modelo arquitetural em que a informação é dividida em plataformas independentes, cliente e servidor. Geralmente, o cliente faz requisições por meio de um protocolo específico e um servidor responde de acordo com o que foi passado para ele. No Amika o cliente é representado pela interface PWA que irá realizar requisições HTTP por meio do REST para o servidor, sendo nesse caso o Django. 
+
 #### PWA (Progressive Web App)
 Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário como aplicativos tradicionais ou aplicativos móveis. Em resumo, os PWA ter uma experiência de uso muito próxima da de mobile apps. As principais funcionalidades oferecidas por essas tecnologias são:
--Push Notification
--Ícone na tela home do smartphone
--Splash screen
--Processos rodando em background
--Suporte a funcionamento em modo Offline
--Acesso à camera e galeria
--Acesso à geolocalização
--Acesso à os contatos
--Django
--O Django é um framework com arquitetura baseada no MVC (Model-View-Controller), apesar disso, é descrita como MVT (Model-View-Template).
+- Push Notification
+- Ícone na tela home do smartphone
+- Splash screen
+- Processos rodando em background
+- Suporte a funcionamento em modo Offline
+- Acesso à camera e galeria
+- Acesso à geolocalização
+- Acesso à os contatos
+- Django
+- O Django é um framework com arquitetura baseada no MVC (Model-View-Controller), apesar disso, é descrita como MVT (Model-View-Template).
 
 #### Django REST Framework
 O REST é uma extensão do Django Framework que permite implementar API's REST de forma rápida. A arquitetura REST opera por métodos de protocolo HTTP.
+
+#### Model View Template (MVT)
+É uma arquitetura que separa as aplicações construídas com ela em três camadas. Essas camadas estão interconectadas e são: Model, View e Template.
+- Model: é o modelo da aplicação, responsável por receber dados e interpretá-los para serem mostrados no Template. Ou seja, responsável pela escrita e leitura de dados.
+- View: no django tem o mesmo papel exercido pela controller em outros padrões de arquitetura, como o Rails, por exemplo. Recebe requisições e as trata, define qual template será mostrado ao usuário e qual model usar.
+- Template: é apenas a camada de interação com o usuário, simplesmente mostra os dados ao usuário.
+
+#### PostgreSQL
+É um banco de dados relacional. Relacional é a abordagem adotada nesse banco de dados e abordagem significa como os dados estão organizados. Na abordagem relacional os dados são dispostos em tabelas (linhas e colunas) e suas relações (chaves estrangeiras).
+
+#### Angular
+É um framework para criação de interfaces de aplicações. Para tal, utiliza  HTML, CSS e TypeScript. Por meio dele é possível desenvolver não somente para web, mas também para mobile. No Amika é utilizado para implementar todo o frontend respeitando a metodologia PWA.
 
 ## 3. Objetivo e Restrições da arquitetura
 
