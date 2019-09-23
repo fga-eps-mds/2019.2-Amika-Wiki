@@ -80,4 +80,18 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 
 ## 5. Visão Lógica
 
+## 6. Backlog
+O backlog representa a acumulação de trabalho, tudo o que deve ser feito do produto que vai ser desenvolvido. Basicamente, é uma pilha de itens a fazer, solicitados por alguém com base em suas necessidades/desejos, que devem ser entregues a quem solicitou depois que forem produzidos.
+Os épicos levantados para o projeto são:
+- 1) Perfil de administrador:
+	O projeto deve permitir a criação de usuários com algumas funcionalidades especiais, os administradores que vão gerenciar os usuários comuns, mandar notificações e gerenciar atividades.
+
+- 2) Sistema de cadastro e login:
+	O projeto deve ter um sistema para os usuários comuns se autoregistrarem e gerenciar seus dados, possibilitando a visualizar e editar os seus dados. Além disso, os administradores poderão cadastrar matrículas que serão utilizadas na validação do autoregistro dos usuários.
+
+- 3) Gerenciador de atividades:
+	O projeto deve conter um sistema gerenciador de atividades que deve possibilitar a criação de atividades por parte do administrador e a obtenção de respostas das respectivas atividades dos usuários comuns por meio de texto e anexos.
+
+- 4) Área de compartilhamento:
+	O projeto deve possuir uma área de compartilhamento onde os usuários poderão compartilhar informações, opiniões, realizar enquetes e interagir entre si.
 ***
