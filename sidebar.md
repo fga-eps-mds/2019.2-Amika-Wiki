@@ -7,6 +7,7 @@
   - [Plano de comunicação](docs/projeto/planocomunicacao)
   - [Gerência de Configuração de Software](docs/projeto/planogerencia)
   - [Definição de Pronto](docs/projeto/definicaopronto)
+  - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
