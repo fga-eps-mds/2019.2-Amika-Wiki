@@ -8,6 +8,7 @@
   - [Gerência de Configuração de Software](docs/projeto/planogerencia)
   - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
   - [Modelo Canvas](docs/projeto/canvas)
+  - [Definição de Pronto](docs/projeto/definicaopronto)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
