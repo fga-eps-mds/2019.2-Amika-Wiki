@@ -38,11 +38,14 @@
 * Intervalo durante a reunião
 
 # 3. Burndown Chart
-![Sprint 1 - Burndown](burndown1.png)
+![Sprint 1 - Burndown](../../imagens/burndown/burndown1.png)
 
 # 4. Velocity
-![Sprint 1 - Velocity](velocity1.png)
+![Sprint 1 - Velocity](../../imagens/velocity/velocity1.png)
 
-# 5. Relato do Scrum Master
+# 5. Burndown de Risco
+![Sprint 1 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco1.png)
+
+# 6. Relato do Scrum Master
 <p align = "justify">Nesta sprint deu para dar uma visão geral da metodologia que iremos usar, algumas dúvidas foram tiradas sobre o ágil, github e docker. 
 Os treinamentos foram feitos ao decorrer da semana, porém só fechamos as issues ao final e por conta disso o burndown apresentou um pico de entregas ao final.

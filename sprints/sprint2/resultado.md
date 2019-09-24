@@ -40,10 +40,13 @@
 * Intervalo com lanche
 
 # 3. Burndown Chart
-![Sprint 2 - Burndown](burndown2.png)
+![Sprint 2 - Burndown](../../imagens/burndown/burndown2.png)
 
 # 4. Velocity
-![Sprint 2 - Velocity](velocity2.png)
+![Sprint 2 - Velocity](../../imagens/velocity/velocity2.png)
 
-# 5. Relato do Scrum Master
+# 5. Burndown de Risco
+![Sprint 2 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco2.png)
+
+# 6. Relato do Scrum Master
 <p align = "justify">A simulação de uma sprint ambientalizou todos os integrantes do grupo sobre as etapas da metodologia ágil. O grupo se comportou muito bem no sábado, onde teve a reunião presencial, mas após a reunião a maior parte dos integrantes se depararam com muitas dificuldades em relação a tecnologia que usamos.  </p>
