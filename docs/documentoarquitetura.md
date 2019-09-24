@@ -94,4 +94,25 @@ O projeto deve conter um sistema gerenciador de atividades que deve possibilitar
 
 - 4) **_Área de compartilhamento_**:
 O projeto deve possuir uma área de compartilhamento onde os usuários poderão compartilhar informações, opiniões, realizar enquetes e interagir entre si.
-***
+## 6. Visão de implementação
+#### 6.1. Django Rest Framework
+No Django temos geralmente um projeto composto por diversas aplicações. Cada uma dessas aplicações é responsável por uma funcionalidade específica. Cada app é composto pelos seguintes diretórios e arquivos:
+<ul>
+    <li><strong>models.py:</strong> 
+    <text style="font-size: 12px;">Este arquivo tem a função de implementar a camada model que, como explicamos anteriormente, trabalha com a escrita e leitura de dados.</text></li>
+    <li><strong>urls.py:</strong><text style="font-size: 12px;"> Funciona como um endpoint. Ou seja, provêem o acesso aos templates(mesmo que view em outros frameworks).</li>
+    <li><strong>views.py:</strong><text style="font-size: 12px;"> Executa a camada view que recebe as requisições por meio dos métodos HTTP, trata-as e decide qual model será usada e ou template retornado ao usuário.</li>
+    <li><strong>serializers.py:</strong><text style="font-size: 12px;"> É um destaque desse framework. Com ele objetos são transformados em arquivos JSON e assim é possível, por exemplo, preencher listas com dados e também torna possível o contrário. Pegar dados, passá-los por meio do formato JSON e criar objetos com eles.</li>
+    <li><strong>tests.py:</strong><text style="font-size: 12px;"> Nele escrevemos todos os testes unitários que serão testados na aplicação.</li>
+</ul>
+
+#### 6.2. PWA/Angular
+Nesse projeto optou-se por construir a interface PWA com Angular. Sua organização é feita da seguinte forma:
+<ul>
+    <li><strong>app:</strong><text style="font-size: 12px;"> Pasta principal do projeto. Dentro dela estão os componentes e módulos de sua aplicação.</text></li>
+    <li><strong>assets: </strong><text style="font-size: 12px;">Pasta onde estão armazenados os arquivos estáticos como imagens e favicons.</text></li>
+    <li><strong>app.components...: </strong><text style="font-size: 12px;">São os componentes da aplicação. Cada um tem seu próprio tipo. Podem ser entendidos como extensões de elementos que compõem o Modelo de Objeto de Documento(DOM em inglês). Estas extensões comunicam ao Angular para inserir alguma funcionalidade particular para esse elemento. A principal vantagem dos componentes é criar código reutilizável. </text></li>
+    <li><strong>
+    app.modules...: </strong><text style="font-size: 12px;">É onde cada módulo que compõe a aplicação é declarado. Toda aplicação construída com Angular é formada por módulos. Módulo é apenas uma maneira de agrupar os componentes, pipes, serviços e etc. Os módulos são unidos para formar a aplicação, como se fossem peças de quebra cabeça.</text></li>
+</ul>
+
