@@ -38,10 +38,10 @@
 * Intervalo durante a reunião
 
 # 3. Burndown Chart
-![Sprint 1 - Burndown](burndown1.png)
+![Sprint 1 - Burndown](../../imagens/burndown/burndown1.png)
 
 # 4. Velocity
-![Sprint 1 - Velocity](velocity1.png)
+![Sprint 1 - Velocity](../../imagens/velocity/velocity1.png)
 
 # 5. Relato do Scrum Master
 <p align = "justify">Nesta sprint deu para dar uma visão geral da metodologia que iremos usar, algumas dúvidas foram tiradas sobre o ágil, github e docker. 
