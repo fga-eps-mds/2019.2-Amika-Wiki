@@ -1,4 +1,4 @@
-# Planejamento da Sprint 5
+# Planejamento da Sprint 6
 
 **Data de Início:** 21/09/19
 
