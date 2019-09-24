@@ -69,10 +69,10 @@
 # 5. Quadro de Conhecimento
 ![Sprint 3 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento3.png)
 
-# 6. Relato do Scrum Master
+# 6. Burndown de Risco
+![Sprint 3 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco3.png)
 
-
-
+# 7. Relato do Scrum Master
 <p align = "justify">
 Nosso maior problema, nesta sprint, foi a definição tardia do tema do projeto a ser desenvolvido. Com esse atraso, não foi possível definir o escopo.
 </p>

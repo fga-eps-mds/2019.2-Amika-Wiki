@@ -68,11 +68,10 @@
 # 5. Quadro de Conhecimento
 ![Sprint 4 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento4.png)
 
-# 6. Relato do Scrum Master
+# 6. Burndown de Risco
+![Sprint 4 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco4.png)
 
-
-
-
+# 7. Relato do Scrum Master
 <p align = "justify">
 A falta de conhecimento do grupo com a tecnologia foi a maior dificuldade enfrentada nesta sprint. Por conta disso, foi gasto muito tempo para estudar a tecnologia, atrasando o desenvolvimento.
 </p>
