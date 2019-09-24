@@ -75,10 +75,24 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 - HTML: Linguagem base utilizado em desenvolvimento WEB.
 - CSS: Linguagem usada juntamente com HTML para estilizar a pagina.
 
+## 4. Visão Lógica
 
-## 4. Visão Geral do Produto
+#### 4.1. Visão Geral
+O Amika é uma aplicação PWA composta da linguagem Python e do web framework django, usando HTML, CSS e o Angular no front-end. O objetivo do Amika é ser uma aplicação que facilite a comunicação e contato entre professor, alunos e monitores da disciplina de Felicidade ofertada na Universidade de Brasília no campus do Gama. A partir do Banco de dados PostgreSQL será possível armazenar dados dos alunos e das turmas, tanto atividades dos alunos que serão entregues pelos alunos por meio da aplicação quanto os dados básicos de cada aluno no meio acadêmico.  
 
-## 5. Visão Lógica
+## 5. Backlog
+O backlog representa a acumulação de trabalho, tudo o que deve ser feito do produto que vai ser desenvolvido. Basicamente, é uma pilha de itens a fazer, solicitados por alguém com base em suas necessidades/desejos, que devem ser entregues a quem solicitou depois que forem produzidos.
+Os épicos levantados para o projeto são:
+- 1) **_Perfil de administrador_**:
+O projeto deve permitir a criação de usuários com algumas funcionalidades especiais, os administradores que vão gerenciar os usuários comuns, mandar notificações e gerenciar atividades.
+- 2) **_Sistema de cadastro e login_**:
+O projeto deve ter um sistema para os usuários comuns se autoregistrarem e gerenciar seus dados, possibilitando a visualizar e editar os seus dados. Além disso, os administradores poderão cadastrar matrículas que serão utilizadas na validação do autoregistro dos usuários.
+
+- 3) **_Gerenciador de atividades_**:
+O projeto deve conter um sistema gerenciador de atividades que deve possibilitar a criação de atividades por parte do administrador e a obtenção de respostas das respectivas atividades dos usuários comuns por meio de texto e anexos.
+
+- 4) **_Área de compartilhamento_**:
+O projeto deve possuir uma área de compartilhamento onde os usuários poderão compartilhar informações, opiniões, realizar enquetes e interagir entre si.
 
 ## 6. Visão de implementação
 #### 6.1. Django Rest Framework
@@ -101,5 +115,4 @@ Nesse projeto optou-se por construir a interface PWA com Angular. Sua organizaç
     <li><strong>
     app.modules...: </strong><text style="font-size: 12px;">É onde cada módulo que compõe a aplicação é declarado. Toda aplicação construída com Angular é formada por módulos. Módulo é apenas uma maneira de agrupar os componentes, pipes, serviços e etc. Os módulos são unidos para formar a aplicação, como se fossem peças de quebra cabeça.</text></li>
 </ul>
-
 ***
