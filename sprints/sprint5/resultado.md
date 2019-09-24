@@ -84,8 +84,10 @@
 # 5. Quadro de Conhecimento
 ![Sprint 5 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento5.png)
 
-# 6. Relato do Scrum Master
+# 6. Burndown de Risco
+![Sprint 5 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco5.png)
 
+# 7. Relato do Scrum Master
 <p align = "justify">
 Nesta sprint houve uma aparente falta de disciplina de muitas pessoas do grupo de desenvolvimento(MDS), e com isso todas as atividades que foram passadas a equipe não foram concluídas.
 </p>
