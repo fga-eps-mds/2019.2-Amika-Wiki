@@ -61,13 +61,13 @@
 * Disciplina com a planilha de horas
 
 # 3. Burndown Chart
-![Sprint 3 - Burndown](burndown3.png)
+![Sprint 3 - Burndown](../../imagens/burndown/burndown3.png)
 
 # 4. Velocity
-![Sprint 3 - Velocity](velocity3.png)
+![Sprint 3 - Velocity](../../imagens/velocity/velocity3.png)
 
 # 5. Quadro de Conhecimento
-![Sprint 3 - Quadro de conhecimento](quadro_conhecimento3.png)
+![Sprint 3 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento3.png)
 
 # 6. Relato do Scrum Master
 
