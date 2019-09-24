@@ -75,12 +75,12 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 - HTML: Linguagem base utilizado em desenvolvimento WEB.
 - CSS: Linguagem usada juntamente com HTML para estilizar a pagina.
 
+## 4. Visão Lógica
 
-## 4. Visão Geral do Produto
+#### 4.1. Visão Geral
+O Amika é uma aplicação PWA composta da linguagem Python e do web framework django, usando HTML, CSS e o Angular no front-end. O objetivo do Amika é ser uma aplicação que facilite a comunicação e contato entre professor, alunos e monitores da disciplina de Felicidade ofertada na Universidade de Brasília no campus do Gama. A partir do Banco de dados PostgreSQL será possível armazenar dados dos alunos e das turmas, tanto atividades dos alunos que serão entregues pelos alunos por meio da aplicação quanto os dados básicos de cada aluno no meio acadêmico.  
 
-## 5. Visão Lógica
-
-## 6. Backlog
+## 5. Backlog
 O backlog representa a acumulação de trabalho, tudo o que deve ser feito do produto que vai ser desenvolvido. Basicamente, é uma pilha de itens a fazer, solicitados por alguém com base em suas necessidades/desejos, que devem ser entregues a quem solicitou depois que forem produzidos.
 Os épicos levantados para o projeto são:
 - 1) **_Perfil de administrador_**:
