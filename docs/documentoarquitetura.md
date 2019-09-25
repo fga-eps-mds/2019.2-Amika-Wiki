@@ -86,7 +86,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="./assets/img/diagrama_de_pacotes.png" alt="..." class="img-thumbnail image">
+			<img src="https://github.com/fga-eps-mds/2019.2-Amika-Wiki/blob/issue_45_documento_arquitetura/assets/img/diagrama_de_pacotes.png" alt="..." class="img-thumbnail image">
 		</div>
 	</div>
 </div>
