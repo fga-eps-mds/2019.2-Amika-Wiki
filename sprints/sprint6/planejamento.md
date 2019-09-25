@@ -4,11 +4,11 @@
 
 **Data de Término:** 28/09/19
 
-**Total de Pontos Planejados:** _82*_
+**Total de Pontos Planejados:** _77*_
 
 **Dívidas técnicas:** _34*_
 
-**Pontos totais:** _48*_
+**Pontos totais:** _43*_
 
 ## Introdução
 <p align = "justify"> 
@@ -40,7 +40,7 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
 | DOC25 - Plano de metodologia | :x: |
 | DOC26 - Criar EVM | :x: |
 | DOC27 - Visão de produto | :x: |
-| DOC28 - Roadmap para produtividade | :x: |
+| DOC28 - Roadmap do Scrum Master | :x: |
 | DOC29 - Adicionar healthcheck | :x: |
 | DOC30 - Burndown Riscos | :x: |
 | DOC31 - Documentar Roadmap de Deploy | :x: |
@@ -94,7 +94,7 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
 * **Responsáveis:** Mateus Oliveira
 * **Pontuação:** 1
 
-### DOC28 - Roadmap para produtividade
+### DOC28 - Roadmap do Scrum Master
 * **Responsáveis:** Matheus Roberto
 * **Pontuação:** 5
 
