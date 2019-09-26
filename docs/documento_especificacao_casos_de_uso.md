@@ -148,6 +148,41 @@ Não se aplica.
 #### 8.6 Regras de Negócio
 Não se aplica.
 
+##12. UC12 - Compartilhar agenda
+
+### 12.1 Breve descrição
+Essa funcionalidade permite ao usuário compartilhar sua agenda pessoal semanal com seus colegas de turma.
+
+### 12.2 Ator Principal
+Usuário.
+
+### 12.3 Condições prévias
+- O usuário deve estar logado.
+
+### 12.4 Condições posteriores
+- A agenda semanal do usuário é compartilhada com seus colegas de turma.
+
+### 12.5 Fluxo de eventos
+- O usuário compartilha sua agenda semanal de atividades com seus colegas.
+- A agenda do aluno estará disponível para que a visualização seja possível por outros alunos. 
+
+#### 12.5.1 Fluxo Básico
+<ol>
+    <li>O usuário acessa "Agenda pessoal".</li>
+    <li>O usuário compartilha suas atividades semanais.</li>
+    <li>O a agenda semanal do usuário se torna disponível para a visualização por outros usuários.</li>
+    <li>O caso de uso se encerra.</li>
+</ol>
+
+#### 12.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 12.5.3 Fluxo de Exceção
+Não se aplica.
+
+### 12.6 Regras de Negócio
+Não se aplica.
+
 ## 15. UC15 - Realizar atividades do produto final de felicidade 
 #### 15.1 Breve descrição
 Essa funcionalidade permite ao usuário realizar atividades do produto final da disciplina e ao professor acompanhar o adamento do mesmo.
