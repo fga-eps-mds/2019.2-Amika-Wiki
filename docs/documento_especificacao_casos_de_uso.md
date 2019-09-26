@@ -147,3 +147,115 @@ Não se aplica.
 
 #### 8.6 Regras de Negócio
 Não se aplica.
+
+## 15. UC15 - Realizar atividades do produto final de felicidade 
+#### 15.1 Breve descrição
+Essa funcionalidade permite ao usuário realizar atividades do produto final da disciplina e ao professor acompanhar o adamento do mesmo.
+#### 15.2 Ator Principal
+Administrador.
+
+#### 15.3 Condições prévias
+- O usuário deve estar logado.
+
+#### 15.4 Condições posteriores
+- Visualização do andamento do produto final da disciplina.
+
+#### 15.5 Fluxo de eventos
+- O usuário envia suas atividades ao decorrer do semestre.
+- O administrador terá acesso ao informativo em formato de linha do tempo quanto ao andamento do projeto.
+
+#### 15.5.1 Fluxo Básico
+<ol>
+    <li>O usuário acessa "Atividades".</li>
+    <li>O usuário seleciona o arquivo que deseja enviar e cria uma descrição.</li>
+    <li>O usuário então envia a atividade desejada.</li>
+    <li>O professor acessa a linha do tempo de atividades daquele usuário.</li>
+    <li>O caso de uso se encerra.</li>
+</ol>
+
+#### 15.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 15.5.3 Fluxo de Exceção
+Não se aplica.
+
+#### 15.6 Regras de Negócio
+Não se aplica.
+
+## 16. UC16 - Manter Enquete
+#### 16.1 Breve descrição
+Essa funcionalidade permite ao administrador criar enquetes para votação rápida através do aplicativo e deixá-las prontas para edição, visualização e votação
+
+#### 16.2 Ator Principal
+Administrador e Usuário.
+
+#### 16.3 Condições prévias
+- O administrador deve estar logado.
+- Turma deve estar criada.
+
+#### 16.4 Condições posteriores
+- Visualização dos resultados da enquete.
+
+#### 16.5 Fluxo de eventos
+- O administrador criará uma enquete para a turma selecionada.
+- Os usuários irão votar na enquete.
+- O administrador terá acesso ao resultado da enquete criada.
+
+#### 16.5.1 Fluxo Básico
+<ol>
+    <li>O administrador acessa "Mural".</li>
+    <li>O administrador então seleciona a opção "Criar enquete".</li>
+    <li>O administrador informa os dados da enquete a ser criada.</li>
+    <li>O administrador clica na opção de criar a enquete.</li>
+    <li>Os usuários acessam "Mural".</li>
+    <li>Os usuários escolhem o seu voto.</li>
+    <li>O administrador visualiza os resultados da enquete.</li>
+    <li>O caso de uso se encerra.</li>
+</ol>
+
+#### 16.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 16.5.3 Fluxo de Exceção
+Não se aplica.
+
+#### 16.6 Regras de Negócio
+Não se aplica.
+
+## 17. UC17 - Manter Thread
+#### 17.1 Breve descrição
+Essa funcionalidade permite aos usuários comentar os tópicos criados por outros usuários ou administradores no Mural.
+
+#### 17.2 Ator Principal
+Usuário.
+
+#### 17.3 Condições prévias
+- O usuário deve estar logado.
+- Tópico deve estar criado no mural.
+
+#### 17.4 Condições posteriores
+- Visualização dos comentários pelos outros usuários.
+
+#### 17.5 Fluxo de eventos
+- Um usuário criará um tópico para discussão.
+- Outros usuários criarão comentários naquele tópico
+
+#### 17.5.1 Fluxo Básico
+<ol>
+    <li>O usuário acessa "Mural".</li>
+    <li>O usuário cria um tópico a ser discutido</li>
+    <li>Outro usuário acessa "Mural"</li>
+    <li>O outro usuário vê o tópico criado e seleciona a opção "Comentar"</li>
+    <li>O outro usuário cria seu comentário e salva</li>
+    <li>Os usuários poderão visualizar os comentários criados nos tópicos do mural</li>
+    <li>O caso de uso se encerra.</li>
+</ol>
+
+#### 17.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 17.5.3 Fluxo de Exceção
+Não se aplica.
+
+#### 17.6 Regras de Negócio
+Não se aplica.
