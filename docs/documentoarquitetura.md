@@ -1,11 +1,11 @@
 ## 1. Introdução
 #### 1.1. Objetivo
 
-Este documento tem como finalidade fornecer uma visão geral da arquitetura do projeto Amika: contém informações pertinentes sobre o modelo de arquitetura adotado, como diagramas que ilustram casos de uso, diagramas de classes, entre outros recursos.
+Este documento tem como finalidade fornecer uma visão geral da arquitetura do projeto Amika: contém informações pertinentes sobre o modelo de arquitetura adotado, como diagramas que ilustram casos de uso, diagrama de pacotes, entre outros recursos.
 
 #### 1.2. Escopo
 
-Através desse documento, é possível obter um melhor entendimento da arquitetura do Gaia, permitindo ao leitor compreender o funcionamento de seu sistema, como também a abordagem utilizada para o seu desenvolvimento.
+Por meio desse documento, o leitor poderá entender o funcionando do sistema da aplicação Amika, bem como a abordagem usada no seu desenvolvimento. Desse modo, será possível ter uma compreensão ampla da arquitetura do Amika.
 
 #### 1.3. Definições, Acrônimos e Abreviações
 
@@ -20,9 +20,11 @@ UnB | Universidade de Brasília.
 **Tópico** | **Definição**
 ---------------|-----------------------------
 Introdução | Descreve informações sobre a finalidade deste documento.
-Representação Arquitetural | Descreve qual é a arquitetura de software para melhor compreensão de sua estrutura e funcionamento, e mostra como ela está sendo representada.
-Metas e Restrições | Descreve os requisitos e objetivos do software, e se esses têm algum impacto sobre a arquitetura.
-Visão lógica | Descreve as partes significativas do ponto de vista da arquitetura do modelo de design.
+Representação Arquitetural | Traz uma descrição a respeito da arquitetura de software para melhor compreensão de sua estrutura e funcionamento. Além de mostrar a forma como ela está sendo representada.
+Metas e Restrições | Traz uma descrição os requisitos e objetivos do software, e se esses têm algum impacto sobre a arquitetura.
+Visão lógica | Traz uma descrição das partes relevantes relacionadas à arquitetura do modelo de design.
+Backlog | 
+Visão de implementação |
 
 ## 2. Representação Arquitetural
 
@@ -59,7 +61,7 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 #### Angular
 É um framework para criação de interfaces de aplicações. Para tal, utiliza  HTML, CSS e TypeScript. Por meio dele é possível desenvolver não somente para web, mas também para mobile. No Amika é utilizado para implementar todo o frontend respeitando a metodologia PWA.
 
-## 3. Objetivo e Restrições da arquitetura
+## 3. Metas e Restrições da arquitetura
 
 #### 3.1. Requisitos para o Amika:
 - Funcionar em web;
@@ -78,7 +80,7 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 ## 4. Visão Lógica
 
 #### 4.1. Visão Geral
-O Amika é uma aplicação PWA composta da linguagem Python e do web framework django, usando HTML, CSS e o Angular no front-end. O objetivo do Amika é ser uma aplicação que facilite a comunicação e contato entre professor, alunos e monitores da disciplina de Felicidade ofertada na Universidade de Brasília no campus do Gama. À partir do banco de dados PostgreSQL, será possível armazenar dados dos alunos e das turmas, tanto atividades dos alunos que serão entregues pelos alunos por meio da aplicação quanto os dados básicos de cada aluno no meio acadêmico.  
+O Amika é uma aplicação PWA composta da linguagem Python e do web framework django, usando HTML, CSS e o Angular no front-end. O objetivo do Amika é ser uma aplicação que facilite a comunicação e contato entre professor, alunos e monitores da disciplina de Felicidade ofertada na Universidade de Brasília no campus do Gama. À partir do banco de dados PostgreSQL, será possível armazenar dados dos alunos e das turmas, tanto atividades dos alunos que serão entregues pelos alunos por meio da aplicação quanto os dados básicos de cada aluno no meio acadêmico.
 
 #### 4.2. Diagrama de Pacotes
 
