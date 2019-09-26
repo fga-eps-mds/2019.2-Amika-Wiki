@@ -148,7 +148,7 @@ Não se aplica.
 #### 8.6 Regras de Negócio
 Não se aplica.
 
-##12. UC12 - Compartilhar agenda
+## 12. UC12 - Compartilhar agenda
 
 ### 12.1 Breve descrição
 Essa funcionalidade permite ao usuário compartilhar sua agenda pessoal semanal com seus colegas de turma.
@@ -182,6 +182,43 @@ Não se aplica.
 
 ### 12.6 Regras de Negócio
 Não se aplica.
+
+## 13. UC13 - Avaliar Agenda
+
+### 13.1 Breve descrição
+Esta funcionalidade permite ao usuário avaliar as atividades que foram passadas, com objetivo de avaliar quais foram as mais interessantes de se realizar.
+
+### 13.2 Ator Principal
+Usuário.
+
+### 13.3 Condições prévias
+- O usuário deve estar logado.
+- Atividades devem ter sido realizadas para que o usuário possa avaliá-las.
+
+### 13.4 Condições posteriores
+- O administrador poderá visualizar as atividades mais interessantes de se realizar, comparando a avaliação de cada tipo de atividade.
+
+### 13.5 Fluxo de eventos
+- O usuário, logado, avalia (1 a 5 estrelas) atividades já realizadas de acordo com seu nível de satisfação com aquela atividade.
+- O administrador tem acesso às avaliações feitas pelos alunos, e assim tem controle sobre os tipos de atividades que mais satisfazem os alunos.
+
+#### 13.5.1 Fluxo Básico
+<ol>
+    <li>O usuário acessa "Atividades" e seleciona uma atividade já realizada.</li>
+    <li>O usuário avalia essa atividade de 1 a 5 estrelas, de acordo com seu nível de satisfação com esta atividade.</li>
+    <li>O administrador tem acesso a todas as avaliações feitas, tendo, assim, controle sobre os tipos de atividade que mais satisfazem os alunos.</li>
+    <li>O caso de uso se encerra.</li>
+</ol>
+
+#### 13.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 13.5.3 Fluxo de Exceção
+Não se aplica.
+
+#### 13.6 Regras de Negócio
+Não se aplica.
+
 
 ## 15. UC15 - Realizar atividades do produto final de felicidade 
 #### 15.1 Breve descrição
