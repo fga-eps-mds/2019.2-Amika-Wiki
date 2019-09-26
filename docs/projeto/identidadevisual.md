@@ -55,7 +55,7 @@ Coloca-se no css da aplicação, para a utilização das fontes:
 
 # 2.4. Paleta de cores
 
-![paleta de cores](img/paletaCores.png)
+![paleta de cores](../../assets/img/paletaCores.png)
 
 As cores foram selecionadas buscando harmonização entre estas, e seguindo também guias da Psicologia das Cores
 , como uma forma de buscar cores que causem sensações positivas como tranquilidade, felicidade e calma para os usuários.
@@ -69,20 +69,20 @@ A cor primária é a cor #a0e0e4, e a cor secundária #94e1c0. Deve-se também u
 
 Existem botões utilizando as diferentes cores da paleta, a depender do uso. O botão comum de confirmação é da cor primária. Os botões são arredondados (raio de 12 px) com texto escrito utilizando a fonte Raleway tamanho 14pt, semibold, todas letras maiúsculas. Observa-se ainda a cor da palavra escrita, a depender da cor do botão, para cumprir o contraste.
 
-![botoes](img/botoes.PNG)
+![botoes](../../assets/img/botoes.PNG)
 
 ## 3.2. Campos de formulários
 
 O texto acima do formulário, de label, é na fonte Raleway, tamanho 12 pt, regular, na cor primária,com uma margem de 20px a esquerda, em relação ao campo.
 O campo possui raio de 12px arredondado, e bordas na cor primária.
 
-![campos](img/formulario.PNG)
+![campos](../../assets/img/formulario.PNG)
 
 ## 3.3. Caixas
 
 Apresenta-se a seguir algumas opções para utilizar como caixas ou *boxes* de navegação, tanto para a home page, quando para a página do administrador
 
-![caixas](img/Boxes.PNG)
+![caixas](../../assets/img/Boxes.PNG)
 
 
 
