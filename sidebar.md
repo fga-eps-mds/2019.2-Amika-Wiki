@@ -9,6 +9,7 @@
   - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
   - [Modelo Canvas](docs/projeto/canvas)
   - [Definição de Pronto](docs/projeto/definicaopronto)
+  - [Identidade Visual](docs/projeto/identidadevisual)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
