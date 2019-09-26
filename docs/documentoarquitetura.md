@@ -91,6 +91,17 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 	</div>
 </div>
 
+#### 4.3. Diagrama de Casos de Uso
+
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm container-img">
+			<img src="https://github.com/fga-eps-mds/2019.2-Amika-Wiki/blob/issue_45_documento_arquitetura/assets/img/diagrama_de_casos_de_uso.png" alt="..." class="img-thumbnail image">
+		</div>
+	</div>
+</div>
+
 ## 5. Backlog
 O backlog representa a acumulação de trabalho: tudo o que deve ser feito do produto que vai ser desenvolvido. Basicamente, é uma pilha de itens a fazer, solicitados por alguém com base em suas necessidades/desejos, que devem ser entregues a quem solicitou depois que forem produzidos.
 Os épicos levantados para o projeto são:
