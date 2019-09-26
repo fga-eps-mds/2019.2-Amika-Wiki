@@ -59,6 +59,14 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 #### Angular
 É um framework para criação de interfaces de aplicações. Para tal, utiliza  HTML, CSS e TypeScript. Por meio dele é possível desenvolver não somente para web, mas também para mobile. No Amika é utilizado para implementar todo o frontend respeitando a metodologia PWA.
 
+#### Diagrama de relações
+<figure>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img src="../assets/img/diagrama_relacoes_amika.png">
+        <figcaption>Diagrama de relações versão 1.0</figcaption>
+    </div>
+</figure>
+
 ## 3. Objetivo e Restrições da arquitetura
 
 #### 3.1. Requisitos para o Amika:
