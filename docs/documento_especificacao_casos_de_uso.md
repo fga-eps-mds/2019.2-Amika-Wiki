@@ -148,6 +148,109 @@ Não se aplica.
 #### 8.6 Regras de Negócio
 Não se aplica.
 
+## 9. UC09 - Mandar notificação push
+#### 9.1 Breve descrição
+Essa funcionalidade permite ao administrador mandar notificações aos alunos de uma turma.
+
+#### 9.2 Ator Principal
+Administrador.
+
+#### 9.3 Condições prévias
+- O administrador deve estar logado no sistema.
+- Deve existir ao menos uma turma cadastrada no sistema.
+
+#### 9.4 Fluxo de eventos
+- O administrador irá ter acesso às turmas e poderá enviar notificações para os alunos de uma determinada turma.
+
+#### 9.4.1 Fluxo Básico
+Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos alunos de uma turma.
+- O administrador acessa "Turmas".
+- O administrador escolhe uma das turmas.
+- O administrador digita a mensagem que ele deseja enviar.
+- O administrador envia a notificação.
+- O caso de uso se encerra.
+
+#### 9.4.2 Fluxo Alternativo
+Não se aplica.
+
+#### 9.4.3 Fluxo de Exceção
+Não se aplica.
+
+#### 9.5 Regras de Negócio
+Não se aplica.
+
+## 10. UC10 - Manter Agenda da felicidade
+#### 10.1 Breve descrição
+Essa funcionalidade permite ao administrador criar, editar ou deletar agendas.
+
+#### 10.2 Ator Principal
+Administrador.
+
+#### 10.3 Condições prévias
+- O administrador deve estar logado.
+
+#### 10.4 Condições posteriores
+- Visualização da(s) agenda(s) pelos usuários.
+
+#### 10.5 Fluxo de eventos
+- O administrador criará uma agenda (atividade).
+- Os usuários poderão visualizar a agenda.
+
+#### 10.5.1 Fluxo Básico
+- O administrador acessa "Agendas".
+- O administrador cria uma agenda.   
+
+#### 10.5.2 Fluxo Alternativo
+
+**[FA01] - Deletar agenda** 
+- O administrador acessa "Agendas".
+- O administrador visualiza as agendas existentes.
+- O administrador escolhe uma agenda.
+- O administrador deleta a agenda escolhida.  
+
+**[FA02] - Editar agenda**
+- O administrador acessa "Agendas".
+- O administrador visualiza as agendas existentes.
+- O administrador escolhe uma agenda.
+- O administrador edita a agenda escolhida.  
+
+#### 10.5.3 Fluxo de Exceção
+Não se aplica.
+
+#### 10.6 Regras de Negócio
+Não se aplica.
+
+## 11. UC11 - Realizar agenda da felicidade
+#### 11.1 Breve descrição
+Essa funcionalidade permite ao usuário realizar agendas.
+
+#### 11.2 Ator Principal
+Usuário.
+
+#### 11.3 Condições prévias
+- O usuário deve estar logado.
+- Deve existir ao menos uma agenda.
+
+#### 11.4 Condições posteriores
+- Visualização da resposta pelo administrador.
+
+#### 11.5 Fluxo de eventos
+
+#### 10.5.1 Fluxo Básico
+- O usuário acessa "Agendas".
+- O usuário escolhe uma agenda.   
+- O usuário envia a resposta da agenda.
+
+#### 10.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 10.5.3 Fluxo de Exceção
+Não se aplica.
+
+#### 10.6 Regras de Negócio
+Não se aplica.
+
+
 ## 12. UC12 - Compartilhar agenda
 
 ### 12.1 Breve descrição
