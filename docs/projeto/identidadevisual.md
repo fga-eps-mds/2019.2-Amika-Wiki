@@ -6,7 +6,15 @@
 
 # 2. Introdução
 
-## 2.1. Nome da aplicação
+## 2.1. Logo
+
+Para trabalhar melhor com a logo está possui duas versões, sendo uma com o nome e outra sem. A logo foi feita após uma pesquisa sobre os animais que fossem mais amigáveis e seu design tem como objetivo ser minimalista e que fosse agradável, passando uma sensação de tranquilidade. As cores útilizadas em sua composição foram: #75beab, #d9e5de e #d690ad
+
+![Logo com Nome](../../assets/img/AmikaComNome.png)
+
+![Logo sem Nome](../../assets/img/AmikasSemNome.png)
+
+## 2.2. Nome da aplicação
 
 O nome da aplicação **Amika**, foi escolhido devido a significar "Amigável" em *Esperanto*
 e o objetivo deste projeto era desenvolver uma aplicação que fosse amigável com seus usuários e causasse nestes sensações positivas
@@ -16,13 +24,13 @@ Devido a esta natureza do nome, tanto a logo, quanto as fontes e esquema de core
 com o usuário, buscando aquelas que tivessem uma maior aceitação e causassem estas sensações positivas nos usuários, como serão
 explicados mais a frente neste documento.
 
-## 2.2. Personalidade da Amika
+## 2.3. Personalidade da Amika
 
 A Amika, como seu nome sugere, possui uma personalidade agradável e simpática, sempre disposta a ajudar e de tratar seus usuários
 de maneira pessoal, como se fosse alguem de sua própria familia.
 
 
-## 2.3. Tipografia
+## 2.4. Tipografia
 
 As fontes utilizadas na aplicação serão:
 
@@ -53,7 +61,7 @@ Coloca-se no css da aplicação, para a utilização das fontes:
   font-family: 'Nunito', sans-serif;
 
 
-# 2.4. Paleta de cores
+# 2.5. Paleta de cores
 
 ![paleta de cores](../../assets/img/paletaCores.png)
 
