@@ -402,6 +402,39 @@ Não se aplica.
 #### 13.6 Regras de Negócio
 Não se aplica.
 
+## 14. UC14 - Adicionar recepção da semana
+
+### 14.1 Breve descrição
+Essa funcionalidade permite aos alunos adicionar um evento chamado "recepção" com o objetivo de informar ao professor sobre atividades realizadas nessa recepção. As recepções são eventos que ocorrem
+
+### 14.2 Ator Principal
+Usuário.
+
+### 14.3 Condições prévias
+- O usuário deve estar logado.
+
+### 14.4 Condições posteriores
+- O administrador terá visualização completa e controle sobre as atividades realizadas nas recepções.
+
+### 14.5 Fluxo de eventos
+- O usuário cria uma recepção com atividades a serem realizadas.
+- A partir disso, o administrador pode ver e controlar as atividades realizadas nas recepções.
+
+#### 14.5.1 Fluxo Básico
+<ol>
+    <li>O usuário cria uma recepção e adiciona as atividades a serem realizadas na recepção.</li>
+    <li>O administrador poderá, então, visualizar e controlar a recepção.
+    <li>O caso de uso se encerra.</li>
+</ol>
+
+#### 14.5.2 Fluxo Alternativo
+Não se aplica.
+
+#### 14.5.3 Fluxo de Exceção
+Não se aplica.
+
+### 14.6 Regras de Negócio
+Não se aplica.
 
 ## 15. UC15 - Realizar atividades do produto final de felicidade 
 #### 15.1 Breve descrição
