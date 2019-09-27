@@ -1,3 +1,83 @@
+
+## 1. UC01 - Administrador cadastrar Aluno
+
+#### 1.1 Descrição
+- O professor que administra o sistema deve ter a opção de cadastrar o aluno
+
+#### 1.2 Atores
+- Administrador
+
+#### 1.3 Pré Condições
+- Existir no sistema as entidades professor e aluno
+
+#### 1.4 Fluxo Principal
+- não se aplica
+
+#### 1.5 Fluxos Alternativos
+- não se aplica
+
+#### 1.6. Fluxo de Exceção
+- não se aplica
+
+#### 1.7. Pós Condições
+- Estará cadastrado um aluno
+
+## 2. UC02 - Administrador manter turma
+
+#### 2.1. Descrição
+- O professor que administra o sistema deve ter a opção de cadastrar uma turma e fazer as devidas alterações
+
+#### 2.2. Atores
+Administrador
+
+#### 2.3. Pré Condições
+
+#### 2.4. Fluxo Principal
+
+#### 2.5. Fluxos Alternativos
+
+#### 2.6. Fluxo de Exceção
+
+#### 2.7. Pós Condições
+
+## 3. UC03 - Aluno realizar o próprio cadastro
+
+#### 3.1 Descrição
+- O aluno usuário do sistema deve ter a opção de fazer o seu próprio cadastro
+
+#### 3.2. Atores
+Aluno
+
+#### 3.3. Pré Condições
+
+#### 3.4. Fluxo Principal
+
+#### 3.5. Fluxos Alternativos
+
+#### 3.6. Fluxo de Exceção
+
+#### 3.7. Pós Condições
+
+## 4. UC04 - Aluno gerenciar o próprio grupo
+
+#### 4.1 Descrição
+- O aluno usuário do sistema deve ter a opção de fazer o próprio gerenciamento de seu grupo
+
+#### 4.2 Atores
+- Aluno
+
+#### 4.3. Pré Condições
+- O aluno deve existir no sistema
+- Os grupos devem existir no sistema
+
+#### 4.4 Fluxo Principal
+
+#### 4.5. Fluxos Alternativos
+
+#### 4.6. Fluxo de Exceção
+
+#### 4.7. Pós Condições
+
 ## 5. UC05 - Visualizar perfil
 #### 5.1 Breve descrição
 <p>Usuário deseja visualizar informações sobre o seu perfil, como: Pontuação no índice de felicidade autêntica, total de pontos, informações básicas do usuário, etc.</p>
