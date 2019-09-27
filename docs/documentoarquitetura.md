@@ -23,7 +23,7 @@ Introdução | Descreve informações sobre a finalidade deste documento.
 Representação Arquitetural | Traz uma descrição a respeito da arquitetura de software para melhor compreensão de sua estrutura e funcionamento. Além de mostrar a forma como ela está sendo representada.
 Metas e Restrições | Traz uma descrição os requisitos e objetivos do software, e se esses têm algum impacto sobre a arquitetura.
 Visão lógica | Traz uma descrição das partes relevantes relacionadas à arquitetura do modelo de design.
-Backlog | 
+Backlog | Traz uma descrição da acumulação de trabalho: tudo o que deve ser feito do produto que vai ser desenvolvido.
 Visão de implementação |
 
 ## 2. Representação Arquitetural
