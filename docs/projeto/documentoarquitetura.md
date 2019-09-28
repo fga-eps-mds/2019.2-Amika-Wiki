@@ -28,12 +28,35 @@ Visão de implementação |
 
 ## 2. Representação Arquitetural
 
-A arquitetura do Amika é composta por *frontend* e *backend* desacoplados, cada um possuindo seu próprio repositório. Por consequência desse desacoplamento, o risco de uma mudança em um dos dois não causará efeitos colaterais na implementação do outro. Podemos classificar a arquitetura como híbrida, já que utiliza fundamentos de dois padrões arquiteturais, sendo eles: Cliente-Servidor e *Model-View-Controller* (MVC). 
+A arquitetura do Amika é composta por *frontend* e *backend* desacoplados, cada um possuindo seu próprio repositório. Por consequência desse desacoplamento, o risco de uma mudança em um dos dois não causará efeitos colaterais na implementação do outro. O modelo de arquitetura que será utilizada é o Cliente-Servidor. 
 
-#### Cliente Servidor
-É um modelo arquitetural em que a informação é dividida em plataformas independentes, cliente e servidor. Geralmente, o cliente faz requisições por meio de um protocolo específico e um servidor responde de acordo com a requisição que o foi passado. No Amika, o cliente é representado pela interface *Progressive Web App* (PWA) que irá realizar requisições *Hypertext Transfer Protocol* (HTTP) por meio do *Representational State Transfer* (REST) para o servidor, que é, nesse caso, o Django.
+Cliente e Servidor é um modelo arquitetural em que a informação é dividida em plataformas independentes, cliente e servidor. Geralmente, o cliente faz requisições por meio de um protocolo específico e um servidor responde de acordo com a requisição que o foi passado. No Amika, o cliente é representado pelo Angular que irá realizar requisições *Hypertext Transfer Protocol* (HTTP) por meio do *Representational State Transfer* (REST) para o servidor, que é, nesse caso, o Django.
 
-#### Progressive Web App (PWA)
+#### 2.1 Servidor
+
+O servidor oferece serviços a processos usuários, ou seja, executam a tarefa solicitada e enviam uma resposta ao cliente que se traduz nos dados solicitados.
+
+#### 2.1.1 Django
+O Django é um framework com arquitetura baseada no modelo MVC, apesar disso, é descrita como *Model-View-Template* (MVT).
+O MVT é uma arquitetura que separa as aplicações construídas com ela em três camadas. Essas camadas estão interconectadas e são: Model, View e Template.
+- Model: é o modelo da aplicação, responsável por receber dados e interpretá-los para serem mostrados no Template. Ou seja, responsável pela escrita e leitura de dados.
+- View: no django, tem o mesmo papel exercido pela controller em outros padrões de arquitetura, como no Rails, por exemplo. Recebe requisições e as trata, define qual template será mostrado ao usuário e qual model usar.
+- Template: é apenas a camada de interação com o usuário, simplesmente mostra os dados ao usuário.
+
+
+#### 2.1.2 Django REST Framework
+O REST é uma extensão do Django Framework que permite implementar API's REST de forma rápida. A arquitetura REST opera por métodos de protocolo HTTP.
+
+#### 2.1.3 PostgreSQL
+É um banco de dados relacional. Relacional é a abordagem adotada nesse banco de dados e abordagem significa como os dados estão organizados. Na abordagem relacional os dados são dispostos em tabelas (linhas e colunas) e suas relações (chaves estrangeiras).
+
+#### 2.2 Cliente 
+O lado do clienten é responsável por solicitar um determinado serviço, através do envio de uma mensagem ao servidor e enquanto o processo servidor está trabalhando a solicitação, o cliente está livre para realizar outras tarefas.
+
+#### 2.2.1 Angular
+É um framework para criação de interfaces de aplicações. Para tal, utiliza  HTML, CSS e TypeScript. Por meio dele é possível desenvolver não somente para web, mas também para mobile. No Amika é utilizado para implementar todo o frontend respeitando a metodologia PWA.
+
+#### 2.2.2 Progressive Web App (PWA)
 Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário como aplicativos tradicionais ou aplicativos móveis. Em resumo, os PWA permitem que o usuário tenha uma experiência de uso muito próxima da de mobile apps. As principais funcionalidades oferecidas por essas tecnologias são:
 - Push Notification;
 - Ícone na tela home do smartphone;
@@ -43,25 +66,10 @@ Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário c
 - Acesso à camera e galeria;
 - Acesso à geolocalização;
 - Acesso à os contatos;
-- Django;
-- O Django é um framework com arquitetura baseada no modelo MVC, apesar disso, é descrita como *Model-View-Template* (MVT).
 
-#### Django REST Framework
-O REST é uma extensão do Django Framework que permite implementar API's REST de forma rápida. A arquitetura REST opera por métodos de protocolo HTTP.
 
-#### Model-View-Template (MVT)
-É uma arquitetura que separa as aplicações construídas com ela em três camadas. Essas camadas estão interconectadas e são: Model, View e Template.
-- Model: é o modelo da aplicação, responsável por receber dados e interpretá-los para serem mostrados no Template. Ou seja, responsável pela escrita e leitura de dados.
-- View: no django, tem o mesmo papel exercido pela controller em outros padrões de arquitetura, como no Rails, por exemplo. Recebe requisições e as trata, define qual template será mostrado ao usuário e qual model usar.
-- Template: é apenas a camada de interação com o usuário, simplesmente mostra os dados ao usuário.
 
-#### PostgreSQL
-É um banco de dados relacional. Relacional é a abordagem adotada nesse banco de dados e abordagem significa como os dados estão organizados. Na abordagem relacional os dados são dispostos em tabelas (linhas e colunas) e suas relações (chaves estrangeiras).
-
-#### Angular
-É um framework para criação de interfaces de aplicações. Para tal, utiliza  HTML, CSS e TypeScript. Por meio dele é possível desenvolver não somente para web, mas também para mobile. No Amika é utilizado para implementar todo o frontend respeitando a metodologia PWA.
-
-#### Diagrama de relações
+#### 2.3 Diagrama de relações
 <figure>
     <div style="display: flex; flex-direction: column; align-items: center;">
         <img src="../assets/img/diagrama_relacoes_amika.png">
@@ -96,10 +104,11 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="https://github.com/fga-eps-mds/2019.2-Amika-Wiki/blob/issue_45_documento_arquitetura/assets/img/diagrama_de_pacotes.png" alt="..." class="img-thumbnail image">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_45_documento_arquitetura/assets/img/diagrama_de_pacotes.png">
 		</div>
 	</div>
 </div>
+<br>
 
 #### 4.3. Diagrama de Casos de Uso
 
@@ -107,10 +116,11 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="https://github.com/fga-eps-mds/2019.2-Amika-Wiki/blob/issue_45_documento_arquitetura/assets/img/diagrama_de_casos_de_uso.png" alt="..." class="img-thumbnail image">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_45_documento_arquitetura/assets/img/diagrama_de_casos_de_uso.png">
 		</div>
 	</div>
 </div>
+<br>
 
 #### 4.4. Diagrama de Classes
 
@@ -118,10 +128,12 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="https://github.com/fga-eps-mds/2019.2-Amika-Wiki/blob/issue_45_documento_arquitetura/assets/img/Diagrama_de_classes.png" alt="..." class="img-thumbnail image">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_45_documento_arquitetura/assets/img/Diagrama_de_classes.png">
 		</div>
 	</div>
 </div>
+<br>
+
 
 ## 5. Backlog
 O backlog representa a acumulação de trabalho: tudo o que deve ser feito do produto que vai ser desenvolvido. Basicamente, é uma pilha de itens a fazer, solicitados por alguém com base em suas necessidades/desejos, que devem ser entregues a quem solicitou depois que forem produzidos.
