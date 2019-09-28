@@ -70,12 +70,15 @@ Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário c
 
 
 #### 2.3 Diagrama de relações
-<figure>
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <img src="../assets/img/diagrama_relacoes_amika.png">
-        <figcaption>Diagrama de relações versão 1.0</figcaption>
-    </div>
-</figure>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm container-img">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/master/assets/img/diagrama_relacoes_amika.png">
+		</div>
+	</div>
+</div>
+<br>
 
 ## 3. Objetivo e Restrições da arquitetura
 
@@ -104,7 +107,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_45_documento_arquitetura/assets/img/diagrama_de_pacotes.png">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/master/assets/img/diagrama_de_pacotes.png">
 		</div>
 	</div>
 </div>
@@ -116,7 +119,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_45_documento_arquitetura/assets/img/diagrama_de_casos_de_uso.png">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/master/assets/img/diagrama_de_casos_de_uso.png">
 		</div>
 	</div>
 </div>
@@ -128,7 +131,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/issue_45_documento_arquitetura/assets/img/Diagrama_de_classes.png">
+			<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-Amika-Wiki/master/assets/img/Diagrama_de_classes.png">
 		</div>
 	</div>
 </div>
