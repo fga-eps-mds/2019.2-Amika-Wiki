@@ -2,20 +2,20 @@
 ## 1 UC01 - Administrador cadastrar Aluno
 
 ### 1.1 Breve descrição
-- O professor que administra o sistema deve ter a opção de cadastrar o aluno
+- O professor que administra o sistema deve ter a opção de cadastrar o aluno.
 
 ### 1.2 Ator Principal
-- Administrador
+- Administrador.
 
 ### 1.3 Condições prévias
-- Existir no sistema as entidades professor e aluno
+- Existir no sistema as entidades professor e aluno.
 
 ### 1.4 Condições posteriores
-- Ficara registrado no sistema um novo aluno
+- Ficara registrado no sistema um novo aluno.
 
 ### 1.5 Fluxo de eventos
-- O professor clica no icone de registrar aluno, na página de admin
-- O professor preenche os dados do aluno a se registrar
+- O professor clica no icone de registrar aluno, na página de admin.
+- O professor preenche os dados do aluno a se registrar.
 
 
 ## 2 UC02 - Administrador manter turma
@@ -35,15 +35,15 @@
 - ficarão alterados os dados de uma turma já existente.
 
 ### 2.5 Fluxo de eventos
-- O professor clica no icone de manter turma, na página de admin
-- O professor preenche os dados da turma a se registrar
-- O professor clica no ícone de excluir turma
-- O professor clica no ícone de alterar dados de uma determinada turma
+- O professor clica no icone de manter turma, na página de admin.
+- O professor preenche os dados da turma a se registrar.
+- O professor clica no ícone de excluir turma.
+- O professor clica no ícone de alterar dados de uma determinada turma.
 
 ## 3 UC03 - Aluno realizar o próprio cadastro
 
 ### 3.1 Breve descrição
--O aluno deve ter a opção de fazer o próprio cadastro no sistema.
+- O aluno deve ter a opção de fazer o próprio cadastro no sistema.
 
 ### 3.2 Ator Principal
 - Aluno usuário.
@@ -78,7 +78,7 @@
 - ficarão alterados os dados de um grupo já existente.
 
 ### 4.5 Fluxo de eventos
-- O usuário aluno clica no ícone de seu grupo
+- O usuário aluno clica no ícone de seu grupo.
 - O aluno preenche os dados requeridos.
 - O aluno clica em salvar as alterações feitas.
 
