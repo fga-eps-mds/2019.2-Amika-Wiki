@@ -182,5 +182,7 @@ Nesse projeto optou-se por construir a interface PWA com Angular. Sua organizaç
     <li><strong>app.components...: </strong><text style="font-size: 12px;">São os componentes da aplicação. Cada um tem seu próprio tipo. Podem ser entendidos como extensões de elementos que compõem o Modelo de Objeto de Documento (DOM em inglês). Estas extensões comunicam ao Angular para inserir alguma funcionalidade particular para esse elemento. A principal vantagem dos componentes é criar código reutilizável. </text></li>
     <li><strong>
     app.modules...: </strong><text style="font-size: 12px;">É onde cada módulo que compõe a aplicação é declarado. Toda aplicação construída com Angular é formada por módulos. Módulo é apenas uma maneira de agrupar os componentes, pipes, serviços e etc. Os módulos são unidos para formar a aplicação, e se encaixam como se fossem peças de quebra cabeça.</text></li>
+<li><strong>
+    app.services...: </strong><text style="font-size: 12px;">É utilizado para realizar a comunicação e o compartilhamento de informações entre classes que não têm acesso mútuo entre si.</text></li>
 </ul>
 
