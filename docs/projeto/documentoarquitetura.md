@@ -24,7 +24,7 @@ Representação Arquitetural | Traz uma descrição a respeito da arquitetura de
 Metas e Restrições | Traz uma descrição os requisitos e objetivos do software, e se esses têm algum impacto sobre a arquitetura.
 Visão lógica | Traz uma descrição das partes relevantes relacionadas à arquitetura do modelo de design.
 Backlog | Traz uma descrição da acumulação de trabalho: tudo o que deve ser feito do produto que vai ser desenvolvido.
-Visão de implementação |
+Visão de implementação | Permite a visualização e entendimento de como o sistema será implementado e com quais tecnologias, semelhante ao que a Representação Arquitetural faz. Porém, explana como cada tecnologia é composta e distribui os serviços.
 
 ## 2. Representação Arquitetural
 
