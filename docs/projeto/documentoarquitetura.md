@@ -14,6 +14,13 @@ Por meio desse documento, o leitor poderá entender o funcionando do sistema da 
 UnB | Universidade de Brasília.
 
 #### 1.4. Referências Bibliográficas
+Angular. **Introduction to the Angular Docs**. Disponível em: https://angular.io/docs. Acesso em: 21 de Agosto de 2019. <br>
+Django. **Django documentation**. Disponível em: https://docs.djangoproject.com/en/2.2/. Acesso em: 18 de Agosto de 2019. <br>
+Django. **Models**. Disponível em: https://docs.djangoproject.com/en/2.2/topics/db/models/. Acesso em: 18 de Agosto de 2019. <br>
+Django Rest Framework. **Django Rest Framework**. Disponível em: https://www.django-rest-framework.org/. Acesso em: 19 de Agosto de 2019. <br>
+PostgreSQL. **About**. Disponível em: https://www.postgresql.org/about/. Acesso em: 21 de Agosto de 2019. <br>
+UFRJ. **O Modelo Cliente Servidor**. Disponível em: https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/modelo.html. Acesso em: 18 de Agosto de 2019. <br>
+UX Collective BR. **O que são Progressive Web Apps?**. Disponível em: https://brasil.uxdesign.cc/o-que-s%C3%A3o-progressive-web-apps-86e1b5306051. Acesso em: 19 de Agosto de 2019. <br>
 
 #### 1.5. Visão Geral
 
