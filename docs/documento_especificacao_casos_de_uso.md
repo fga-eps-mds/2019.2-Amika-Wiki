@@ -1,82 +1,86 @@
 
 ## 1 UC01 - Administrador cadastrar Aluno
 
-### 1.1 Descrição
+### 1.1 Breve descrição
 - O professor que administra o sistema deve ter a opção de cadastrar o aluno
 
-### 1.2 Atores
+### 1.2 Ator Principal
 - Administrador
 
-### 1.3 Pré Condições
+### 1.3 Condições prévias
 - Existir no sistema as entidades professor e aluno
 
-### 1.4 Fluxo Principal
-- não se aplica
+### 1.4 Condições posteriores
+- Ficara registrado no sistema um novo aluno
 
-### 1.5 Fluxos Alternativos
-- não se aplica
+### 1.5 Fluxo de eventos
+- O professor clica no icone de registrar aluno, na página de admin
+- O professor preenche os dados do aluno a se registrar
 
-### 1.6 Fluxo de Exceção
-- não se aplica
-
-### 1.7 Pós Condições
-- Estará cadastrado um aluno
 
 ## 2 UC02 - Administrador manter turma
 
-### 2.1 Descrição
-- O professor que administra o sistema deve ter a opção de cadastrar uma turma e fazer as devidas alterações
+### 2.1 Breve descrição
+- O professor que administra o sistema deve ter a opção de cadastrar uma turma e fazer as devidas alterações em turmas já existentes, assim como excluir uma turma do sistema.
 
-### 2.2 Atores
-- Administrador
+### 2.2 Ator Principal
+- Administrador.
 
-### 2.3 Pré Condições
+### 2.3 Condições prévias
+- Existir no sistema as entidades professor e turmas.
 
-### 2.4 Fluxo Principal
+### 2.4 Condições posteriores
+- Ficará registrado no sistema uma nova turma.
+- Ficará excluida do sistema uma turma antes existente. 
+- ficarão alterados os dados de uma turma já existente.
 
-### 2.5 Fluxos Alternativos
-
-### 2.6 Fluxo de Exceção
-
-### 2.7 Pós Condições
+### 2.5 Fluxo de eventos
+- O professor clica no icone de manter turma, na página de admin
+- O professor preenche os dados da turma a se registrar
+- O professor clica no ícone de excluir turma
+- O professor clica no ícone de alterar dados de uma determinada turma
 
 ## 3 UC03 - Aluno realizar o próprio cadastro
 
-### 3.1 Descrição
-- O aluno usuário do sistema deve ter a opção de fazer o seu próprio cadastro
+### 3.1 Breve descrição
+-O aluno deve ter a opção de fazer o próprio cadastro no sistema.
 
-### 3.2 Atores
-- Aluno
+### 3.2 Ator Principal
+- Aluno usuário.
 
-### 3.3 Pré Condições
+### 3.3 Condições prévias
+- Deve estar no sistema a entidade aluno.
 
-### 3.4 Fluxo Principal
+### 3.4 Condições posteriores
+- Vai estar cadastrado no sistema um novo usuário aluno.
 
-### 3.5 Fluxos Alternativos
-
-### 3.6 Fluxo de Exceção
-
-### 3.7 Pós Condições
+### 3.5 Fluxo de eventos
+- O aluno clica em cadastrar na página inicial da aplicação.
+- O aluno preenche os dados requeridos.
+- O aluno clica em matricular.
 
 ## 4 UC04 - Aluno gerenciar o próprio grupo
 
-### 4.1 Descrição
-- O aluno usuário do sistema deve ter a opção de fazer o próprio gerenciamento de seu grupo
+### 4.1 Breve descrição
+- O usuário aluno terá como fazer o registro e alterar os dados do grupo em que participa.
 
-### 4.2 Atores
-- Aluno
+### 4.2 Ator Principal
+- Aluno usuário.
 
-### 4.3 Pré Condições
-- O aluno deve existir no sistema
-- Os grupos devem existir no sistema
+### 4.3 Condições prévias
+- Deve estar no sistema a entidade aluno.
+- Deve estar no sistema a entidade grupo.
 
-### 4.4 Fluxo Principal
+### 4.4 Condições posteriores
 
-### 4.5 Fluxos Alternativos
+- Ficará registrado no sistema um novo aluno em um grupo.
+- Ficará excluido do sistema um aluno de grupo existente. 
+- ficarão alterados os dados de um grupo já existente.
 
-### 4.6 Fluxo de Exceção
-
-### 4.7 Pós Condições
+### 4.5 Fluxo de eventos
+- O usuário aluno clica no ícone de seu grupo
+- O aluno preenche os dados requeridos.
+- O aluno clica em salvar as alterações feitas.
 
 ## 5 UC05 - Visualizar perfil
 
