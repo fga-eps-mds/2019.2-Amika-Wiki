@@ -28,7 +28,7 @@
 - O professor que administra o sistema deve ter a opção de cadastrar uma turma e fazer as devidas alterações
 
 ### 2.2 Atores
-Administrador
+- Administrador
 
 ### 2.3 Pré Condições
 
@@ -46,7 +46,7 @@ Administrador
 - O aluno usuário do sistema deve ter a opção de fazer o seu próprio cadastro
 
 ### 3.2 Atores
-Aluno
+- Aluno
 
 ### 3.3 Pré Condições
 
@@ -81,7 +81,7 @@ Aluno
 ## 5 UC05 - Visualizar perfil
 
 ### 5.1 Breve descrição
-<p>Usuário deseja visualizar informações sobre o seu perfil, como: Pontuação no índice de felicidade autêntica, total de pontos, informações básicas do usuário, etc.</p>
+- Usuário deseja visualizar informações sobre o seu perfil, como: pontuação no índice de felicidade autêntica, total de pontos, informações básicas do usuário, etc.
 
 ### 5.2 Ator Principal
 Usuário.
@@ -105,10 +105,10 @@ O fluxo básico é composto de passos que o usuário seguirá para poder visuali
 
 ## 6 UC06 - Adicionar humor do dia
 ### 6.1 Breve descrição
-Essa funcionalidade oferece uma lista de emojis para que o usuário selecione apenas um  e dessa maneira o sistema classifica o humor que o ele está vivenciando no dia. 
+- Essa funcionalidade oferece uma lista de emojis para que o usuário selecione apenas um  e dessa maneira o sistema classifica o humor que o ele está vivenciando no dia. 
 
 ### 6.2 Ator Principal
-Usuário.
+- Usuário.
 
 ### 6.3 Condições prévias
 - O usuário deve estar logado no sistema
@@ -116,7 +116,7 @@ Usuário.
 - O usuário ainda não pode ter selecionado um humor para aquele dia
 
 ### 6.4 Condições posteriores
-Visualizar o gráfico baseado em todos os humores do usuário até o atual dia.
+- Visualizar o gráfico baseado em todos os humores do usuário até o atual dia.
 
 ### 6.5 Fluxo de eventos
 - O usuário irá selecionar o emoji que mais se aproxima do humor que ele está passando naquele dia.
@@ -135,10 +135,10 @@ Esse fluxo se inicia quando o usuário ao invés de selecionar um dos emojis cli
 
 ## 7 UC07 - Visualizar dashboard dos grupos
 ### 7.1 Breve descrição
-Essa funcionalidade permite ao administrador visualizar informações de todos os grupos da turma por meio de cards. Cada card contém informações básicas de cada grupo e um link para a página do grupo.
+- Essa funcionalidade permite ao administrador visualizar informações de todos os grupos da turma por meio de cards. Cada card contém informações básicas de cada grupo e um link para a página do grupo.
 
 ### 7.2 Ator Principal
-Administrador.
+- Administrador.
 
 ### 7.3 Condições prévias
 - O administrador deve estar logado no sistema.
@@ -165,10 +165,10 @@ Esse fluxo se inicia quando o administrador deseja acessar mais informações al
 
 ## 8 UC08 - Visualizar gráfico de humor da turma
 ### 8.1 Breve descrição
-Essa funcionalidade permite ao administrador checar o humor da turma ao longo do tempo por meio de um gráfico que leva em conta cada aluno.
+- Essa funcionalidade permite ao administrador checar o humor da turma ao longo do tempo por meio de um gráfico que leva em conta cada aluno.
 
 ### 8.2 Ator Principal
-Administrador.
+- Administrador.
 
 ### 8.3 Condições prévias
 - O administrador deve estar logado.
@@ -190,10 +190,10 @@ Esse fluxo se inicia quando o administrador lista turmas e deseja ver humor de d
 
 ## 9. UC09 - Mandar notificação push
 ### 9.1 Breve descrição
-Essa funcionalidade permite ao administrador mandar notificações aos alunos de uma turma.
+- Essa funcionalidade permite ao administrador mandar notificações aos alunos de uma turma.
 
 ### 9.2 Ator Principal
-Administrador.
+- Administrador.
 
 ### 9.3 Condições prévias
 - O administrador deve estar logado no sistema.
@@ -212,10 +212,10 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 
 ## 10 UC10 - Manter Agenda da felicidade
 ### 10.1 Breve descrição
-Essa funcionalidade permite ao administrador criar, editar ou deletar agendas.
+- Essa funcionalidade permite ao administrador criar, editar ou deletar agendas.
 
 ### 10.2 Ator Principal
-Administrador.
+- Administrador.
 
 ### 10.3 Condições prévias
 - O administrador deve estar logado.
@@ -247,10 +247,10 @@ Administrador.
 
 ## 11 UC11 - Realizar agenda da felicidade
 ### 11.1 Breve descrição
-Essa funcionalidade permite ao usuário realizar agendas.
+- Essa funcionalidade permite ao usuário realizar agendas.
 
 ### 11.2 Ator Principal
-Usuário.
+- Usuário.
 
 ### 11.3 Condições prévias
 - O usuário deve estar logado.
@@ -269,10 +269,10 @@ Usuário.
 ## 12 UC12 - Compartilhar agenda
 
 ### 12.1 Breve descrição
-Essa funcionalidade permite ao usuário compartilhar sua agenda pessoal semanal com seus colegas de turma.
+- Essa funcionalidade permite ao usuário compartilhar sua agenda pessoal semanal com seus colegas de turma.
 
 ### 12.2 Ator Principal
-Usuário.
+- Usuário.
 
 ### 12.3 Condições prévias
 - O usuário deve estar logado.
@@ -293,10 +293,10 @@ Usuário.
 ## 13 UC13 - Avaliar Agenda
 
 ### 13.1 Breve descrição
-Esta funcionalidade permite ao usuário avaliar as atividades que foram passadas, com objetivo de avaliar quais foram as mais interessantes de se realizar.
+- Esta funcionalidade permite ao usuário avaliar as atividades que foram passadas, com objetivo de avaliar quais foram as mais interessantes de se realizar.
 
 ### 13.2 Ator Principal
-Usuário.
+- Usuário.
 
 ### 13.3 Condições prévias
 - O usuário deve estar logado.
@@ -318,10 +318,10 @@ Usuário.
 ## 14 UC14 - Adicionar recepção da semana
 
 ### 14.1 Breve descrição
-Essa funcionalidade permite aos alunos adicionar um evento chamado "recepção" com o objetivo de informar ao professor sobre atividades realizadas nessa recepção. As recepções são eventos que ocorrem
+- Essa funcionalidade permite aos alunos adicionar um evento chamado "recepção" com o objetivo de informar ao professor sobre atividades realizadas nessa recepção. As recepções são eventos que ocorrem
 
 ### 14.2 Ator Principal
-Usuário.
+- Usuário.
 
 ### 14.3 Condições prévias
 - O usuário deve estar logado.
@@ -340,9 +340,9 @@ Usuário.
 
 ## 15 UC15 - Realizar atividades do produto final de felicidade 
 ### 15.1 Breve descrição
-Essa funcionalidade permite ao usuário realizar atividades do produto final da disciplina e ao professor acompanhar o adamento do mesmo.
+- Essa funcionalidade permite ao usuário realizar atividades do produto final da disciplina e ao professor acompanhar o adamento do mesmo.
 ### 15.2 Ator Principal
-Administrador.
+- Administrador.
 
 ### 15.3 Condições prévias
 - O usuário deve estar logado.
@@ -363,10 +363,10 @@ Administrador.
 
 ## 16. UC16 - Manter Enquete
 ### 16.1 Breve descrição
-Essa funcionalidade permite ao administrador criar enquetes para votação rápida através do aplicativo e deixá-las prontas para edição, visualização e votação
+- Essa funcionalidade permite ao administrador criar enquetes para votação rápida através do aplicativo e deixá-las prontas para edição, visualização e votação
 
 ### 16.2 Ator Principal
-Administrador e Usuário.
+- Administrador e Usuário.
 
 ### 16.3 Condições prévias
 - O administrador deve estar logado.
@@ -392,10 +392,10 @@ Administrador e Usuário.
 
 ## 17 UC17 - Manter Thread
 ### 17.1 Breve descrição
-Essa funcionalidade permite aos usuários comentar os tópicos criados por outros usuários ou administradores no Mural.
+- Essa funcionalidade permite aos usuários comentar os tópicos criados por outros usuários ou administradores no Mural.
 
 ### 17.2 Ator Principal
-Usuário.
+- Usuário.
 
 ### 17.3 Condições prévias
 - O usuário deve estar logado.
@@ -419,10 +419,10 @@ Usuário.
 
 ## 18 UC18 - Mural
 ### 18.1 Breve Descrição
-Consiste em criar um canal de comunicação dinâmico entre os alunos e o professor, criando algo similar a um mural, a onde o aluno entrará e poderá ver as atividades propostas pelo o professor.
+- Consiste em criar um canal de comunicação dinâmico entre os alunos e o professor, criando algo similar a um mural, a onde o aluno entrará e poderá ver as atividades propostas pelo o professor.
 
 ### 18.2 Ator Principal
-Professor
+- Professor
 
 ### 18.3 Fluxo de Eventos
 #### 18.3.1 Fluxo básico
@@ -437,37 +437,37 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página do mural.
 - O aluno tem acesso como será feita tal atividade e seus requisitos
 
 ### 18.4 Condições prévias
-O aluno deve estar cadastrado e logado.
+- O aluno deve estar cadastrado e logado.
 
 ### 18.5 Condições Posteriores
-O aluno e o professor terá acesso a todas atividades propostas, e o professor terá a possibilidades de criar outras.
+- O aluno e o professor terá acesso a todas atividades propostas, e o professor terá a possibilidades de criar outras.
 
 ## 19 UC19 - Área Informativa
 ### 19.1 Breve Descrição
-Criar uma área informativa, a onde o aluno poderá ver procurar ajuda psicologia e outros canais que possa ser de ajuda, contendo números de contato, e-mails e afins, para facilitar o aluno encontrar a ajuda que ele precisa.
+- Criar uma área informativa, a onde o aluno poderá ver procurar ajuda psicologia e outros canais que possa ser de ajuda, contendo números de contato, e-mails e afins, para facilitar o aluno encontrar a ajuda que ele precisa.
 
 ### 19.2 Ator Principal
-Aluno
+- Aluno
 
 ### 19.3 Fluxo de eventos
 #### 19.3.1 Fluxo Básico
-O aluno acessa uma página onde ela pode conseguir a ajuda que precisa.
+O aluno acessa uma página onde ele pode conseguir a ajuda que precisa.
 - O aluno acessa a página de área informativa.
 - O aluno escolhe o tipo de ajuda que precisa.
 - O aluno tem acesso aos meios de ajuda necessário
 
 #### 19.4 Condições prévias
-O aluno deve estar cadastrado e logado.
+- O aluno deve estar cadastrado e logado.
 
 ### 19.5 Condições Posteriores
-O aluno terá acesso a todos os meios de ajuda disponível na página.
+- O aluno terá acesso a todos os meios de ajuda disponível na página.
     
 ## 20 UC20 - Área de Compartilhamento 
 ### 20.1 Breve Descrição
-Criar uma área de compartilhamento de material da disciplina, um local onde terá o conteúdo proposto pela a disciplina, o conteúdo que está sendo utilizado na aula, assim facilitando o uso do material para a disciplina.
+- Criar uma área de compartilhamento de material da disciplina, um local onde terá o conteúdo proposto pela a disciplina, o conteúdo que está sendo utilizado na aula, assim facilitando o uso do material para a disciplina.
 
 ### 20.2 Ator principal
-Professor.
+- Professor.
 
 ### 20.3 Fluxo de Eventos
 ### 20.3.1 Fluxo básico
@@ -482,7 +482,7 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 - O aluno tem acesso ao conteúdo desejado.
 
 ### 20.4 Condições prévias
-O aluno deve estar cadastrado e logado.
+- O aluno deve estar cadastrado e logado.
 
 ### 20.5 Condições Posteriores
-O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
+- O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
