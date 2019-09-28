@@ -548,3 +548,82 @@ Não se aplica.
 
 ### 17.6 Regras de Negócio
 Não se aplica.
+
+## 18 UC18 - Mural
+### 18.1 Breve Descrição
+Consiste em criar um canal de comunicação dinâmico entre os alunos e o professor, criando algo similar a um mural, a onde o aluno entrará e poderá ver as atividades propostas pelo o professor.
+
+### 18.2 Ator Principal
+Professor
+
+### 18.3 Fluxo de Eventos
+#### 18.3.1 Fluxo básico
+O fluxo básico se inicia no momento que o professor adicionar alguma atividade no mural.
+- O professor acessar a página do mural.
+- O professor seleciona a opção de criar uma atividade.
+- O professor especifica como será a atividade é posta ela.
+#### 18.3.2 Fluxo Alternativo
+O fluxo alternativo irá se iniciar quando o aluno acessar a página do mural.
+- O aluno acessar a página do mural.
+- O aluno seleciona a atividade desejada.
+- O aluno tem acesso como será feita tal atividade e seus requisitos
+
+### 18.4 Condições prévias
+O aluno deve estar cadastrado e logado.
+
+### 18.5 Condições Posteriores
+O aluno e o professor terá acesso a todas atividades propostas, e o professor terá a possibilidades de criar outras.
+
+### 18.6 Regras de negocio
+Não se aplica.
+
+## 19 UC19 - Área Informativa
+### 19.1 Breve Descrição
+Criar uma área informativa, a onde o aluno poderá ver procurar ajuda psicologia e outros canais que possa ser de ajuda, contendo números de contato, e-mails e afins, para facilitar o aluno encontrar a ajuda que ele precisa.
+
+### 19.2 Ator Principal
+Aluno
+
+### 19.3 Fluxo de eventos
+#### 19.3.1 Fluxo Básico
+O aluno acessa uma página onde ela pode conseguir a ajuda que precisa.
+- O aluno acessa a página de área informativa.
+- O aluno escolhe o tipo de ajuda que precisa.
+- O aluno tem acesso aos meios de ajuda necessário
+
+#### 19.4 Condições prévias
+O aluno deve estar cadastrado e logado.
+
+### 19.5 Condições Posteriores
+O aluno terá acesso a todos os meios de ajuda disponível na página.
+
+### 19.6 Regras de negocio
+Não se aplica.
+    
+## 20 UC20 - Área de Compartilhamento 
+### 20.1 Breve Descrição
+Criar uma área de compartilhamento de material da disciplina, um local onde terá o conteúdo proposto pela a disciplina, o conteúdo que está sendo utilizado na aula, assim facilitando o uso do material para a disciplina.
+
+### 20.2 Ator principal
+Professor
+
+### 20.3 Fluxo de Eventos
+### 20.3.1 Fluxo básico
+O fluxo básico se inicia no momento que o professor adicionar algum conteúdo na área de compartilhamento.
+- O professor acessar a página de compartilhamento.
+- O professor seleciona a opção de enviar conteúdo.
+- O professor escolhe o conteúdo e o envia.
+### 20.3.2 Fluxo Alternativo
+O fluxo alternativo irá se iniciar quando o aluno acessar a página de compartilhamento.
+- O aluno acessar a página de compartilhamento.
+- O aluno seleciona o conteúdo desejado.
+- O aluno tem acesso ao conteúdo desejado.
+
+### 20.4 Condições prévias
+O aluno deve estar cadastrado e logado.
+
+### 20.5 Condições Posteriores
+O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
+
+ ### 20.6 Regras de negocio
+Não se aplica.
