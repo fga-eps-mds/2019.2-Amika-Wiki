@@ -159,6 +159,8 @@ O projeto deve conter um sistema gerenciador de atividades que deve possibilitar
 - 4) **_Área de compartilhamento_**:
 O projeto deve possuir uma área de compartilhamento onde os usuários poderão compartilhar informações, opiniões, realizar enquetes e interagir entre si.
 
+Os demais tópicos do backlog em detalhes podem ser consultados em: https://fga-eps-mds.github.io/2019.2-Amika-Wiki/#/docs/projeto/backlog 
+
 ## 6. Visão de implementação
 #### 6.1. Django Rest Framework
 Um projeto em Django é, geralmente, composto por diversas aplicações. Cada uma dessas aplicações é responsável por uma funcionalidade específica. Cada app é composto pelos seguintes diretórios e arquivos:
