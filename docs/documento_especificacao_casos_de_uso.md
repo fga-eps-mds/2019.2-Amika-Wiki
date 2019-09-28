@@ -491,6 +491,28 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 ### 20.5 Condições Posteriores
 - O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
 
+## 21 UC21 - Manter Músico
+### 21.1 Breve Descrição
+- Os usuários que forem participar do evento Happy and Roll devem poder se cadastrar no sistema como músicos.
+
+### 21.2 Ator Principal
+- Usuário
+
+### 21.3 Condições Prévias
+- Qualquer usuário poderá se cadastrar no evento, estando este cadastrado ou não na plataforma Amika.
+
+### 21.4 Condições Posteriores
+- O sistema deverá mostrar uma mensagem informando que o músico foi cadastrado com sucesso.  
+
+### 21.5 Fluxo de Eventos
+#### 21.5.1 Fluxo Básico
+- O usuário acessa o sistema
+- O usuário clica em Happy and Holl
+- O usuário clica em Me Cadastrar Como Músico
+- O usuário insere suas informações
+- O usuário salva as suas informações
+- O caso de uso se encerra
+
 ## 23 UC23 - Administrador Adiciona Cronograma Happy and Roll
 ### 23.1 Breve Descrição
 - O professor que administra o sistema poderá adicionar e editar as informações de um cronograma do evento Happy And Roll.
