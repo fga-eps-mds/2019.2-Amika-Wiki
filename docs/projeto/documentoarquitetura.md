@@ -11,7 +11,7 @@ Por meio desse documento, o leitor poderá entender o funcionando do sistema da 
 
 **Acrônimo/Abreviação** | **Definição**
 ------------------------|-------------------
-UnB | Universidade de Brasília.
+PWA | Progressive Web App
 
 #### 1.4. Referências Bibliográficas
 Angular. **Introduction to the Angular Docs**. Disponível em: https://angular.io/docs. Acesso em: 21 de Agosto de 2019. <br>
