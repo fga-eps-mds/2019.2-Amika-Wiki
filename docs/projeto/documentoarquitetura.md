@@ -58,7 +58,7 @@ O REST é uma extensão do Django Framework que permite implementar API's REST d
 É um banco de dados relacional. Relacional é a abordagem adotada nesse banco de dados e abordagem significa como os dados estão organizados. Na abordagem relacional os dados são dispostos em tabelas (linhas e colunas) e suas relações (chaves estrangeiras).
 
 #### 2.2 Cliente 
-O lado do clienten é responsável por solicitar um determinado serviço, através do envio de uma mensagem ao servidor e enquanto o processo servidor está trabalhando a solicitação, o cliente está livre para realizar outras tarefas.
+O lado do cliente é responsável por solicitar um determinado serviço, através do envio de uma mensagem ao servidor e enquanto o processo servidor está trabalhando a solicitação, o cliente está livre para realizar outras tarefas.
 
 #### 2.2.1 Angular
 É um framework para criação de interfaces de aplicações. Para tal, utiliza  HTML, CSS e TypeScript. Por meio dele é possível desenvolver não somente para web, mas também para mobile. No Amika é utilizado para implementar todo o frontend respeitando a metodologia PWA.
