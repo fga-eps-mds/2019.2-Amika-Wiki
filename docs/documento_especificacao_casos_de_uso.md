@@ -490,3 +490,24 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 
 ### 20.5 Condições Posteriores
 - O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
+
+## 23 UC23 - Administrador Adiciona Cronograma Happy and Roll
+### 23.1 Breve Descrição
+- O professor que administra o sistema poderá adicionar e editar as informações de um cronograma do evento Happy And Roll.
+
+### 23.2 Ator Principal
+- Administrador.
+
+### 23.3 Condições Prévias
+- O administrador deverá estar logado no sistema.
+
+### 23.4 Condições Posteriores
+- O cronograma do evento estará disponível para vizualização de todos.
+
+### 23.5 Fluxo de Eventos
+#### 23.5.1 Fluxo Básico
+- O professor loga no sistema.
+- O professor clica em adicionar cronograma Happy And Roll.
+- O professor adiciona as datas e horários em que cada banda ou músico irá se apresentar.
+- O professor salva as alterações.
+- O caso de uso se encerra.
