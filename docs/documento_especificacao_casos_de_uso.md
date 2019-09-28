@@ -98,19 +98,10 @@ Visualização dos dados com sucesso.
 
 #### 5.5.1 Fluxo Básico
 O fluxo básico é composto de passos que o usuário seguirá para poder visualizar seus dados.
-<ol>
-    <li>O usuário faz login no sistema</li>
-    <li>O usuário clica em perfil</li>
-    <li>O caso de uso encerra</li>
-</ol>
+- O usuário faz login no sistema
+- O usuário clica em perfil
+- O caso de uso encerra
 
-#### 5.5.2 Fluxo Alternativo
-Não se aplica.
-#### 5.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 5.6 Regras de Negócio
-Não se aplica.
 
 ## 6 UC06 - Adicionar humor do dia
 ### 6.1 Breve descrição
@@ -132,26 +123,15 @@ Visualizar o gráfico baseado em todos os humores do usuário até o atual dia.
 
 #### 6.5.1 Fluxo Básico
 Esse fluxo se inicia quando o usuário deseja registrar o seu humor referente ao dia atual.
-<ol>
-    <li>O usuário acessa o perfil.</li>
-    <li>O usuário então acessa o humor do dia.</li>
-    <li>O usuário escolhe um dos emojis.</li>
-    <li>O caso de uso encerra.</li>
-</ol>
+- O usuário acessa o perfil.
+- O usuário então acessa o humor do dia.
+- O usuário escolhe um dos emojis.
+- O caso de uso encerra.
 
 #### 6.5.2 Fluxo Alternativo
 Esse fluxo se inicia quando o usuário ao invés de selecionar um dos emojis clica em "Cancelar".
-
-<ol>
-    <li>O usuário clica em "Cancelar".</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 6.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 6.6 Regras de Negócio
-Não se aplica.
+- O usuário clica em "Cancelar".
+- O caso de uso se encerra.
 
 ## 7 UC07 - Visualizar dashboard dos grupos
 ### 7.1 Breve descrição
@@ -174,24 +154,14 @@ Administrador.
 
 #### 7.5.1 Fluxo Básico
 Esse fluxo se inicia quando o administrador deseja ver os dados de todos os grupos ou de apenas um grupo cadastrado.
-<ol>
-    <li>O administrador acessa "Grupos".</li>
-    <li>O adminstrador acessa "Listar grupos".</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
+- O administrador acessa "Grupos"
+- O adminstrador acessa "Listar grupos".
+- O caso de uso se encerra.
 
 #### 7.5.2 Fluxo Alternativo
 Esse fluxo se inicia quando o administrador deseja acessar mais informações além das básicas que o card oferece.
-<ol>
-    <li>O administrador acessa o link no card.</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 7.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 7.6 Regras de Negócio
-Não se aplica.
+- O administrador acessa o link no card.
+- O caso de uso se encerra.
 
 ## 8 UC08 - Visualizar gráfico de humor da turma
 ### 8.1 Breve descrição
@@ -213,21 +183,10 @@ Administrador.
 
 #### 8.5.1 Fluxo Básico
 Esse fluxo se inicia quando o administrador lista turmas e deseja ver humor de determinada turma.
-<ol>
-    <li>O administrador acessa "Turmas".</li>
-    <li>O administrador então seleciona a turma que deseja ver o gráfico de humor.</li>
-    <li>O administrador acessa o gráfico de humor da turma desejada.</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 8.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 8.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 8.6 Regras de Negócio
-Não se aplica.
+- O administrador acessa "Turmas".
+- O administrador então seleciona a turma que deseja ver o gráfico de humor.
+- O administrador acessa o gráfico de humor da turma desejada.
+- O caso de uso se encerra.
 
 ## 9. UC09 - Mandar notificação push
 ### 9.1 Breve descrição
@@ -250,15 +209,6 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O administrador digita a mensagem que ele deseja enviar.
 - O administrador envia a notificação.
 - O caso de uso se encerra.
-
-#### 9.4.2 Fluxo Alternativo
-Não se aplica.
-
-#### 9.4.3 Fluxo de Exceção
-Não se aplica.
-
-### 9.5 Regras de Negócio
-Não se aplica.
 
 ## 10 UC10 - Manter Agenda da felicidade
 ### 10.1 Breve descrição
@@ -295,12 +245,6 @@ Administrador.
 - O administrador escolhe uma agenda.
 - O administrador edita a agenda escolhida.  
 
-#### 10.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 10.6 Regras de Negócio
-Não se aplica.
-
 ## 11 UC11 - Realizar agenda da felicidade
 ### 11.1 Breve descrição
 Essa funcionalidade permite ao usuário realizar agendas.
@@ -317,20 +261,10 @@ Usuário.
 
 ### 11.5 Fluxo de eventos
 
-#### 10.5.1 Fluxo Básico
+#### 11.5.1 Fluxo Básico
 - O usuário acessa "Agendas".
 - O usuário escolhe uma agenda.   
 - O usuário envia a resposta da agenda.
-
-#### 10.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 10.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 10.6 Regras de Negócio
-Não se aplica.
-
 
 ## 12 UC12 - Compartilhar agenda
 
@@ -351,21 +285,10 @@ Usuário.
 - A agenda do aluno estará disponível para que a visualização seja possível por outros alunos. 
 
 #### 12.5.1 Fluxo Básico
-<ol>
-    <li>O usuário acessa "Agenda pessoal".</li>
-    <li>O usuário compartilha suas atividades semanais.</li>
-    <li>O a agenda semanal do usuário se torna disponível para a visualização por outros usuários.</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 12.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 12.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 12.6 Regras de Negócio
-Não se aplica.
+- O usuário acessa "Agenda pessoal".
+- O usuário compartilha suas atividades semanais.
+- O a agenda semanal do usuário se torna disponível para a visualização por outros usuários.
+- O caso de uso se encerra.
 
 ## 13 UC13 - Avaliar Agenda
 
@@ -387,21 +310,10 @@ Usuário.
 - O administrador tem acesso às avaliações feitas pelos alunos, e assim tem controle sobre os tipos de atividades que mais satisfazem os alunos.
 
 #### 13.5.1 Fluxo Básico
-<ol>
-    <li>O usuário acessa "Atividades" e seleciona uma atividade já realizada.</li>
-    <li>O usuário avalia essa atividade de 1 a 5 estrelas, de acordo com seu nível de satisfação com esta atividade.</li>
-    <li>O administrador tem acesso a todas as avaliações feitas, tendo, assim, controle sobre os tipos de atividade que mais satisfazem os alunos.</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 13.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 13.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 13.6 Regras de Negócio
-Não se aplica.
+- O usuário acessa "Atividades" e seleciona uma atividade já realizada.
+- O usuário avalia essa atividade de 1 a 5 estrelas, de acordo com seu nível de satisfação com esta atividade.
+- O administrador tem acesso a todas as avaliações feitas, tendo, assim, controle sobre os tipos de atividade que mais satisfazem os alunos.
+- O caso de uso se encerra.
 
 ## 14 UC14 - Adicionar recepção da semana
 
@@ -422,20 +334,9 @@ Usuário.
 - A partir disso, o administrador pode ver e controlar as atividades realizadas nas recepções.
 
 #### 14.5.1 Fluxo Básico
-<ol>
-    <li>O usuário cria uma recepção e adiciona as atividades a serem realizadas na recepção.</li>
-    <li>O administrador poderá, então, visualizar e controlar a recepção.
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 14.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 14.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 14.6 Regras de Negócio
-Não se aplica.
+- O usuário cria uma recepção e adiciona as atividades a serem realizadas na recepção.
+- O administrador poderá, então, visualizar e controlar a recepção.
+- O caso de uso se encerra.
 
 ## 15 UC15 - Realizar atividades do produto final de felicidade 
 ### 15.1 Breve descrição
@@ -454,22 +355,11 @@ Administrador.
 - O administrador terá acesso ao informativo em formato de linha do tempo quanto ao andamento do projeto.
 
 #### 15.5.1 Fluxo Básico
-<ol>
-    <li>O usuário acessa "Atividades".</li>
-    <li>O usuário seleciona o arquivo que deseja enviar e cria uma descrição.</li>
-    <li>O usuário então envia a atividade desejada.</li>
-    <li>O professor acessa a linha do tempo de atividades daquele usuário.</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 15.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 15.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 15.6 Regras de Negócio
-Não se aplica.
+- O usuário acessa "Atividades".
+- O usuário seleciona o arquivo que deseja enviar e cria uma descrição.
+- O usuário então envia a atividade desejada.
+- O professor acessa a linha do tempo de atividades daquele usuário.
+- O caso de uso se encerra.
 
 ## 16. UC16 - Manter Enquete
 ### 16.1 Breve descrição
@@ -491,25 +381,14 @@ Administrador e Usuário.
 - O administrador terá acesso ao resultado da enquete criada.
 
 #### 16.5.1 Fluxo Básico
-<ol>
-    <li>O administrador acessa "Mural".</li>
-    <li>O administrador então seleciona a opção "Criar enquete".</li>
-    <li>O administrador informa os dados da enquete a ser criada.</li>
-    <li>O administrador clica na opção de criar a enquete.</li>
-    <li>Os usuários acessam "Mural".</li>
-    <li>Os usuários escolhem o seu voto.</li>
-    <li>O administrador visualiza os resultados da enquete.</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 16.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 16.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 16.6 Regras de Negócio
-Não se aplica.
+- O administrador acessa "Mural".
+- O administrador então seleciona a opção "Criar enquete".
+- O administrador informa os dados da enquete a ser criada.
+- O administrador clica na opção de criar a enquete.
+- Os usuários acessam "Mural".
+- Os usuários escolhem o seu voto.
+- O administrador visualiza os resultados da enquete.
+- O caso de uso se encerra.
 
 ## 17 UC17 - Manter Thread
 ### 17.1 Breve descrição
@@ -530,24 +409,13 @@ Usuário.
 - Outros usuários criarão comentários naquele tópico
 
 #### 17.5.1 Fluxo Básico
-<ol>
-    <li>O usuário acessa "Mural".</li>
-    <li>O usuário cria um tópico a ser discutido</li>
-    <li>Outro usuário acessa "Mural"</li>
-    <li>O outro usuário vê o tópico criado e seleciona a opção "Comentar"</li>
-    <li>O outro usuário cria seu comentário e salva</li>
-    <li>Os usuários poderão visualizar os comentários criados nos tópicos do mural</li>
-    <li>O caso de uso se encerra.</li>
-</ol>
-
-#### 17.5.2 Fluxo Alternativo
-Não se aplica.
-
-#### 17.5.3 Fluxo de Exceção
-Não se aplica.
-
-### 17.6 Regras de Negócio
-Não se aplica.
+- O usuário acessa "Mural".
+- O usuário cria um tópico a ser discutido.
+- Outro usuário acessa "Mural".
+- O outro usuário vê o tópico criado e seleciona a opção "Comentar".
+- O outro usuário cria seu comentário e salva.
+- Os usuários poderão visualizar os comentários criados nos tópicos do mural.
+- O caso de uso se encerra.
 
 ## 18 UC18 - Mural
 ### 18.1 Breve Descrição
@@ -574,9 +442,6 @@ O aluno deve estar cadastrado e logado.
 ### 18.5 Condições Posteriores
 O aluno e o professor terá acesso a todas atividades propostas, e o professor terá a possibilidades de criar outras.
 
-### 18.6 Regras de negocio
-Não se aplica.
-
 ## 19 UC19 - Área Informativa
 ### 19.1 Breve Descrição
 Criar uma área informativa, a onde o aluno poderá ver procurar ajuda psicologia e outros canais que possa ser de ajuda, contendo números de contato, e-mails e afins, para facilitar o aluno encontrar a ajuda que ele precisa.
@@ -596,16 +461,13 @@ O aluno deve estar cadastrado e logado.
 
 ### 19.5 Condições Posteriores
 O aluno terá acesso a todos os meios de ajuda disponível na página.
-
-### 19.6 Regras de negocio
-Não se aplica.
     
 ## 20 UC20 - Área de Compartilhamento 
 ### 20.1 Breve Descrição
 Criar uma área de compartilhamento de material da disciplina, um local onde terá o conteúdo proposto pela a disciplina, o conteúdo que está sendo utilizado na aula, assim facilitando o uso do material para a disciplina.
 
 ### 20.2 Ator principal
-Professor
+Professor.
 
 ### 20.3 Fluxo de Eventos
 ### 20.3.1 Fluxo básico
@@ -624,6 +486,3 @@ O aluno deve estar cadastrado e logado.
 
 ### 20.5 Condições Posteriores
 O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
-
- ### 20.6 Regras de negocio
-Não se aplica.
