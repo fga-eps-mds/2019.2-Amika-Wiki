@@ -87,7 +87,7 @@ Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário c
 </div>
 <br>
 
-## 3. Objetivo e Restrições da arquitetura
+## 3. Metas e Restrições da arquitetura
 
 #### 3.1. Requisitos para o Amika:
 - Funcionar em web;
@@ -149,8 +149,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 O backlog representa a acumulação de trabalho: tudo o que deve ser feito do produto que vai ser desenvolvido. Basicamente, é uma pilha de itens a fazer, solicitados por alguém com base em suas necessidades/desejos, que devem ser entregues a quem solicitou depois que forem produzidos.
 Os épicos levantados para o projeto são:
 - 1) **_Perfil de administrador_**:
-O projeto deve permitir a criação de usuários com algumas funcionalidades especiais, os administradores que vão gerenciar os usuários comuns, mandar notificações e gerenciar atividades.
-
+O projeto deve permitir a criação de usuários com algumas funcionalidades especiais, os administradores, que vão gerenciar os usuários comuns, mandar notificações e gerenciar atividades.
 - 2) **_Sistema de cadastro e login_**:
 O projeto deve ter um sistema para os usuários comuns se autoregistrarem e gerenciarem seus dados, possibilitando a visualização e edição dos seus dados. Além disso, os administradores poderão cadastrar matrículas no sistema. Estas serão utilizadas na validação do autoregistro dos usuários.
 
