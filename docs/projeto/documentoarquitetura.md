@@ -81,7 +81,7 @@ Os PWA são páginas web tecnicamente regulares que podem aparecer ao usuário c
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="/assets/img/diagrama_relacoes_amika.png">
+			<img src="/../../assets/img/diagrama_relacoes_amika.png">
 		</div>
 	</div>
 </div>
@@ -114,7 +114,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="/assets/img/diagrama_de_pacotes.png">
+			<img src="/../../assets/img/diagrama_de_pacotes.png">
 		</div>
 	</div>
 </div>
@@ -126,7 +126,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="/assets/img/diagrama_de_casos_de_uso.png">
+			<img src="/../../assets/img/diagrama_de_casos_de_uso.png">
 		</div>
 	</div>
 </div>
@@ -138,7 +138,7 @@ O Amika é uma aplicação PWA composta da linguagem Python e do web framework d
 <div class="container">
 	<div class="row">
 		<div class="col-sm container-img">
-			<img src="/assets/img/Diagrama_de_classes.png">
+			<img src="/../../assets/img/Diagrama_de_classes.png">
 		</div>
 	</div>
 </div>
