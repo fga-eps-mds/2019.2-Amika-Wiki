@@ -424,7 +424,9 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O administrador criará uma enquete para a turma selecionada.
 - Os usuários irão votar na enquete.
 - O administrador terá acesso ao resultado da enquete criada.
+
 #### Fluxo Básico
+#### [FB01] - Criação e votação de enquete <a name="FB01enquete"></a>
 - O administrador acessa "Mural".
 - O administrador então seleciona a opção "Criar enquete".
 - O administrador informa os dados da enquete a ser criada.
@@ -434,9 +436,24 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O administrador visualiza os resultados da enquete.
 - O caso de uso se encerra.
 
-### Condições Posteriores
-- Visualização dos resultados da enquete.
+#### Fluxo Alternativo
+#### [FA01] - Deletar enquete <a name="FA01enquete"></a>
+O caso de uso começa quando o administrador deseja editar uma enquete criada previamente
+- O administrador acessa "Mural".
+- O administrador visualiza as enquetes existentes.
+- O administrador seleciona a opção de deletar a enquete de sua escolha.
+- A enquete é deletada
+#### [FA02] - Editar enquete <a name="FA02enquete"></a>
+O caso de uso começa quando o administrador deseja editar uma enquete criada previamente
+- O administrador acessa "Mural".
+- O administrador visualiza as enquetes existentes.
+- O administrador seleciona a opção de editar a enquete de sua escolha.
+- O administrador edita a enquete.
 
+### Condições Posteriores
+- Em [FB01](#FB01enquete) O sistema deve disponibilizar a visualização dos resultados da enquete.
+- Em [FA01](#FA01enquete) O sistema deverá deletar a enquete selecionada e exibir uma mensagem informando que a enquete foi deletada
+- Em [FA02](#FA02enquete) O sistema deverá alterar os dados da enquete e exibir uma mensagem informando que a enquete foi editada
 
 ## [UC17](#table) - Manter Thread <a name="UC17"></a>
 
@@ -454,6 +471,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - Um usuário criará um tópico para discussão.
 - Outros usuários criarão comentários naquele tópico
 #### Fluxo Básico
+#### [FB01] - Criar Thread em um tópico<a name="FB01thread"></a>
+O caso de uso começa quando um usuário resolve criar uma thread em um tópico criado previamente
 - O usuário acessa "Mural".
 - O usuário cria um tópico a ser discutido.
 - Outro usuário acessa "Mural".
@@ -462,8 +481,27 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - Os usuários poderão visualizar os comentários criados nos tópicos do mural.
 - O caso de uso se encerra.
 
+#### Fluxo Alternativo
+#### [FA01] - Deletar Thread <a name="FA01thread"></a>
+O caso de uso começa quando o usuário deseja deletar uma thread de sua autoria criada previamente 
+- O usuário acessa "Mural".
+- O usuário visualiza os tópicos existentes.
+- O usuário acessa um dos tópicos.
+- O usuário acessa a thread de sua criação.
+- O usuário seleciona a opção de deletar a thread.  
+#### [FA02] - Editar Informações da Banda <a name="FA02thread"></a>
+O caso de uso começa quando o usuário editar uma thread de sua autoria criada previamente 
+- O usuário acessa "Mural".
+- O usuário visualiza os tópicos existentes.
+- O usuário acessa um dos tópicos.
+- O usuário acessa a thread de sua criação.
+- O usuário seleciona a opção de edit a thread.
+- O usuário edita a thread.
+
 ### Condições Posteriores
-- Visualização dos comentários pelos outros usuários.
+- Em [FB01](#FB01thread) o sistema deverá disponibilizar a visualização da thread para todos os usuários.
+- Em [FA01](#FA01thread) o sistema deverá deletar a thread selecionada e mostrar uma mensagem informando que a thread foi deletada.
+- Em [FA02](#FA02thread) o sistema deverá editar a thread selecionada e mostrar uma mensagem informando que a thread foi editada.
 
 ## [UC18](#table) - Manter Mural <a name="UC18"></a>
 
