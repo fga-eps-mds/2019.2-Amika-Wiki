@@ -4,7 +4,7 @@
 
 ## 2. Metodologia
 
-## 3. Relação de Casos de Uso Abordados
+## 3. Relação de Casos de Uso Abordados <a name = "relacaocasosdeuso"></a>
 
 ID <a name="table"></a>| Título
 -- | --
@@ -53,6 +53,8 @@ ID <a name="table"></a>| Título
 ### Condições Posteriores
 - Ficara registrado no sistema um novo aluno.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC02](#table) - Manter turma <a name="UC02"></a> 
 
@@ -77,6 +79,8 @@ ID <a name="table"></a>| Título
 - Ficará excluida do sistema uma turma antes existente. 
 - Ficarão alterados os dados de uma turma já existente.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC03](#table) - Auto Gerenciar Matrícula <a name="UC03"></a> 
 
@@ -97,6 +101,8 @@ ID <a name="table"></a>| Título
 
 ### 3.4 Condições Posteriores
 - Vai estar cadastrado no sistema um novo usuário aluno.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC04](#table) - Manter Grupo <a name="UC04"></a> 
@@ -122,6 +128,8 @@ ID <a name="table"></a>| Título
 - Ficará excluido do sistema um aluno de grupo existente. 
 - ficarão alterados os dados de um grupo já existente.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC05](#table) - Visualizar Perfil <a name="UC05"></a> 
 
@@ -145,6 +153,8 @@ O fluxo básico é composto de passos que o usuário seguirá para poder visuali
 
 ### Condições Posteriores
 Visualização dos dados com sucesso.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC06](#table) - Adicionar Humor do Dia <a name="UC06"></a> 
@@ -176,6 +186,9 @@ Esse fluxo se inicia quando o usuário ao invés de selecionar um dos emojis cli
 - Visualizar o gráfico baseado em todos os humores do usuário até o atual dia.
 - O caso de uso encerra.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
+
 ## [UC07](#table) - Visualizar Dashboard dos Grupos <a name="UC07"></a> 
 
 ### Breve Descrição
@@ -205,6 +218,8 @@ Esse fluxo se inicia quando o administrador deseja acessar mais informações al
 - Visualizar informações básicas de todos os grupos com sucesso.
 - Acessar por meio do link do card mais informações sobre o grupo selecionado.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC08](#table) - Visualizar Gráfico de Humor da Turma <a name="UC08"></a> 
 
@@ -231,6 +246,8 @@ Esse fluxo se inicia quando o administrador lista turmas e deseja ver humor de d
 ### Condições Posteriores
 - Visualização do gráfico de humor da turma.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC09](#table) - Mandar Notificação Push <a name="UC09"></a>
 
@@ -255,6 +272,9 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O caso de uso se encerra.
 
 ### Condições Posteriores
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC10](#table) - Manter Agendas da Felicidade <a name="UC10"></a>
 
@@ -288,6 +308,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 ### Condições posteriores
 - Visualização da(s) agenda(s) pelos usuários.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC11](#table) - Realizar Agendas da Felicidade <a name="UC11"></a>
 
@@ -309,6 +331,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 
 ### Condições Posteriores
 - Visualização da resposta pelo administrador.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC12](#table) - Compartilhar Agenda <a name="UC12"></a>
@@ -333,6 +357,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 
 ### 12.4 Condições Posteriores
 - A agenda semanal do usuário é compartilhada com seus colegas de turma.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC13](#table) - Avaliar Agenda <a name="UC13"></a>
@@ -359,6 +385,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 ### Condições Posteriores
 - O administrador poderá visualizar as atividades mais interessantes de se realizar, comparando a avaliação de cada tipo de atividade.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC14](#table) - Adicionar Recepção da Semana <a name="UC14"></a>
 
@@ -381,6 +409,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 
 ### Condições Posteriores
 - O administrador terá visualização completa e controle sobre as atividades realizadas nas recepções.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC15](#table) - Realizar Atividades do Produto Final de Felicidade <a name="UC15"></a>
@@ -406,6 +436,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 
 ### Condições Posteriores
 - Visualização do andamento do produto final da disciplina.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC16](#table) - Manter Enquete <a name="UC16"></a>
@@ -437,6 +469,8 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 ### Condições Posteriores
 - Visualização dos resultados da enquete.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC17](#table) - Manter Thread <a name="UC17"></a>
 
@@ -465,6 +499,9 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 ### Condições Posteriores
 - Visualização dos comentários pelos outros usuários.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
+
 ## [UC18](#table) - Manter Mural <a name="UC18"></a>
 
 ### Breve Descrição
@@ -491,6 +528,9 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página do mural.
 ### Condições Posteriores
 - O aluno e o professor terá acesso a todas atividades propostas, e o professor terá a possibilidades de criar outras.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
+
 ## [UC19](#table) - Visualizar Informações de Atendimento Psicológico <a name="UC19"></a>
 
 ### Breve Descrição
@@ -511,7 +551,10 @@ O aluno acessa uma página onde ele pode conseguir a ajuda que precisa.
 
 ### Condições Posteriores
 - O aluno terá acesso a todos os meios de ajuda disponível na página.
-    
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
+
 ## [UC20](#table) - Manter Materiais <a name="UC20"></a>
 
 ### Breve Descrição
@@ -538,6 +581,8 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 ### Condições Posteriores
 - O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 ## [UC21](#table) - Manter Músico <a name="UC21"></a>
 
 ### Breve Descrição
@@ -560,6 +605,8 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 
 ### Condições Posteriores
 - O sistema deverá mostrar uma mensagem informando que o músico foi cadastrado com sucesso.  
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
 
 
 ## [UC22](#table) - Manter Banda <a name="UC22"></a>
@@ -585,6 +632,8 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 ### Condições Posteriores
 - O sistema deverá mostrar uma mensagem informando que a banda foi cadastrada com sucesso. 
 
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
+
 
 ## [UC23](#table) - Adiciona Cronograma Happy and Roll <a name="UC23"></a>
  
@@ -607,3 +656,5 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 
 ### Condições Posteriores
 - O cronograma do evento estará disponível para vizualização de todos.
+
+[Retornar à Relação de Casos de Uso](#relacaocasosdeuso)
