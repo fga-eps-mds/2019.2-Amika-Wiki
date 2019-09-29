@@ -144,7 +144,7 @@ O fluxo básico é composto de passos que o usuário seguirá para poder visuali
 - O caso de uso encerra
 
 ### Condições Posteriores
-Visualização dos dados com sucesso.
+- Visualização dos dados com sucesso.
 
 
 ## [UC06](#table) - Adicionar Humor do Dia <a name="UC06"></a> 
@@ -547,19 +547,51 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 - Usuário.
 
 ### Condições Prévias
-- Qualquer usuário poderá se cadastrar no evento, estando este cadastrado ou não na plataforma Amika.
+- Qualquer usuário poderá se cadastrar no evento e visualizar as informações dos músicos já cadastrados, estando este cadastrado ou não na plataforma Amika.
+- Para editar seus dados e deletar seu cadastro o músico deve estar previamente cadastrado no sistema.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
+##### [FB01] - Cadastro do Músico no Sistema
+O caso de uso começa quando o usuário resolve se cadastrar como músico para o evento Happy and Roll.
 - O usuário acessa o sistema.
 - O usuário clica em Happy and Holl.
 - O usuário clica em Me Cadastrar Como Músico.
 - O usuário insere suas informações.
 - O usuário salva as suas informações.
 - O caso de uso se encerra.
+##### [FB02] - Visualizar Informações dos Músicos
+O caso de uso começa quando o usuário deseja saber as informações a respeito dos músicos já cadastrados para o Happy and Holl.
+- O usuário acessa o sistema.
+- O usuário clica em Happy and Holl.
+- O usuário clica em Músicos Cadastrados.
+- O usuário visualiza uma lista com as informações dos músicos cadastrados.
+- O caso de uso se encerra.
+#### [FB03] - Editar Informações
+O caso de uso começa quando um músico já cadastrado resolve fazer alguma alteração nos seus dados
+- O usuário acessa o sistema.
+- O usuário clica em Happy and Holl.
+- O usuário clica em Acessar como Músico.
+- O usuário faz login.
+- O usuário clica em Editar Meu Perfil de Músico.
+- O usuário altera os dados desejados.
+- O usuário salva as alterações.
+- O caso de uso se encerra.
+#### [FB04] - Deletar Cadastro de Músico
+O caso de uso começa quando um músico já cadastrado resolve excluir seu cadastro
+- O usuário acessa o sistema.
+- O usuário clica em Happy and Holl.
+- O usuário clica em Acessar como Músico.
+- O usuário faz login.
+- O usuário clica em Excluir Meu Perfil de Músico.
+- O usuário exclui seus dados do sistema.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- O sistema deverá mostrar uma mensagem informando que o músico foi cadastrado com sucesso.  
+- Em FB01 o sistema deverá mostrar uma mensagem informando que o músico foi cadastrado com sucesso.  
+- Em FB02 o sistema deverá exibir uma lista com as informações dos músicos que estão cadastrados para o evento.
+- Em FB03 o sistema deverá mostrar uma mensagem informando que os dados foram alterados com sucesso. 
+- Em FB04 o sistema deverá mostrar uma mensagem informando que o músico foi deletado com sucesso e retornar a página inicial do Happy and Holl. 
 
 
 ## [UC22](#table) - Manter Banda <a name="UC22"></a>
@@ -575,6 +607,7 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 
 ### Fluxo de Eventos
 #### Fluxo Básico
+
 - O usuário acessa o sistema.
 - O usuário clica em Happy and Holl.
 - O usuário clica em Cadastrar Banda.
