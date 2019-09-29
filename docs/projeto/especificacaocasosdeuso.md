@@ -3,6 +3,14 @@
 ## 1. Introdução
 O presente documento traz os casos de uso em detalhes, apresentando os fluxos básicos e os fluxos alternativos de cada caso. Expondo descrição, atores envolvidos, condições prévias, fluxos e condições posteriores. Sendo, desse modo, uma forma completa e minunciosa de um modelo tradicional que representa como o sistema Amika funciona. 
 
+#### 1.1. Definições, Acrônimos e Abreviações
+
+**Acrônimo/Abreviação** | **Definição**
+------------------------|-------------------
+FB | Fluxo Básico
+FA | Fluxo Alternativo
+UC | Caso de Uso
+
 ## 2. Metodologia
 Para realizar a elaboração desse documento, a equipe utilizou as histórias de usuário apontadas no [backlog do projeto](https://fga-eps-mds.github.io/2019.2-Amika-Wiki/#/docs/projeto/backlog). Os tópicos foram separados entre os membros, para que todos colaborassem com uma parcela do documento. Os casos de uso que são descritos nesse documento estão listados no tópico abaixo.
 
@@ -47,6 +55,7 @@ ID <a name="table"></a>| Título
 ### Condições Prévias
 - O professor deve estar logado no sistema.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Cadastrar Aluno Específico <a name = "fb01gerenciaralunos"></a>
@@ -55,12 +64,14 @@ O caso de uso se inicia quando o professor decide cadastrar um novo aluno.
 - O professor preenche os dados do aluno a se registrar.
 - O professor salva os dados.
 - O caso de uso se encerra.
+
 #### [FB02] Cadastrar lista de alunos via CSV <a name = "fb02gerenciaralunos"></a>
 O caso de uso se inicia quando o professor decide cadastrar uma lista de alunos retirando seus dados de um arquivo CSV.
 - O professor clica no ícone de Registrar Alunos Via CSV.
 - O professor envia o arquivo CSV para o sistema.
 - O professor salva as alterações.
 - O caso de uso se encerra.
+
 #### [FB03] Remover aluno <a name = "fb03gerenciaralunos"></a>
 O caso de uso se inicia quando o professor decide deletar um aluno do sistema.
 - O professor clica no ícone de Remover Aluno, na página de admin.
@@ -84,6 +95,7 @@ O caso de uso se inicia quando o professor decide deletar um aluno do sistema.
 ### Condições Prévias
 - O professor administrador deverá estar logado no sistema.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 
@@ -93,6 +105,7 @@ O caso de uso começa quando o professor resolve cadastrar uma turma.
 - O professor insere as informações sobre a nova turma.
 - O professor salva as informações.
 - O caso de uso se encerra.
+
 #### [FB02] - Visualizar Informações da Turma <a name = "fb02manterturma"></a>
 O caso de uso começa quando o professor deseja saber as informações a respeito de uma turma.
 - O professor clica em Turmas.
@@ -106,6 +119,7 @@ O caso de uso começa quando o professor administrador resolve fazer alguma alte
 - O professor altera os dados desejados.
 - O professor salva as alterações.
 - O caso de uso se encerra.
+
 #### [FA02] - Deletar Cadastro de Turma <a name = "fa02manterturma"></a>
 O caso de uso começa quando o professor administrador resolve excluir determinada turma.
 - O professor clica em Excluir Turma.
@@ -132,6 +146,7 @@ O caso de uso começa quando o professor administrador resolve excluir determina
 - O usuário deve estar previamente matriculado na disciplina Felicidade da Universidade de Brasília.
 - A matrícula do usuário deve estar previamente cadastrada no sistema Amika.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Realizar cadastro
@@ -157,6 +172,7 @@ O caso de uso se inicia quando o aluno resolve fazer seu cadastro no sistema Ami
 - Deve estar no sistema a entidade aluno.
 - Deve estar no sistema a entidade grupo.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 
@@ -168,6 +184,7 @@ O caso de uso começa quando um usuário resolve cadastrar seu grupo.
 - O usuário insere as informações sobre o grupo.
 - O usuário salva as informações.
 - O caso de uso se encerra.
+
 #### [FB02] - Visualizar Informações do Grupo
 O caso de uso começa quando o usuário deseja saber as informações a respeito de seu grupo.
 - O usuário acessa o sistema.
@@ -185,6 +202,7 @@ O caso de uso começa quando um usuário já cadastrado resolve fazer alguma alt
 - O usuário altera os dados desejados.
 - O usuário salva as alterações.
 - O caso de uso se encerra.
+
 #### [FA02] - Deletar Cadastro do Grupo 
 O caso de uso começa quando um aluno já cadastrado resolve excluir seu grupo.
 - O usuário acessa o sistema.
@@ -211,6 +229,7 @@ O caso de uso começa quando um aluno já cadastrado resolve excluir seu grupo.
 ### Condições Prévias
 - O usuário deve estar logado.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Visualizar dados do próprio perfil
@@ -234,6 +253,7 @@ O caso de uso se inicia quando o usuário deseja visualizar as informações de 
 ### Condições Prévias
 - O usuário deve estar logado no sistema.
 - O usuário ainda não pode ter selecionado um humor para aquele dia.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -263,6 +283,7 @@ O caso de uso se inicia quando o usuário ao invés de selecionar um dos emojis 
 ### Condições Prévias
 - O administrador deve estar logado no sistema.
 - Devem existir grupos cadastrados no sistema.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -294,6 +315,7 @@ O caso de uso se inicia quando o administrador deseja acessar mais informações
 - O administrador deve estar logado.
 - Ao menos uma turma deve estar cadastrada no sistema.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Visualizar Gráfico de Humor
@@ -318,6 +340,7 @@ O caso de uso se inicia quando o administrador deseja ver humor de determinada t
 ### Condições Prévias
 - O administrador deve estar logado no sistema.
 - Deve existir ao menos uma turma cadastrada no sistema.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -344,6 +367,7 @@ O caso de uso se inicia quando o administrador deseja enviar uma notificação a
 ### Condições Prévias
 - O administrador deve estar logado.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Adicionar Agendas da Felicidade
@@ -351,6 +375,7 @@ O caso de uso se inicia quando o professor que administra o sistema resolve adic
 - O administrador acessa Agendas.
 - O administrador adiciona as informações da Agenda.
 - O caso de uso se encerra.
+
 #### [FB02] Visualizar Agendas da Felicidade
 O caso de uso se inicia quando o professor que administra o sistema decide visualizar as informações de uma Agenda da Felicidade já criada.
 - O administrador acessa Agendas.
@@ -365,6 +390,7 @@ O caso de uso se inicia quando o professor resolve deletar alguma Agenda.
 - O administrador deleta a agenda escolhida.  
 - As alterações são salvas.
 - O caso de uso se encerra.
+
 #### [FA02] - Editar Agenda da Felicidade <a name="fa02agendadafelicidade"></a>
 O caso de uso se inicia quando o professor resolve editar alguma Agenda.
 - O administrador edita a agenda escolhida.  
@@ -386,6 +412,7 @@ O caso de uso se inicia quando o professor resolve editar alguma Agenda.
 ### Condições Prévias
 - O usuário deve estar logado.
 - Deve existir ao menos uma agenda.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -410,6 +437,7 @@ O caso de uso se inicia quando o usuário deseja realizar uma Agenda da Felicida
 
 ### Condições Prévias
 - O usuário deve estar logado.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -436,6 +464,7 @@ O caso de uso se inicia quando o usuário resolve compartilhar sua agenda semana
 - O usuário deve estar logado.
 - As agendas devem ter sido realizadas para que o usuário possa avaliá-las.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Realizar avaliação de Agenda da Felicidade
@@ -460,6 +489,7 @@ O caso de uso se inicia quando o usuário resolve avaliar uma Agenda já realiza
 ### Condições Prévias
 - O usuário deve estar logado.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Adicionar Recepção
@@ -482,6 +512,7 @@ O caso de uso se inicia quando o usuário precisa adicionar sua Recepção da Se
 
 ### Condições Prévias
 - O usuário deve estar logado.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -507,17 +538,19 @@ O caso de uso se inicia quando o usuário precisa adicionar sua Recepção da Se
 - O administrador deve estar logado.
 - Turma deve estar criada.
 
-### Fluxo de Eventos
+
 - O administrador criará uma enquete para a turma selecionada.
 - Os usuários irão votar na enquete.
 - O administrador terá acesso ao resultado da enquete criada.
 
+### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] - Criação e votação de enquete <a name="FB01enquete"></a>
 - O administrador acessa "Mural".
 - O administrador então seleciona a opção "Criar enquete".
 - O administrador informa os dados da enquete a ser criada.
 - O administrador clica na opção de criar a enquete.
+
 #### [FB02] - Criação e votação de enquete <a name="FB02enquete"></a>
 - Os usuários acessam "Mural".
 - Os usuários escolhem a enquete a ser votada.
@@ -530,6 +563,7 @@ O caso de uso começa quando o administrador deseja editar uma enquete criada pr
 - O administrador visualiza as enquetes existentes.
 - O administrador seleciona a opção de deletar a enquete de sua escolha.
 - A enquete é deletada
+
 #### [FA02] - Editar enquete <a name="FA02enquete"></a>
 O caso de uso começa quando o administrador deseja editar uma enquete criada previamente
 - O administrador acessa "Mural".
@@ -556,6 +590,7 @@ O caso de uso começa quando o administrador deseja editar uma enquete criada pr
 - O usuário deve estar logado.
 - Tópico deve estar criado no mural.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] - Criar Thread em um tópico<a name="FB01thread"></a>
@@ -575,6 +610,7 @@ O caso de uso começa quando o usuário deseja deletar uma thread de sua autoria
 - O usuário acessa um dos tópicos.
 - O usuário acessa a thread de sua criação.
 - O usuário seleciona a opção de deletar a thread.  
+
 #### [FA02] - Editar Thread <a name="FA02thread"></a>
 O caso de uso começa quando o usuário editar uma thread de sua autoria criada previamente 
 - O usuário acessa "Mural".
@@ -601,6 +637,7 @@ O caso de uso começa quando o usuário editar uma thread de sua autoria criada 
 ### Condições Prévias
 - O usuário deve estar cadastrado e logado.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Criar Tópico
@@ -610,6 +647,7 @@ O caso de uso se inicia no momento que um usuário resolver adicionar algum tóp
 - O usuário adiciona as informações desejadas no tópico.
 - O usuário publica o tópico.
 - O caso de uso se encerra.
+
 #### [FB02] Visualizar Tópico
 O caso de uso se inicia quando um usuário deseja visualizar algum tópico publicado por ele.
 - O usuário acessa o Mural.
@@ -625,6 +663,7 @@ O caso de uso se inicia quando o usuário resolve editar um tópico criado por e
 - O aluno realiza as alterações desejadas.
 - O aluno salva as alterações.
 - O caso de uso se encerra.
+
 #### [FA02] Deletar Tópico <a name="#fa02mantermural"></a>
 O caso de uso se inicia quando o usuário resolve deletar um tópico criado por ele.
 - O aluno clica em Deletar Tópico.
@@ -645,6 +684,7 @@ O caso de uso se inicia quando o usuário resolve deletar um tópico criado por 
 
 #### Condições Prévias
 - O aluno deve estar cadastrado e logado.
+
 
 ### Fluxo de Eventos
 #### Fluxo Básico
@@ -668,6 +708,7 @@ O caso de uso se inicia quando um usuário deseja saber informações sobre aten
 ### 20.4 Condições Prévias
 - O administrador deve estar logado.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Adicionar Material
@@ -676,6 +717,7 @@ O caso de uso se inicia no momento que o professor deseja adicionar algum conte�
 - O professor seleciona a opção de Enviar Material.
 - O professor escolhe o conteúdo e o envia.
 - O caso de uso se encerra
+
 #### [FB02] Visualizar Material
 O caso de uso se inicia quando o professor deseja visualizar algum conteúdo de um Material compartilhado.
 - O professor acessa a página de compartilhamento.
@@ -690,6 +732,7 @@ O caso de uso se inicia quando o professor deseja editar algum Material já comp
 - O professor realiza as alterações desejadas.
 - O professor confirma as alterações.
 - O caso de uso se encerra.
+
 #### [FA02] Deletar Material <a name="fa02mantermaterial"></a>
 O caso de uso se inicia quando o professor deseja deletar algum Material já compartilhado.
 - O professor clica em Deletar Material.
@@ -712,6 +755,7 @@ O caso de uso se inicia quando o professor deseja deletar algum Material já com
 - Qualquer usuário poderá se cadastrar no evento e visualizar as informações dos músicos já cadastrados, estando este cadastrado ou não na plataforma Amika.
 - Para editar seus dados e deletar seu cadastro o músico deve estar previamente cadastrado no sistema.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] - Cadastrar Músico no Sistema <a name="FB01musico"></a>
@@ -722,6 +766,7 @@ O caso de uso começa quando o usuário resolve se cadastrar como músico para o
 - O usuário insere suas informações.
 - O usuário salva as suas informações.
 - O caso de uso se encerra.
+
 #### [FB02] - Visualizar Informações dos Músicos <a name="FB02musico"></a>
 O caso de uso começa quando o usuário deseja saber as informações a respeito dos músicos já cadastrados para o Happy and Holl.
 - O usuário acessa o sistema.
@@ -729,6 +774,7 @@ O caso de uso começa quando o usuário deseja saber as informações a respeito
 - O usuário clica em Músicos Cadastrados.
 - O usuário visualiza uma lista com as informações dos músicos cadastrados.
 - O caso de uso se encerra.
+
 #### [FB03] - Visualizar Perfil de Músico <a name="FB03musico"></a>
 O caso de uso começa quando o usuário deseja visualizar seu perfil como músico.
 - O usuário acessa o sistema.
@@ -745,6 +791,7 @@ O caso de uso começa quando um músico já cadastrado resolve fazer alguma alte
 - O usuário altera os dados desejados.
 - O usuário salva as alterações.
 - O caso de uso se encerra.
+
 #### [FA02] - Deletar Cadastro do Músico <a name="FA02musico"></a>
 O caso de uso começa quando um músico já cadastrado resolve excluir seu cadastro.
 - O usuário clica em Excluir Meu Perfil de Músico.
@@ -771,6 +818,7 @@ O caso de uso começa quando um músico já cadastrado resolve excluir seu cadas
 - Qualquer usuário poderá cadastrar uma banda no sistema e visualizar as informações das bandas cadastradas, estando este cadastrado ou não na plataforma Amika.
 - Para editar seus dados e deletar seu cadastro a banda do usuário deve estar previamente cadastrada no sistema.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] - Cadastrar Bandas no Sistema <a name="FB01banda"></a>
@@ -781,6 +829,7 @@ O caso de uso começa quando um usuário resolve cadastrar sua banda para o even
 - O usuário insere as informações sobre a banda.
 - O usuário salva as informações.
 - O caso de uso se encerra.
+
 #### [FB02] - Visualizar Informações das Bandas <a name="FB02banda"></a>
 O caso de uso começa quando o usuário deseja saber as informações a respeito das bandas já cadastrados para o Happy and Holl.
 - O usuário acessa o sistema.
@@ -788,6 +837,7 @@ O caso de uso começa quando o usuário deseja saber as informações a respeito
 - O usuário clica em Bandas Cadastradas.
 - O usuário visualiza uma lista com as informações das bandas cadastradas.
 - O caso de uso se encerra.
+
 #### [FB03] - Visualizar Perfil de Banda <a name="FB03banda"></a>
 O caso de uso começa quando o usuário deseja visualizar seu perfil como banda.
 - O usuário acessa o sistema.
@@ -804,6 +854,7 @@ O caso de uso começa quando o membro de uma banda já cadastrado resolve fazer 
 - O usuário altera os dados desejados.
 - O usuário salva as alterações.
 - O caso de uso se encerra.
+
 #### [FA02] - Deletar Cadastro da Banda  <a name="FA02banda"></a>
 O caso de uso começa quando uma banda já cadastrado resolve excluir seu cadastro.
 - O usuário clica em Excluir Meu Perfil de Banda.
@@ -830,6 +881,7 @@ O caso de uso começa quando uma banda já cadastrado resolve excluir seu cadast
 - O administrador deverá estar logado no sistema.
 - Para ser possível a edição, o cronograma deve estar previamente criado.
 
+
 ### Fluxo de Eventos
 #### Fluxo Básico
 #### [FB01] Adicionar Cronograma Happy and Roll
@@ -839,6 +891,7 @@ O caso de uso se inicia quando o professor que administra o sistema decide adici
 - O professor adiciona as datas e horários em que cada banda ou músico irá se apresentar.
 - O professor salva as alterações.
 - O caso de uso se encerra.
+
 #### [FB02] Editar Cronograma Happy and Roll
 O caso de uso se inicia quando o professor que administra o sistema decide alterar as informações do cronograma Happy and Roll.
 - O professor loga no sistema.
