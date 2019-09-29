@@ -552,7 +552,7 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-##### [FB01] - Cadastro do Músico no Sistema
+#### [FB01] - Cadastrar Músico no Sistema <a name="FB01musico"></a>
 O caso de uso começa quando o usuário resolve se cadastrar como músico para o evento Happy and Roll.
 - O usuário acessa o sistema.
 - O usuário clica em Happy and Holl.
@@ -560,38 +560,41 @@ O caso de uso começa quando o usuário resolve se cadastrar como músico para o
 - O usuário insere suas informações.
 - O usuário salva as suas informações.
 - O caso de uso se encerra.
-##### [FB02] - Visualizar Informações dos Músicos
+#### [FB02] - Visualizar Informações dos Músicos <a name="FB02musico"></a>
 O caso de uso começa quando o usuário deseja saber as informações a respeito dos músicos já cadastrados para o Happy and Holl.
 - O usuário acessa o sistema.
 - O usuário clica em Happy and Holl.
 - O usuário clica em Músicos Cadastrados.
 - O usuário visualiza uma lista com as informações dos músicos cadastrados.
 - O caso de uso se encerra.
-#### [FB03] - Editar Informações
-O caso de uso começa quando um músico já cadastrado resolve fazer alguma alteração nos seus dados
+#### [FB03] - Visualizar Perfil de Músico <a name="FB03musico"></a>
+O caso de uso começa quando o usuário deseja visualizar seu perfil como músico.
 - O usuário acessa o sistema.
 - O usuário clica em Happy and Holl.
 - O usuário clica em Acessar como Músico.
 - O usuário faz login.
+- O usuário visualiza as suas informações de músico.
+- O caso de uso se encerra. [[FA01]](#FA01musico) [[FA02]](#FA02musico)
+
+#### Fluxo Alternativo
+#### [FA01] - Editar Informações do Músico <a name="FA01musico"></a>
+O caso de uso começa quando um músico já cadastrado resolve fazer alguma alteração nos seus dados.
 - O usuário clica em Editar Meu Perfil de Músico.
 - O usuário altera os dados desejados.
 - O usuário salva as alterações.
 - O caso de uso se encerra.
-#### [FB04] - Deletar Cadastro de Músico
-O caso de uso começa quando um músico já cadastrado resolve excluir seu cadastro
-- O usuário acessa o sistema.
-- O usuário clica em Happy and Holl.
-- O usuário clica em Acessar como Músico.
-- O usuário faz login.
+#### [FA02] - Deletar Cadastro do Músico <a name="FA02musico"></a>
+O caso de uso começa quando um músico já cadastrado resolve excluir seu cadastro.
 - O usuário clica em Excluir Meu Perfil de Músico.
 - O usuário exclui seus dados do sistema.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
-- Em FB01 o sistema deverá mostrar uma mensagem informando que o músico foi cadastrado com sucesso.  
-- Em FB02 o sistema deverá exibir uma lista com as informações dos músicos que estão cadastrados para o evento.
-- Em FB03 o sistema deverá mostrar uma mensagem informando que os dados foram alterados com sucesso. 
-- Em FB04 o sistema deverá mostrar uma mensagem informando que o músico foi deletado com sucesso e retornar a página inicial do Happy and Holl. 
+- Em [FB01](#FB01musico) o sistema deverá mostrar uma mensagem informando que o músico foi cadastrado com sucesso.  
+- Em [FB02](#FB02musico) o sistema deverá exibir uma lista com as informações dos músicos que estão cadastrados para o evento.
+- Em [FB03](#FB03musico) o sistema deverá exibir as informações do próprio músico. 
+- Em [FA01](#FA01musico) o sistema deverá mostrar uma mensagem informando que os dados foram alterados com sucesso. 
+- Em [FA02](#FA02musico) o sistema deverá mostrar uma mensagem informando que o músico foi deletado com sucesso e retornar a página inicial do Happy and Holl. 
 
 
 ## [UC22](#table) - Manter Banda <a name="UC22"></a>
@@ -603,20 +606,54 @@ O caso de uso começa quando um músico já cadastrado resolve excluir seu cadas
 - Usuário.
 
 ### Condições Prévias
-- Qualquer usuário poderá se cadastrar uma banda no sistema, estando este cadastrado ou não na plataforma Amika.
+- Qualquer usuário poderá cadastrar uma banda no sistema e visualizar as informações das bandas cadastradas, estando este cadastrado ou não na plataforma Amika.
+- Para editar seus dados e deletar seu cadastro a banda do usuário deve estar previamente cadastrada no sistema.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-
+#### [FB01] - Cadastrar Bandas no Sistema <a name="FB01banda"></a>
+O caso de uso começa quando um usuário resolve cadastrar sua banda para o evento Happy and Holl.
 - O usuário acessa o sistema.
 - O usuário clica em Happy and Holl.
 - O usuário clica em Cadastrar Banda.
 - O usuário insere as informações sobre a banda.
 - O usuário salva as informações.
 - O caso de uso se encerra.
+#### [FB02] - Visualizar Informações das Bandas <a name="FB02banda"></a>
+O caso de uso começa quando o usuário deseja saber as informações a respeito das bandas já cadastrados para o Happy and Holl.
+- O usuário acessa o sistema.
+- O usuário clica em Happy and Holl.
+- O usuário clica em Bandas Cadastradas.
+- O usuário visualiza uma lista com as informações das bandas cadastradas.
+- O caso de uso se encerra.
+#### [FB03] - Visualizar Perfil de Banda <a name="FB03banda"></a>
+O caso de uso começa quando o usuário deseja visualizar seu perfil como banda.
+- O usuário acessa o sistema.
+- O usuário clica em Happy and Holl.
+- O usuário clica em Acessar como Banda.
+- O usuário faz login.
+- O usuário visualiza as informações de sua banda.
+- O caso de uso se encerra. [[FA01]](#FA01banda) [[FA02]](#FA02banda)
+
+#### Fluxo Alternativo
+#### [FA01] - Editar Informações da Banda <a name="FA01banda"></a>
+O caso de uso começa quando o membro de uma banda já cadastrado resolve fazer alguma alteração nos dados da mesma.
+- O usuário clica em Editar Perfil da Banda.
+- O usuário altera os dados desejados.
+- O usuário salva as alterações.
+- O caso de uso se encerra.
+#### [FA02] - Deletar Cadastro da Banda  <a name="FA02banda"></a>
+O caso de uso começa quando uma banda já cadastrado resolve excluir seu cadastro.
+- O usuário clica em Excluir Meu Perfil de Banda.
+- O usuário exclui os dados da sua banda do sistema.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- O sistema deverá mostrar uma mensagem informando que a banda foi cadastrada com sucesso. 
+- Em [FB01](#FB01banda) o sistema deverá mostrar uma mensagem informando que a banda foi cadastrada com sucesso. 
+- Em [FB02](#FB02banda) o sistema deverá exibir uma lista com as informações das bandas que estão cadastrados para o evento.
+- Em [FB03](#FB03banda) o sistema deverá exibir as informações da própria banda. 
+- Em [FA01](#FA01banda) o sistema deverá mostrar uma mensagem informando que os dados da banda foram alterados com sucesso. 
+- Em [FA02](#FA02banda) o sistema deverá mostrar uma mensagem informando que a banda foi deletada com sucesso e retornar a página inicial do Happy and Holl. 
 
 
 ## [UC23](#table) - Adiciona Cronograma Happy and Roll <a name="UC23"></a>
