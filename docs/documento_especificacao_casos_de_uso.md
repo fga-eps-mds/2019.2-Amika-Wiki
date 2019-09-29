@@ -513,6 +513,29 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página de comparti
 - O usuário salva as suas informações
 - O caso de uso se encerra
 
+## 22 UC22 - Manter Banda
+
+### 22.1 Breve Descrição
+- Os usuários que forem participar do evento Happy and Roll devem poder se cadastrar no sistema como uma banda, com o intuito de procurar outros membros para a banda, deixando seu contato para os interessados.
+
+### 22.2 Ator Principal
+- Usuário
+
+### 22.3 Condições Prévias
+- Qualquer usuário poderá se cadastrar uma banda no sistema, estando este cadastrado ou não na plataforma Amika.
+
+### 22.4 Condições Posteriores
+- O sistema deverá mostrar uma mensagem informando que a banda foi cadastrada com sucesso. 
+
+### 22.5 Fluxo de Eventos
+#### 22.5.1 Fluxo Básico
+- O usuário acessa o sistema
+- O usuário clica em Happy and Holl
+- O usuário clica em Cadastrar Banda
+- O usuário insere as informações sobre a banda
+- O usuário salva as informações
+- O caso de uso se encerra
+
 ## 23 UC23 - Administrador Adiciona Cronograma Happy and Roll
 ### 23.1 Breve Descrição
 - O professor que administra o sistema poderá adicionar e editar as informações de um cronograma do evento Happy And Roll.
