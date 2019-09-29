@@ -1,11 +1,13 @@
 - [Introdução](introducao)
 - Projeto
   - [Documento de Visão](docs/projeto/documentovisao)
+  - [Documento de Arquitetura](docs/projeto/documentoarquitetura)
   - [Termo de Abertura do Projeto](docs/projeto/tap)
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
   - [Backlog do Produto](docs/projeto/backlog)
   - [Plano de comunicação](docs/projeto/planocomunicacao)
   - [Gerência de Configuração de Software](docs/projeto/planogerencia)
+  - [Definição de Pronto](docs/projeto/definicaopronto)
   - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
   - [Modelo Canvas](docs/projeto/canvas)
   - [Definição de Pronto](docs/projeto/definicaopronto)
