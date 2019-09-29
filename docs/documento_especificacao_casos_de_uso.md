@@ -666,12 +666,22 @@ O caso de uso começa quando uma banda já cadastrado resolve excluir seu cadast
 
 ### Condições Prévias
 - O administrador deverá estar logado no sistema.
+- Para ser possível a edição, o cronograma deve estar previamente criado.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
+#### [FB01] Adicionar Cronograma Happy and Roll
+O caso de uso se inicia quando o professor que administra o sistema decide adicionar as informações do cronograma Happy and Roll.
 - O professor loga no sistema.
-- O professor clica em adicionar cronograma Happy And Roll.
+- O professor clica em Adicionar Cronograma Happy And Roll.
 - O professor adiciona as datas e horários em que cada banda ou músico irá se apresentar.
+- O professor salva as alterações.
+- O caso de uso se encerra.
+#### [FB02] Editar Cronograma Happy and Roll
+O caso de uso se inicia quando o professor que administra o sistema decide alterar as informações do cronograma Happy and Roll.
+- O professor loga no sistema.
+- O professor clica em Editar Cronograma Happy And Roll.
+- O professor altera os dados desejados.
 - O professor salva as alterações.
 - O caso de uso se encerra.
 
