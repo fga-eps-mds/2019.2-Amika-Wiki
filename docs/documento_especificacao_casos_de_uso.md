@@ -1,8 +1,10 @@
 # Especificação dos Casos de Uso
 
 ## 1. Introdução
+O presente documento traz os casos de uso em detalhes, apresentando os fluxos básicos e os fluxos alternativos de cada caso. Expondo descriçao, atores envolvidos, condições prévias, fluxos e condições posteriores. Sendo, desse modo, uma forma completa e minunciosa de um modelo tradicional que representa como o sistema Amika funciona. 
 
 ## 2. Metodologia
+Para realizar a elaboração desse documento, a equipe utilizou as histórias de usuário apontadas no [backlog do projeto](https://fga-eps-mds.github.io/2019.2-Amika-Wiki/#/docs/projeto/backlog). Os tópicos foram separados entre os membros, para que todos colaborassem com uma parcela do documento. Os casos de uso que são descritos nesse documento estão listados no tópico abaixo.
 
 ## 3. Relação de Casos de Uso Abordados
 
