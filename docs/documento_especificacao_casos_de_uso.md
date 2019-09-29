@@ -243,7 +243,8 @@ O caso de uso se inicia quando o usuário deseja registrar o seu humor referente
 - O usuário então acessa o Humor do Dia.
 - O usuário escolhe um dos emojis. [FA01](#fa01humordodia)
 - O caso de uso se encerra.
-#### Fluxo Alternativo <a name="fa01humordodia"></a>
+#### Fluxo Alternativo 
+#### [FA01] Cancelar Ação <a name="fa01humordodia"></a>
 O caso de uso se inicia quando o usuário ao invés de selecionar um dos emojis clica em Cancelar.
 - O usuário clica em Cancelar.
 - O caso de uso se encerra.
