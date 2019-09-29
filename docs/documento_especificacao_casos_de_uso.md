@@ -69,15 +69,46 @@ ID <a name="table"></a>| Título
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-- O professor clica no icone de manter turma, na página de admin.
-- O professor preenche os dados da turma a se registrar.
-- O professor clica no ícone de excluir turma.
-- O professor clica no ícone de alterar dados de uma determinada turma.
+
+#### [FB01] - Cadastrar Turma no Sistema
+O caso de uso começa quando um usuário resolve cadastrar uma turma.
+- O usuário acessa o sistema.
+- O usuário caso seja o professor acessa a pagina de administrador.
+- O usuário clica em Turmas.
+- O usuário insere as informações sobre a nova turma.
+- O usuário salva as informações.
+- O caso de uso se encerra.
+#### [FB02] - Visualizar Informações da Turma
+O caso de uso começa quando o usuário deseja saber as informações a respeito de uma turma.
+- O usuário acessa o sistema.
+- O usuário caso seja o professor acessa a pagina de administrador.
+- O usuário clica em Turmas.
+- O usuário visualiza uma página com as informações das turmas cadastradas.
+- O caso de uso se encerra.
+
+#### Fluxo Alternativo
+#### [FA01] - Editar Informações das Turmas
+O caso de uso começa quando um usuário administrador resolve fazer alguma alteração nos dados das turmas.
+- O usuário acessa o sistema.
+- O usuário caso seja o professor acessa a pagina de administrador.
+- O usuário clica em Turmas.
+- O usuário clica em Editar Turmas.
+- O usuário altera os dados desejados.
+- O usuário salva as alterações.
+- O caso de uso se encerra.
+#### [FA02] - Deletar Cadastro de Turma 
+O caso de uso começa quando um usuário administrador já cadastrado resolve excluir determinada turma.
+- O usuário acessa o sistema.
+- O usuário caso seja o professor acessa a pagina de administrador.
+- O usuário clica em Turmas.
+- O usuário clica em Excluir Turma.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- Ficará registrado no sistema uma nova turma.
-- Ficará excluida do sistema uma turma antes existente. 
-- Ficarão alterados os dados de uma turma já existente.
+- Em [FB01] O sistema deverá registrar uma nova turma.
+- Em [FB02] O sistema deverá- mostrar as informações de uma turma determinada. 
+- Em [FA01] O sistema deverá registar as alterações feitas em uma turma determinada.
+- Em [FA01] O sistema deverá apagar as informações de uma turma determinada.
 
 
 ## [UC03](#table) - Auto Gerenciar Matrícula <a name="UC03"></a> 
@@ -115,15 +146,46 @@ ID <a name="table"></a>| Título
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-- O usuário aluno clica no ícone de seu grupo.
-- O aluno preenche os dados requeridos.
-- O aluno clica em salvar as alterações feitas.
+
+#### [FB01] - Cadastrar Grupo no Sistema
+O caso de uso começa quando um usuário resolve cadastrar seu grupo.
+- O usuário acessa o sistema.
+- O usuário clica em Meu Grupo.
+- O usuário clica em Cadastrar Grupo.
+- O usuário insere as informações sobre o grupo.
+- O usuário salva as informações.
+- O caso de uso se encerra.
+#### [FB02] - Visualizar Informações do Grupo
+O caso de uso começa quando o usuário deseja saber as informações a respeito de seu grupo.
+- O usuário acessa o sistema.
+- O usuário clica em Meu Grupo.
+- O usuário clica em Grupos Cadastradas.
+- O usuário visualiza uma página com as informações do grupo em que está cadastrado.
+- O caso de uso se encerra.
+
+#### Fluxo Alternativo
+#### [FA01] - Editar Informações do Grupo
+O caso de uso começa quando um usuário já cadastrado resolve fazer alguma alteração nos dados de seu grupo.
+- O usuário acessa o sistema.
+- O usuário clica em Meu Grupo.
+- O usuário clica em Editar Grupo.
+- O usuário altera os dados desejados.
+- O usuário salva as alterações.
+- O caso de uso se encerra.
+#### [FA02] - Deletar Cadastro do Grupo 
+O caso de uso começa quando um aluno já cadastrado resolve excluir seu grupo.
+- O usuário acessa o sistema.
+- O usuário clica em Meu Grupo.
+- O usuário clica em Editar Grupo.
+- O usuário clica em Excluir Grupo.
+- O usuário exclui os dados de seu grupo do sistema.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- Ficará registrado no sistema um novo aluno em um grupo.
-- Ficará excluido do sistema um aluno de grupo existente. 
-- ficarão alterados os dados de um grupo já existente.
-
+- Em [FB01] O sistema deverá registrar um novo grupo.
+- Em [FB02] O sistema deverá- mostrar as informações do grupo determinado. 
+- Em [FA01] O sistema deverá registar as alterações feitas no grupo determinado.
+- Em [FA01] O sistema deverá apagar as informações do grupo determinado.
 
 ## [UC05](#table) - Visualizar Perfil <a name="UC05"></a> 
 
