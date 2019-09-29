@@ -1,7 +1,7 @@
 # Especificação dos Casos de Uso
 
 ## 1. Introdução
-O presente documento traz os casos de uso em detalhes, apresentando os fluxos básicos e os fluxos alternativos de cada caso. Expondo descriçao, atores envolvidos, condições prévias, fluxos e condições posteriores. Sendo, desse modo, uma forma completa e minunciosa de um modelo tradicional que representa como o sistema Amika funciona. 
+O presente documento traz os casos de uso em detalhes, apresentando os fluxos básicos e os fluxos alternativos de cada caso. Expondo descrição, atores envolvidos, condições prévias, fluxos e condições posteriores. Sendo, desse modo, uma forma completa e minunciosa de um modelo tradicional que representa como o sistema Amika funciona. 
 
 ## 2. Metodologia
 Para realizar a elaboração desse documento, a equipe utilizou as histórias de usuário apontadas no [backlog do projeto](https://fga-eps-mds.github.io/2019.2-Amika-Wiki/#/docs/projeto/backlog). Os tópicos foram separados entre os membros, para que todos colaborassem com uma parcela do documento. Os casos de uso que são descritos nesse documento estão listados no tópico abaixo.
@@ -20,9 +20,9 @@ ID <a name="table"></a>| Título
 [UC08](#UC08) | Visualizar Gráfico de Humor da Turma
 [UC09](#UC09) | Mandar Notificação Push
 [UC10](#UC10) | Manter Agendas da Felicidade
-[UC11](#UC11) | Realizar Agendas da Falicidade
-[UC12](#UC12) | Compartilhar Agenda
-[UC13](#UC13) | Avaliar Agenda
+[UC11](#UC11) | Realizar Agendas da Felicidade
+[UC12](#UC12) | Compartilhar Agenda da Felicidade
+[UC13](#UC13) | Avaliar Agenda da Felicidade
 [UC14](#UC14) | Adicionar Recepção da Semana
 [UC15](#UC15) | Realizar Atividades do Produto Final de Felicidade
 [UC16](#UC16) | Manter Enquete
@@ -36,24 +36,41 @@ ID <a name="table"></a>| Título
 
 ## 4. Especificação
 
-## [UC01](#table) - Gerenciar Aluno <a name="UC01"></a>
+## [UC01](#table) - Gerenciar Alunos <a name="UC01"></a>
 
 ### Breve Descrição
-- O professor que administra o sistema deve ter a opção de cadastrar o aluno.
+- O professor que administra o sistema deve ter a opção de cadastrar um aluno específico, cadastrar lista de alunos por meio de um arquivo CSV e remover aluno.
 
 ### Ator Principal
 - Administrador.
 
 ### Condições Prévias
-- Existir no sistema as entidades professor e aluno.
+- O professor deve estar logado no sistema.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-- O professor clica no icone de registrar aluno, na página de admin.
+#### [FB01] Cadastrar Aluno Específico <a name = "fb01gerenciaralunos"></a>
+O caso de uso se inicia quando o professor decide cadastrar um novo aluno.
+- O professor clica no ícone de Registrar Aluno, na página de admin.
 - O professor preenche os dados do aluno a se registrar.
+- O professor salva os dados.
+- O caso de uso se encerra.
+#### [FB02] Cadastrar lista de alunos via CSV <a name = "fb02gerenciaralunos"></a>
+O caso de uso se inicia quando o professor decide cadastrar uma lista de alunos retirando seus dados de um arquivo CSV.
+- O professor clica no ícone de Registrar Alunos Via CSV.
+- O professor envia o arquivo CSV para o sistema.
+- O professor salva as alterações.
+- O caso de uso se encerra.
+#### [FB03] Remover aluno <a name = "fb03gerenciaralunos"></a>
+O caso de uso se inicia quando o professor decide deletar um aluno do sistema.
+- O professor clica no ícone de Remover Aluno, na página de admin.
+- O professor salva a alteração.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- Ficara registrado no sistema um novo aluno.
+- Em [FB01](#fb01gerenciaralunos) ficará registrado no sistema um novo aluno.
+- Em [FB02](#fb02gerenciaralunos) ficará registrado uma lista de novos alunos no sistema.
+- Em [FB03](#fb03gerenciaralunos) um cadastro de aluno estará removido do sistema.
 
 
 ## [UC02](#table) - Manter turma <a name="UC02"></a> 
@@ -65,50 +82,41 @@ ID <a name="table"></a>| Título
 - Administrador.
 
 ### Condições Prévias
-- Existir no sistema as entidades professor e turmas.
+- O professor administrador deverá estar logado no sistema.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
 
-#### [FB01] - Cadastrar Turma no Sistema
-O caso de uso começa quando um usuário resolve cadastrar uma turma.
-- O usuário acessa o sistema.
-- O usuário caso seja o professor acessa a pagina de administrador.
-- O usuário clica em Turmas.
-- O usuário insere as informações sobre a nova turma.
-- O usuário salva as informações.
+#### [FB01] - Cadastrar Turma no Sistema <a name = "fb01manterturma"></a>
+O caso de uso começa quando o professor resolve cadastrar uma turma.
+- O professor clica em Turmas.
+- O professor insere as informações sobre a nova turma.
+- O professor salva as informações.
 - O caso de uso se encerra.
-#### [FB02] - Visualizar Informações da Turma
-O caso de uso começa quando o usuário deseja saber as informações a respeito de uma turma.
-- O usuário acessa o sistema.
-- O usuário caso seja o professor acessa a pagina de administrador.
-- O usuário clica em Turmas.
-- O usuário visualiza uma página com as informações das turmas cadastradas.
-- O caso de uso se encerra.
+#### [FB02] - Visualizar Informações da Turma <a name = "fb02manterturma"></a>
+O caso de uso começa quando o professor deseja saber as informações a respeito de uma turma.
+- O professor clica em Turmas.
+- O professor visualiza uma página com as informações das turmas cadastradas.
+- O caso de uso se encerra. [[FA01]](#fa01manterturma) [[FA02]](#fa02manterturma)
 
 #### Fluxo Alternativo
-#### [FA01] - Editar Informações das Turmas
-O caso de uso começa quando um usuário administrador resolve fazer alguma alteração nos dados das turmas.
-- O usuário acessa o sistema.
-- O usuário caso seja o professor acessa a pagina de administrador.
-- O usuário clica em Turmas.
-- O usuário clica em Editar Turmas.
-- O usuário altera os dados desejados.
-- O usuário salva as alterações.
+#### [FA01] - Editar Informações das Turmas <a name = "fa01manterturma"></a>
+O caso de uso começa quando o professor administrador resolve fazer alguma alteração nos dados das turmas.
+- O professor clica em Editar Turmas.
+- O professor altera os dados desejados.
+- O professor salva as alterações.
 - O caso de uso se encerra.
-#### [FA02] - Deletar Cadastro de Turma 
-O caso de uso começa quando um usuário administrador já cadastrado resolve excluir determinada turma.
-- O usuário acessa o sistema.
-- O usuário caso seja o professor acessa a pagina de administrador.
-- O usuário clica em Turmas.
-- O usuário clica em Excluir Turma.
+#### [FA02] - Deletar Cadastro de Turma <a name = "fa02manterturma"></a>
+O caso de uso começa quando o professor administrador resolve excluir determinada turma.
+- O professor clica em Excluir Turma.
+- O professor confirma as alterações.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
-- Em [FB01] O sistema deverá registrar uma nova turma.
-- Em [FB02] O sistema deverá- mostrar as informações de uma turma determinada. 
-- Em [FA01] O sistema deverá registar as alterações feitas em uma turma determinada.
-- Em [FA01] O sistema deverá apagar as informações de uma turma determinada.
+- Em [FB01](#fb01manterturma) O sistema deverá registrar uma nova turma.
+- Em [FB02](#fb02manterturma) O sistema deverá- mostrar as informações de uma turma determinada. 
+- Em [FA01](#fa01manterturma) O sistema deverá registar as alterações feitas em uma turma determinada.
+- Em [FA01](#fa02manterturma) O sistema deverá apagar as informações de uma turma determinada.
 
 
 ## [UC03](#table) - Auto Gerenciar Matrícula <a name="UC03"></a> 
@@ -117,16 +125,21 @@ O caso de uso começa quando um usuário administrador já cadastrado resolve ex
 - O aluno deve ter a opção de fazer o próprio cadastro no sistema.
 
 ### Ator Principal
-- Aluno usuário.
+- Usuário.
 
 ### Condições Prévias
-- Deve estar no sistema a entidade aluno.
+- O usuário deve acessar a página do sistema Amika.
+- O usuário deve estar previamente matriculado na disciplina Felicidade da Universidade de Brasília.
+- A matrícula do usuário deve estar previamente cadastrada no sistema Amika.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-- O aluno clica em cadastrar na página inicial da aplicação.
+#### [FB01] Realizar cadastro
+O caso de uso se inicia quando o aluno resolve fazer seu cadastro no sistema Amika.
+- O aluno clica em Cadastrar na página inicial da aplicação.
 - O aluno preenche os dados requeridos.
-- O aluno clica em matricular.
+- O aluno clica em Matricular.
+- O caso de uso se encerra.
 
 ### 3.4 Condições Posteriores
 - Vai estar cadastrado no sistema um novo usuário aluno.
@@ -193,18 +206,17 @@ O caso de uso começa quando um aluno já cadastrado resolve excluir seu grupo.
 - Usuário deseja visualizar informações sobre o seu perfil, como: pontuação no índice de felicidade autêntica, total de pontos, informações básicas do usuário, etc.
 
 ### Ator Principal
-- Usuário aluno.
+- Usuário.
 
 ### Condições Prévias
-- O usuário deve ter vínculo com a instituição.
 - O usuário deve estar logado.
 
 ### Fluxo de Eventos
-- O usuário irá visualizar o status atual de seus dados de perfil
 #### Fluxo Básico
-O fluxo básico é composto de passos que o usuário seguirá para poder visualizar seus dados.
+#### [FB01] Visualizar dados do próprio perfil
+O caso de uso se inicia quando o usuário deseja visualizar as informações de seu perfil.
 - O usuário faz login no sistema
-- O usuário clica em perfil
+- O usuário clica em Perfil
 - O caso de uso encerra
 
 ### Condições Posteriores
@@ -217,28 +229,27 @@ O fluxo básico é composto de passos que o usuário seguirá para poder visuali
 - Essa funcionalidade oferece uma lista de emojis para que o usuário selecione apenas um  e dessa maneira o sistema classifica o humor que o ele está vivenciando no dia. 
 
 ### Ator Principal
-- Usuário aluno.
+- Usuário.
 
 ### Condições Prévias
-- O usuário deve estar logado no sistema
-- O usuário deve ter vínculo com a instituição.
-- O usuário ainda não pode ter selecionado um humor para aquele dia
+- O usuário deve estar logado no sistema.
+- O usuário ainda não pode ter selecionado um humor para aquele dia.
 
 ### Fluxo de Eventos
-- O usuário irá selecionar o emoji que mais se aproxima do humor que ele está passando naquele dia.
 #### Fluxo Básico
-Esse fluxo se inicia quando o usuário deseja registrar o seu humor referente ao dia atual.
-- O usuário acessa o perfil.
-- O usuário então acessa o humor do dia.
-- O usuário escolhe um dos emojis.
-#### Fluxo Alternativo
-Esse fluxo se inicia quando o usuário ao invés de selecionar um dos emojis clica em "Cancelar".
-- O usuário clica em "Cancelar".
+#### [FB01] Registrar Humor do Dia
+O caso de uso se inicia quando o usuário deseja registrar o seu humor referente ao dia atual.
+- O usuário acessa o Perfil.
+- O usuário então acessa o Humor do Dia.
+- O usuário escolhe um dos emojis. [FA01](#fa01humordodia)
+- O caso de uso se encerra.
+#### Fluxo Alternativo <a name="fa01humordodia"></a>
+O caso de uso se inicia quando o usuário ao invés de selecionar um dos emojis clica em Cancelar.
+- O usuário clica em Cancelar.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
-- Visualizar o gráfico baseado em todos os humores do usuário até o atual dia.
-- O caso de uso encerra.
+- Possibilidade de visualizar o gráfico baseado em todos os humores do usuário até o atual dia.
 
 ## [UC07](#table) - Visualizar Dashboard dos Grupos <a name="UC07"></a> 
 
@@ -253,15 +264,15 @@ Esse fluxo se inicia quando o usuário ao invés de selecionar um dos emojis cli
 - Devem existir grupos cadastrados no sistema.
 
 ### Fluxo de Eventos
-- O administrador irá ter acesso as informações básicas de cada grupo cadastrado por meio dos cards.
-- O administrador pode saber mais sobre cada grupo acessando a página do grupo por meio do link no card.
 #### Fluxo Básico
-Esse fluxo se inicia quando o administrador deseja ver os dados de todos os grupos ou de apenas um grupo cadastrado.
-- O administrador acessa "Grupos"
-- O adminstrador acessa "Listar grupos".
-- O caso de uso se encerra.
+#### [FB01] Visualizar Lista de Grupos Cadastrados
+O caso de uso se inicia quando o administrador deseja ver os dados de todos os grupos ou de apenas um grupo cadastrado.
+- O administrador acessa Grupos.
+- O adminstrador acessa Listar grupos.
+- O caso de uso se encerra. [FA01](#fa01dashboardgrupos)
 #### Fluxo Alternativo
-Esse fluxo se inicia quando o administrador deseja acessar mais informações além das básicas que o card oferece.
+#### [FA01] Visualizar Dados de Um Grupo Específico <a name="fa01dashboardgrupos"></a>
+O caso de uso se inicia quando o administrador deseja acessar mais informações além das básicas que o card oferece.
 - O administrador acessa o link no card.
 - O caso de uso se encerra.
 
@@ -283,10 +294,9 @@ Esse fluxo se inicia quando o administrador deseja acessar mais informações al
 - Ao menos uma turma deve estar cadastrada no sistema.
 
 ### Fluxo de Eventos
-- O administrador acessará todas as turmas.
-- O administrador terá acesso ao gráfico de humor de cada turma.
 #### Fluxo Básico
-Esse fluxo se inicia quando o administrador lista turmas e deseja ver humor de determinada turma.
+#### [FB01] Visualizar Gráfico de Humor
+O caso de uso se inicia quando o administrador deseja ver humor de determinada turma.
 - O administrador acessa "Turmas".
 - O administrador então seleciona a turma que deseja ver o gráfico de humor.
 - O administrador acessa o gráfico de humor da turma desejada.
@@ -309,21 +319,23 @@ Esse fluxo se inicia quando o administrador lista turmas e deseja ver humor de d
 - Deve existir ao menos uma turma cadastrada no sistema.
 
 ### Fluxo de Eventos
-- O administrador irá ter acesso às turmas e poderá enviar notificações para os alunos de uma determinada turma.
 #### Fluxo Básico
-Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos alunos de uma turma.
-- O administrador acessa "Turmas".
+#### [FB01] Enviar Notificação
+O caso de uso se inicia quando o administrador deseja enviar uma notificação aos alunos de uma turma.
+- O administrador acessa Turmas.
 - O administrador escolhe uma das turmas.
 - O administrador digita a mensagem que ele deseja enviar.
 - O administrador envia a notificação.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
+- Os usuários cadastrados na turma recebem a notificação.
+
 
 ## [UC10](#table) - Manter Agendas da Felicidade <a name="UC10"></a>
 
 ### Breve descrição
-- Essa funcionalidade permite ao administrador criar, editar ou deletar agendas.
+- Essa funcionalidade permite ao administrador criar, visualizar, editar ou deletar Agendas da Felicidade, que são atividades que devem ser realizadas pelos alunos ao longo do semestre.
 
 ### Ator Principal
 - Administrador.
@@ -332,22 +344,31 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O administrador deve estar logado.
 
 ### Fluxo de Eventos
-- O administrador criará uma agenda (atividade).
-- Os usuários poderão visualizar a agenda.
 #### Fluxo Básico
-- O administrador acessa "Agendas".
-- O administrador cria uma agenda.   
+#### [FB01] Adicionar Agendas da Felicidade
+O caso de uso se inicia quando o professor que administra o sistema resolve adicionar uma Agenda da Felicidade.
+- O administrador acessa Agendas.
+- O administrador adiciona as informações da Agenda.
+- O caso de uso se encerra.
+#### [FB02] Visualizar Agendas da Felicidade
+O caso de uso se inicia quando o professor que administra o sistema decide visualizar as informações de uma Agenda da Felicidade já criada.
+- O administrador acessa Agendas.
+- O administrador visualiza as agendas existentes.
+- O administrador clica na Agenda desejada.
+- O administrador visualiza o conteúdo desejado.
+- O caso de uso se encerra. [[FA01]](#fa01agendadafelicidade) [[FA02]](#fa02agendadafelicidade)
+
 #### Fluxo Alternativo
-**[FA01] - Deletar agenda** 
-- O administrador acessa "Agendas".
-- O administrador visualiza as agendas existentes.
-- O administrador escolhe uma agenda.
+#### [FA01] - Deletar Agenda da Felicidade <a name="fa01agendadafelicidade"></a>
+O caso de uso se inicia quando o professor resolve deletar alguma Agenda.
 - O administrador deleta a agenda escolhida.  
-**[FA02] - Editar agenda**
-- O administrador acessa "Agendas".
-- O administrador visualiza as agendas existentes.
-- O administrador escolhe uma agenda.
+- As alterações são salvas.
+- O caso de uso se encerra.
+#### [FA02] - Editar Agenda da Felicidade <a name="fa02agendadafelicidade"></a>
+O caso de uso se inicia quando o professor resolve editar alguma Agenda.
 - O administrador edita a agenda escolhida.  
+- As alterações são salvas.
+- O caso de uso se encerra.
 
 ### Condições posteriores
 - Visualização da(s) agenda(s) pelos usuários.
@@ -367,15 +388,18 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-- O usuário acessa "Agendas".
-- O usuário escolhe uma agenda.   
+#### [FB01] Realizar Agenda
+O caso de uso se inicia quando o usuário deseja realizar uma Agenda da Felicidade. 
+- O usuário acessa Agendas.
+- O usuário escolhe uma Agenda.   
 - O usuário envia a resposta da agenda.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
 - Visualização da resposta pelo administrador.
 
 
-## [UC12](#table) - Compartilhar Agenda <a name="UC12"></a>
+## [UC12](#table) - Compartilhar Agenda da Felicidade<a name="UC12"></a>
 
 ### Breve Descrição
 - Essa funcionalidade permite ao usuário compartilhar sua agenda pessoal semanal com seus colegas de turma.
@@ -387,47 +411,47 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O usuário deve estar logado.
 
 ### Fluxo de Eventos
-- O usuário compartilha sua agenda semanal de atividades com seus colegas.
-- A agenda do aluno estará disponível para que a visualização seja possível por outros alunos. 
 #### Fluxo Básico
-- O usuário acessa "Agenda pessoal".
+#### [FB01] Compartilhar Agenda
+O caso de uso se inicia quando o usuário resolve compartilhar sua agenda semanal de atividades com seus colegas.
+- O usuário acessa Agenda Pessoal.
 - O usuário compartilha suas atividades semanais.
-- O a agenda semanal do usuário se torna disponível para a visualização por outros usuários.
+- A agenda semanal do usuário é compartilhada com seus colegas de turma.
 - O caso de uso se encerra.
 
 ### 12.4 Condições Posteriores
-- A agenda semanal do usuário é compartilhada com seus colegas de turma.
+- A agenda do aluno estará disponível para que a visualização seja possível por outros alunos. 
 
 
-## [UC13](#table) - Avaliar Agenda <a name="UC13"></a>
+## [UC13](#table) - Avaliar Agenda da Felicidade <a name="UC13"></a>
 
 ### Breve Descrição
-- Esta funcionalidade permite ao usuário avaliar as atividades que foram passadas, com objetivo de avaliar quais foram as mais interessantes de se realizar.
+- Esta funcionalidade permite ao usuário avaliar as Agendas que foram passadas, com objetivo de avaliar quais foram as mais interessantes de se realizar.
 
 ### Ator Principal
 - Usuário.
 
 ### Condições Prévias
 - O usuário deve estar logado.
-- Atividades devem ter sido realizadas para que o usuário possa avaliá-las.
+- As agendas devem ter sido realizadas para que o usuário possa avaliá-las.
 
 ### Fluxo de Eventos
-- O usuário, logado, avalia (1 a 5 estrelas) atividades já realizadas de acordo com seu nível de satisfação com aquela atividade.
-- O administrador tem acesso às avaliações feitas pelos alunos, e assim tem controle sobre os tipos de atividades que mais satisfazem os alunos.
 #### Fluxo Básico
-- O usuário acessa "Atividades" e seleciona uma atividade já realizada.
-- O usuário avalia essa atividade de 1 a 5 estrelas, de acordo com seu nível de satisfação com esta atividade.
-- O administrador tem acesso a todas as avaliações feitas, tendo, assim, controle sobre os tipos de atividade que mais satisfazem os alunos.
+#### [FB01] Realizar avaliação de Agenda da Felicidade
+O caso de uso se inicia quando o usuário resolve avaliar uma Agenda já realizada.
+- O usuário acessa Agenda e seleciona uma atividade já realizada.
+- O usuário avalia essa Agenda de 1 a 5 estrelas, de acordo com seu nível de satisfação com esta atividade.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
 - O administrador poderá visualizar as atividades mais interessantes de se realizar, comparando a avaliação de cada tipo de atividade.
+- O administrador tem acesso às avaliações feitas pelos alunos, e assim tem controle sobre os tipos de atividades que mais satisfazem os alunos.
 
 
 ## [UC14](#table) - Adicionar Recepção da Semana <a name="UC14"></a>
 
 ### Breve Descrição
-- Essa funcionalidade permite aos alunos adicionar um evento chamado "recepção" com o objetivo de informar ao professor sobre atividades realizadas nessa recepção. As recepções são eventos que ocorrem
+- Essa funcionalidade permite aos alunos adicionar um evento chamado Recepção com o objetivo de informar ao professor sobre atividades realizadas nessa recepção.
 
 ### Ator Principal
 - Usuário.
@@ -436,11 +460,11 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O usuário deve estar logado.
 
 ### Fluxo de Eventos
-- O usuário cria uma recepção com atividades a serem realizadas.
-- A partir disso, o administrador pode ver e controlar as atividades realizadas nas recepções.
 #### Fluxo Básico
+#### [FB01] Adicionar Recepção
+O caso de uso se inicia quando o usuário precisa adicionar sua Recepção da Semama.
+- O usuário clica em Recepção.
 - O usuário cria uma recepção e adiciona as atividades a serem realizadas na recepção.
-- O administrador poderá, então, visualizar e controlar a recepção.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
@@ -459,17 +483,15 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O usuário deve estar logado.
 
 ### Fluxo de Eventos
-- O usuário envia suas atividades ao decorrer do semestre.
-- O administrador terá acesso ao informativo em formato de linha do tempo quanto ao andamento do projeto.
 #### Fluxo Básico
+#### [FB01] Realizar Atividade
 - O usuário acessa "Atividades".
 - O usuário seleciona o arquivo que deseja enviar e cria uma descrição.
 - O usuário então envia a atividade desejada.
-- O professor acessa a linha do tempo de atividades daquele usuário.
 - O caso de uso se encerra.
 
 ### Condições Posteriores
-- Visualização do andamento do produto final da disciplina.
+- Visualização do andamento do produto final da disciplina pelo professor.
 
 
 ## [UC16](#table) - Manter Enquete <a name="UC16"></a>
@@ -520,6 +542,7 @@ O caso de uso começa quando o administrador deseja editar uma enquete criada pr
 - Em [FA01](#FA01enquete) O sistema deverá deletar a enquete selecionada e exibir uma mensagem informando que a enquete foi deletada
 - Em [FA02](#FA02enquete) O sistema deverá alterar os dados da enquete e exibir uma mensagem informando que a enquete foi editada
 
+
 ## [UC17](#table) - Manter Thread <a name="UC17"></a>
 
 ### Breve Descrição
@@ -533,8 +556,6 @@ O caso de uso começa quando o administrador deseja editar uma enquete criada pr
 - Tópico deve estar criado no mural.
 
 ### Fluxo de Eventos
-- Um usuário criará um tópico para discussão.
-- Outros usuários criarão comentários naquele tópico
 #### Fluxo Básico
 #### [FB01] - Criar Thread em um tópico<a name="FB01thread"></a>
 O caso de uso começa quando um usuário resolve criar uma thread em um tópico criado previamente
@@ -567,36 +588,56 @@ O caso de uso começa quando o usuário editar uma thread de sua autoria criada 
 - Em [FA01](#FA01thread) o sistema deverá deletar a thread selecionada e mostrar uma mensagem informando que a thread foi deletada.
 - Em [FA02](#FA02thread) o sistema deverá editar a thread selecionada e mostrar uma mensagem informando que a thread foi editada.
 
+
 ## [UC18](#table) - Manter Mural <a name="UC18"></a>
 
 ### Breve Descrição
-- Consiste em criar um canal de comunicação dinâmico entre os alunos e o professor, criando algo similar a um mural, a onde o aluno entrará e poderá ver as atividades propostas pelo o professor.
+- Consiste em criar um canal de comunicação dinâmico entre os alunos e o professor, criando algo similar a um fórum, onde poderão ser criados tópicos. Além de ser possível a visualização, edição, e exclusão desses tópicos.
 
 ### Ator Principal
-- Administrador.
+- Usuário.
 
 ### Condições Prévias
-- O aluno deve estar cadastrado e logado.
+- O usuário deve estar cadastrado e logado.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-O fluxo básico se inicia no momento que o professor adicionar alguma atividade no mural.
-- O professor acessar a página do mural.
-- O professor seleciona a opção de criar uma atividade.
-- O professor especifica como será a atividade é posta ela.
+#### [FB01] Criar Tópico
+O caso de uso se inicia no momento que um usuário resolver adicionar algum tópico no Mural.
+- O usuário acessa o Mural.
+- O usuário cria um tópico.
+- O usuário adiciona as informações desejadas no tópico.
+- O usuário publica o tópico.
+- O caso de uso se encerra.
+#### [FB02] Visualizar Tópico
+O caso de uso se inicia quando um usuário deseja visualizar algum tópico publicado por ele.
+- O usuário acessa o Mural.
+- O usuário clica em Meus Tópicos.
+- O usuário visualiza uma lista com os tópicos que ele publicou.
+- O usuário clica no tópico desejado e visualiza as informações sobre ele.
+- O caso de uso se encerra. [[FA01]](#fa01mantermural) [[FA02]](#fa02mantermural)
+
 #### Fluxo Alternativo
-O fluxo alternativo irá se iniciar quando o aluno acessar a página do mural.
-- O aluno acessar a página do mural.
-- O aluno seleciona a atividade desejada.
-- O aluno tem acesso como será feita tal atividade e seus requisitos
+#### [FA01] Editar Tópico <a name="#fa01mantermural"></a>
+O caso de uso se inicia quando o usuário resolve editar um tópico criado por ele.
+- O aluno clica em Editar Tópico.
+- O aluno realiza as alterações desejadas.
+- O aluno salva as alterações.
+- O caso de uso se encerra.
+#### [FA02] Deletar Tópico <a name="#fa02mantermural"></a>
+O caso de uso se inicia quando o usuário resolve deletar um tópico criado por ele.
+- O aluno clica em Deletar Tópico.
+- O aluno confirma a ação.
+- O tópico é deletado.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- O aluno e o professor terá acesso a todas atividades propostas, e o professor terá a possibilidades de criar outras.
+- Alunos usuários do sistema e professor administrador terão acesso ao tópicos adicionados e suas alterações.
 
 ## [UC19](#table) - Visualizar Informações de Atendimento Psicológico <a name="UC19"></a>
 
 ### Breve Descrição
-- Criar uma área informativa, a onde o aluno poderá ver procurar ajuda psicologia e outros canais que possa ser de ajuda, contendo números de contato, e-mails e afins, para facilitar o aluno encontrar a ajuda que ele precisa.
+- Criar uma área informativa, a onde o aluno poderá ver procurar ajuda psicológica e outros canais que possam ser de ajuda, contendo números de contato, e-mails e afins, para facilitar o aluno encontrar atendimento especializado.
 
 ### Ator Principal
 - Usuário.
@@ -606,10 +647,11 @@ O fluxo alternativo irá se iniciar quando o aluno acessar a página do mural.
 
 ### Fluxo de Eventos
 #### Fluxo Básico
-O aluno acessa uma página onde ele pode conseguir a ajuda que precisa.
+#### [FB01] Acessar a Página com as Informações
+O caso de uso se inicia quando um usuário deseja saber informações sobre atendimento psicológico especializado.
 - O aluno acessa a página de área informativa.
-- O aluno escolhe o tipo de ajuda que precisa.
-- O aluno tem acesso aos meios de ajuda necessário
+- O aluno visualiza as informações desejadas.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
 - O aluno terá acesso a todos os meios de ajuda disponível na página.
@@ -623,22 +665,39 @@ O aluno acessa uma página onde ele pode conseguir a ajuda que precisa.
 - Administrador.
 
 ### 20.4 Condições Prévias
-- O aluno deve estar cadastrado e logado.
+- O administrador deve estar logado.
 
 ### Fluxo de Eventos
-### Fluxo Básico
-O fluxo básico se inicia no momento que o professor adicionar algum conteúdo na área de compartilhamento.
-- O professor acessar a página de compartilhamento.
-- O professor seleciona a opção de enviar conteúdo.
+#### Fluxo Básico
+#### [FB01] Adicionar Material
+O caso de uso se inicia no momento que o professor deseja adicionar algum conteúdo na área de compartilhamento.
+- O professor acessa a página de compartilhamento.
+- O professor seleciona a opção de Enviar Material.
 - O professor escolhe o conteúdo e o envia.
-### Fluxo Alternativo
-O fluxo alternativo irá se iniciar quando o aluno acessar a página de compartilhamento.
-- O aluno acessar a página de compartilhamento.
-- O aluno seleciona o conteúdo desejado.
-- O aluno tem acesso ao conteúdo desejado.
+- O caso de uso se encerra
+#### [FB02] Visualizar Material
+O caso de uso se inicia quando o professor deseja visualizar algum conteúdo de um Material compartilhado.
+- O professor acessa a página de compartilhamento.
+- O professor seleciona a opção de Visualizar Material.
+- O professor visualiza o Material desejado.
+- O caso de uso se encerra. [[FA01]](#fa01mantermaterial) [[FA02]](#fa02mantermaterial)
+
+#### Fluxo Alternativo
+#### [FA01] Editar Material <a name="fa01mantermaterial"></a>
+O caso de uso se inicia quando o professor deseja editar algum Material já compartilhado.
+- O professor clica em Editar Material.
+- O professor realiza as alterações desejadas.
+- O professor confirma as alterações.
+- O caso de uso se encerra.
+#### [FA02] Deletar Material <a name="fa02mantermaterial"></a>
+O caso de uso se inicia quando o professor deseja deletar algum Material já compartilhado.
+- O professor clica em Deletar Material.
+- O professor confirma a ação.
+- O material é deletado.
+- O caso de uso se encerra.
 
 ### Condições Posteriores
-- O aluno e o professor terá acesso a todo conteúdo disponível na página, e o professor terá a possibilidades de enviar mais conteúdo.
+- O aluno e o professor terão acesso a todo conteúdo disponível na página de compartilhamento de Material.
 
 ## [UC21](#table) - Manter Músico <a name="UC21"></a>
 
