@@ -431,10 +431,10 @@ Esse fluxo se inicia quando o administrador deseja enviar uma notificação aos 
 - O administrador então seleciona a opção "Criar enquete".
 - O administrador informa os dados da enquete a ser criada.
 - O administrador clica na opção de criar a enquete.
+#### [FB02] - Criação e votação de enquete <a name="FB02enquete"></a>
 - Os usuários acessam "Mural".
-- Os usuários escolhem o seu voto.
-- O administrador visualiza os resultados da enquete.
-- O caso de uso se encerra.
+- Os usuários escolhem a enquete a ser votada.
+- Os usuários fazem sua votação.
 
 #### Fluxo Alternativo
 #### [FA01] - Deletar enquete <a name="FA01enquete"></a>
@@ -451,7 +451,8 @@ O caso de uso começa quando o administrador deseja editar uma enquete criada pr
 - O administrador edita a enquete.
 
 ### Condições Posteriores
-- Em [FB01](#FB01enquete) O sistema deve disponibilizar a visualização dos resultados da enquete.
+- Em [FB01](#FB01enquete) O sistema deve disponibilizar a visualização da enquete para que os usuários votem.
+- Em [FB02](#FB01enquete) O sistema deve disponibilizar a visualização dos resultados da enquete.
 - Em [FA01](#FA01enquete) O sistema deverá deletar a enquete selecionada e exibir uma mensagem informando que a enquete foi deletada
 - Em [FA02](#FA02enquete) O sistema deverá alterar os dados da enquete e exibir uma mensagem informando que a enquete foi editada
 
@@ -474,9 +475,8 @@ O caso de uso começa quando o administrador deseja editar uma enquete criada pr
 #### [FB01] - Criar Thread em um tópico<a name="FB01thread"></a>
 O caso de uso começa quando um usuário resolve criar uma thread em um tópico criado previamente
 - O usuário acessa "Mural".
-- O usuário cria um tópico a ser discutido.
-- Outro usuário acessa "Mural".
-- O outro usuário vê o tópico criado e seleciona a opção "Comentar".
+- O usuário acessa tópico a ser discutido.
+- O usuário vê o tópico criado previamente e seleciona a opção "Comentar".
 - O outro usuário cria seu comentário e salva.
 - Os usuários poderão visualizar os comentários criados nos tópicos do mural.
 - O caso de uso se encerra.
@@ -489,7 +489,7 @@ O caso de uso começa quando o usuário deseja deletar uma thread de sua autoria
 - O usuário acessa um dos tópicos.
 - O usuário acessa a thread de sua criação.
 - O usuário seleciona a opção de deletar a thread.  
-#### [FA02] - Editar Informações da Banda <a name="FA02thread"></a>
+#### [FA02] - Editar Thread <a name="FA02thread"></a>
 O caso de uso começa quando o usuário editar uma thread de sua autoria criada previamente 
 - O usuário acessa "Mural".
 - O usuário visualiza os tópicos existentes.
