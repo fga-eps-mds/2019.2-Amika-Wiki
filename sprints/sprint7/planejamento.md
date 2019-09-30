@@ -29,24 +29,6 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
  
 | História | É Dívida Técnica? |
 | -------- | :----: |
-| US01 - Cadastrar Usuário | :white_check_mark: |
-| US02 - Manter turma | :x: |
-| US03 - Auto gerenciar matricula | :x: |
-| DOC12 - Documento de arquitetura | :white_check_mark: |
-| DOC20 - Adicionando Roadmap do Product Owner | :x: |
-| DOC22 - Canvas do projeto | :x: |
-| DOC23 - Adicionar Manual de Identidade Visual da aplicação | :x: |
-| DOC24 - Refatorar wiki | :x: |
-| DOC25 - Plano de metodologia | :x: |
-| DOC26 - Criar EVM | :x: |
-| DOC27 - Definição de pronto | :x: |
-| DOC28 - Roadmap do Scrum Master | :x: |
-| DOC30 - Burndown Riscos | :x: |
-| DOC32 - Documentar resultado sprint 5 e planejamento sprint 6 | :x: |
-| AMB03 - Configurar Deploy continuo de produção do backend | :white_check_mark: | 
-| AMB05 - Configurar Deploy continuo de homologação do backend | :white_check_mark: | 
-| AMB08 - Configurar Deploy continuo de produção do frontend | :white_check_mark: | 
-| AMB09 - Configurar Deploy continuo de homologação do frontend | :white_check_mark: | 
 
 | DOC31 - Documentar Roadmap de Deploy | :x: |
 | DOC29 - Adicionar healthcheck | :x: |
