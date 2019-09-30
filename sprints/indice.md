@@ -18,3 +18,6 @@
     - [Resultado](sprints/sprint5/resultado)
 - Sprint 6
     - [Planejamento](sprints/sprint6/planejamento)
+    - [Resultado](sprints/sprint6/resultado)
+- Sprint 7
+    - [Planejamento](sprints/sprint7/planejamento)
