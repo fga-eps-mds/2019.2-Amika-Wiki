@@ -1,9 +1,8 @@
 <p align="center">
     <a src="https://fga-eps-mds.github.io/2019.2-Amika-Wiki/">
-        <img src="./assets/img/logo.png">
+        <img src="./assets/img/AmikaComNome.png">
     </a>
 </p>
-    <h1 align="center">Amika</h1>
 
 
 #### [Amika-Backend](https://github.com/fga-eps-mds/2019.2-Amika-Backend)
