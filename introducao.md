@@ -1,4 +1,4 @@
-<p align="center"> <img src="assets/img/logo.png" width="auto" height="300" />
+<p align="center"> <img src="assets/img/AmikaComNome.png" width="auto" height="300" />
 <br>
 
 # Introdução
