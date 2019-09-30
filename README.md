@@ -1,4 +1,10 @@
-# Amika
+<p align="center">
+    <a src="https://fga-eps-mds.github.io/2019.2-Amika-Wiki/">
+        <img src="./assets/img/logo.png">
+    </a>
+</p>
+    <h1 align="center">Amika</h1>
+
 
 #### [Amika-Backend](https://github.com/fga-eps-mds/2019.2-Amika-Backend)
 [![Build Status](https://travis-ci.org/fga-eps-mds/2019.2-Amika-Backend.svg?branch=master)](https://travis-ci.org/fga-eps-mds/2019.2-Amika-Backend)
