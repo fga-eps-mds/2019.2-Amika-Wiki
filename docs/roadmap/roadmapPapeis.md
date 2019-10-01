@@ -20,8 +20,8 @@
 ## Roadmap do Scrum Master
 
 ### Release 1
-![](../../imagens/roadmap_scrum/Roadmap_sm_r1.png)  
+![](../../assets/img/roadmap_scrum/Roadmap_sm_r1.png)  
 
 
 ### Release 2
-![](../../imagens/roadmap_scrum/Roadmap_sm_r2.png)  
+![](../../assets/img/roadmap_scrum/Roadmap_sm_r2.png)  
