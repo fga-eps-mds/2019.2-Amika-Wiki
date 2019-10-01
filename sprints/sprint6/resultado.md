@@ -87,16 +87,16 @@
 * Compartilhamento de informação entre pareamentos
 
 # 3. Burndown Chart
-![Sprint 6 - Burndown](../../imagens/burndown/burndown6.png)
+![Sprint 6 - Burndown](../../assets/img/burndown/burndown6.png)
 
 # 4. Velocity
-![Sprint 6 - Velocity](../../imagens/velocity/velocity6.png)
+![Sprint 6 - Velocity](../../assets/img/velocity/velocity6.png)
 
 # 5. Quadro de Conhecimento
-![Sprint 6 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento6.png)
+![Sprint 6 - Quadro de conhecimento](../../assets/img/quadro_conhecimento/quadro_conhecimento6.png)
 
 # 6. Burndown de Risco
-![Sprint 6 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco6.png)
+![Sprint 6 - Burndown de Risco](../../assets/img/burndown_risco/burndown_risco6.png)
 
 # 7. Relato do Scrum Master
 <p align = "justify">

@@ -60,16 +60,16 @@
 
 
 # 3. Burndown Chart
-![Sprint 4 - Burndown](../../imagens/burndown/burndown4.png)
+![Sprint 4 - Burndown](../../assets/img/burndown/burndown4.png)
 
 # 4. Velocity
-![Sprint 4 - Velocity](../../imagens/velocity/velocity4.png)
+![Sprint 4 - Velocity](../../assets/img/velocity/velocity4.png)
 
 # 5. Quadro de Conhecimento
-![Sprint 4 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento4.png)
+![Sprint 4 - Quadro de conhecimento](../../assets/img/quadro_conhecimento/quadro_conhecimento4.png)
 
 # 6. Burndown de Risco
-![Sprint 4 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco4.png)
+![Sprint 4 - Burndown de Risco](../../assets/img/burndown_risco/burndown_risco4.png)
 
 # 7. Relato do Scrum Master
 <p align = "justify">
