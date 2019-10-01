@@ -18,6 +18,7 @@
 | DOC28 - Roadmap do Scrum Master | :x: |
 | DOC30 - Burndown Riscos | :x: |
 | DOC32 - Documentar resultado sprint 5 e planejamento sprint 6 | :x: |
+| DOC33 - Criar Especificação dos casos de uso | :x: |
 | AMB03 - Configurar Deploy continuo de produção do backend | :white_check_mark: | 
 | AMB05 - Configurar Deploy continuo de homologação do backend | :white_check_mark: | 
 | AMB08 - Configurar Deploy continuo de produção do frontend | :white_check_mark: | 
@@ -33,12 +34,11 @@
 * DOC28 - Roadmap do Scrum Master 
 * DOC30 - Burndown Riscos 
 * DOC32 - Documentar resultado sprint 5 e planejamento sprint 6 
+* DOC33 - Criar Especificação dos casos de uso
 * AMB03 - Configurar Deploy continuo de produção do backend  
 * AMB05 - Configurar Deploy continuo de homologação do backend  
 * AMB08 - Configurar Deploy continuo de produção do frontend  
 * AMB09 - Configurar Deploy continuo de homologação do frontend  
-
-
 
 ## 1.2. O não foi feito e por que não foi feito?
 * US03 - Auto gerenciar matricula 
@@ -53,8 +53,6 @@
 * DOC24 - Refatorar wiki 
 * DOC25 - Plano de metodologia 
 * DOC26 - Criar EVM 
-* DOC29 - Adicionar healthcheck 
-* DOC31 - Documentar Roadmap de Deploy 
 
 
 # 2. Retrospectiva

@@ -1,19 +1,19 @@
-# Planejamento da Sprint 6
+# Planejamento da Sprint 7
 
-**Data de Início:** 21/09/19
+**Data de Início:** 28/09/19
 
-**Data de Término:** 28/09/19
+**Data de Término:** 05/10/19
 
-**Total de Pontos Planejados:** _95*_
+**Total de Pontos Planejados:** _78*_
 
-**Dívidas técnicas:** _34*_
+**Dívidas técnicas:** _47*_
 
-**Pontos totais:** _61*_
+**Pontos totais:** _31*_
 
 ## Introdução
 <p align = "justify"> 
-Nesta sprint o foco principal será o desenvolvimento do software, no qual os membros de EPS irão parear com os membros de MDS, aproveitando a semana universitária para fazer pareamentos presenciais em todos os dias da semana.
-Além do pareamento para desenvolvimento, serão criados alguns documentos essenciais para o projeto, tais como: Documento de arquitetura, especificação de caso de uso e roadmaps dos papéis.
+O principal objetivo dessa sprint é o pagamento de dívidas, finalização dos principais documentos do projeto e preparação para a primeira Release. 
+Como duas histórias já estão muito encaminhadas para acabar, decidimos alocar mais duas issues referentes ao front-end da aplicação, são elas: Criar Home Page e Criar Página do adiministrador.
 </p>
 
 ## Papéis Scrum
@@ -29,9 +29,18 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
  
 | História | É Dívida Técnica? |
 | -------- | :----: |
-
+| US01 - Cadastrar Usuário | :white_check_mark: |
+| US02 - Manter turma | :white_check_mark: |
+| US03 - Auto gerenciar matricula | :white_check_mark: |
+| DOC24 - Refatorar wiki | :white_check_mark: |
+| DOC25 - Plano de metodologia | :white_check_mark: |
+| DOC26 - Criar EVM | :white_check_mark: |
 | DOC31 - Documentar Roadmap de Deploy | :x: |
-| DOC29 - Adicionar healthcheck | :x: |
+| DOC34 - Documentar resultado sprint 6 e planejamento sprint 7 | :x: |
+| DOC35 - Preparação para entrega da 1ª Release | :x: |
+| Criar Home Page | :x: |
+| Criar Página do adiministrador | :x: |
+| Adicionar identidade visual na aplicação | :x: |
 
 ### US01 - Cadastrar Usuário
 * **Responsáveis:** Danilo, Maicon e Vinícius
@@ -45,22 +54,6 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
 * **Responsáveis:** Ithalo, Matheus e Rafael
 * **Pontuação:** 8
 
-### DOC12 - Documento de Arquitetura
-* **Responsáveis:** Arthur, Danilo, Gabrielle, Gustavo, Ithalo, Maicon e Rafael
-* **Pontuação:** 13
-
-### DOC20 - Adicionando Roadmap do Product Owner
-* **Responsáveis:** Mateus Oliveira
-* **Pontuação:**  2  
-
-### DOC22 - Canvas do projeto
-* **Responsáveis:** Mateus Oliveira
-* **Pontuação:** 1
-
-### DOC23 - Adicionar Manual de Identidade Visual da aplicação
-* **Responsáveis:** Mateus Oliveira
-* **Pontuação:** 5
-
 ### DOC24 - Refatorar wiki
 * **Responsáveis:** Mateus Oliveira, Matheus Roberto e Vinícius
 * **Pontuação:** 2
@@ -73,43 +66,26 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
 * **Responsáveis:** Mateus Oliveira
 * **Pontuação:** 8
 
-### DOC27 - Definição de pronto
-* **Responsáveis:** Mateus Oliveira
-* **Pontuação:** 1
-
-### DOC28 - Roadmap do Scrum Master
-* **Responsáveis:** Matheus Roberto
-* **Pontuação:** 5
-
-### DOC29 - Adicionar healthcheck
-* **Responsáveis:** Matheus Roberto
-* **Pontuação:** 2
-
-### DOC30 - Burndown Riscos
-* **Responsáveis:** Matheus Roberto
-* **Pontuação:** 8
-
 ### DOC31 - Documentar Roadmap de Deploy
 * **Responsáveis:** Vinícius
 * **Pontuação:** 5
 
-### DOC32 - Documentar resultado sprint 5 e planejamento sprint 6
+### DOC34 - Documentar resultado sprint 6 e planejamento sprint 7
 * **Responsáveis:** Matheus Roberto
 * **Pontuação:** 5
 
-### AMB03 - Configurar Deploy continuo de produção do backend
-* **Responsáveis:** Vinícius
-* **Pontuação:** 2
+### Criar Home Page
+* **Responsáveis:** Ithalo e Gabrielle
+* **Pontuação:** 5
 
-### AMB05 - Configurar Deploy continuo de homologação do backend
-* **Responsáveis:** Vinícius
-* **Pontuação:** 2
+### Criar Página do adiministrador
+* **Responsáveis:** Arthur e Gustavo
+* **Pontuação:** 5
 
-### AMB08 - Configurar Deploy continuo de produção do frontend
-* **Responsáveis:** Vinícius
-* **Pontuação:** 2
+### DOC35 - Preparação para entrega da 1ª Release
+* **Responsáveis:** Todos os membros do grupo
+* **Pontuação:** 3
 
-### AMB09 - Configurar Deploy continuo de homologação do frontend
-* **Responsáveis:** Vinícius
-* **Pontuação:** 2
-
+### Adicionar identidade visual na aplicação
+* **Responsáveis:** Matheus Roberto e Rafael 
+* **Pontuação:** 8
