@@ -43,13 +43,11 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
 | DOC28 - Roadmap do Scrum Master | :x: |
 | DOC30 - Burndown Riscos | :x: |
 | DOC32 - Documentar resultado sprint 5 e planejamento sprint 6 | :x: |
+| DOC33 - Criar Especificação dos casos de uso | :x: |
 | AMB03 - Configurar Deploy continuo de produção do backend | :white_check_mark: | 
 | AMB05 - Configurar Deploy continuo de homologação do backend | :white_check_mark: | 
 | AMB08 - Configurar Deploy continuo de produção do frontend | :white_check_mark: | 
 | AMB09 - Configurar Deploy continuo de homologação do frontend | :white_check_mark: | 
-
-| DOC31 - Documentar Roadmap de Deploy | :x: |
-| DOC29 - Adicionar healthcheck | :x: |
 
 ### US01 - Cadastrar Usuário
 * **Responsáveis:** Danilo, Maicon e Vinícius
@@ -99,21 +97,17 @@ Além do pareamento para desenvolvimento, serão criados alguns documentos essen
 * **Responsáveis:** Matheus Roberto
 * **Pontuação:** 5
 
-### DOC29 - Adicionar healthcheck
-* **Responsáveis:** Matheus Roberto
-* **Pontuação:** 2
-
 ### DOC30 - Burndown Riscos
 * **Responsáveis:** Matheus Roberto
 * **Pontuação:** 8
 
-### DOC31 - Documentar Roadmap de Deploy
-* **Responsáveis:** Vinícius
-* **Pontuação:** 5
-
 ### DOC32 - Documentar resultado sprint 5 e planejamento sprint 6
 * **Responsáveis:** Matheus Roberto
 * **Pontuação:** 5
+
+### DOC33 - Criar Especificação dos casos de uso
+* **Responsáveis:** Arthur, Danilo, Gabrielle, Gustavo, Ithalo, Maicon e Rafael
+* **Pontuação:** 8
 
 ### AMB03 - Configurar Deploy continuo de produção do backend
 * **Responsáveis:** Vinícius
