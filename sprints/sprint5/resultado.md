@@ -76,16 +76,16 @@
 * Maior disciplina dos desenvolvedores
 
 # 3. Burndown Chart
-![Sprint 5 - Burndown](../../imagens/burndown/burndown5.png)
+![Sprint 5 - Burndown](../../assets/img/burndown/burndown5.png)
 
 # 4. Velocity
-![Sprint 5 - Velocity](../../imagens/velocity/velocity5.png)
+![Sprint 5 - Velocity](../../assets/img/velocity/velocity5.png)
 
 # 5. Quadro de Conhecimento
-![Sprint 5 - Quadro de conhecimento](../../imagens/quadro_conhecimento/quadro_conhecimento5.png)
+![Sprint 5 - Quadro de conhecimento](../../assets/img/quadro_conhecimento/quadro_conhecimento5.png)
 
 # 6. Burndown de Risco
-![Sprint 5 - Burndown de Risco](../../imagens/burndown_risco/burndown_risco5.png)
+![Sprint 5 - Burndown de Risco](../../assets/img/burndown_risco/burndown_risco5.png)
 
 # 7. Relato do Scrum Master
 <p align = "justify">
