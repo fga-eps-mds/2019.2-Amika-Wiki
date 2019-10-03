@@ -45,9 +45,9 @@ Dentre os papéis da equipe estão: Devops, Product Owner, Scrum Master e equipe
 - Seguir técnicas de programação;
 - Criar testes para códigos produzidos.
 
-## 3. Ritos do Scrum
+## 3. Ritos
 
-Abaixo ritos do Scrum que serão realizados pelo Time Scrum do projeto Amika. Para cada rito está descrito seus objetivos, o tempo máximo de realização deles, os dias e horários em que ocorrerão.
+Abaixo ritos do Scrum e do XP(eXtreme Programming) que serão realizados pelo Time Scrum do projeto Amika. Para cada rito está descrito seus objetivos, o tempo máximo de realização deles, os dias e horários em que ocorrerão.
 
 ### 3.1. Sprint
 
@@ -65,6 +65,7 @@ Abaixo ritos do Scrum que serão realizados pelo Time Scrum do projeto Amika. Pa
 
 - Dailys presenciais: segunda, terça, quinta e sexta.
 - Dailys online: quarta.
+- Duração: 8~15 minutos.
 
 ### 3.3. Planejamento da Sprint
 
@@ -72,19 +73,21 @@ Abaixo ritos do Scrum que serão realizados pelo Time Scrum do projeto Amika. Pa
 - No planejamento da sprint é utilizada a técnica "Planning Poker".
 - Definir pareamentos para a sprint.
 - Será realizado nas reuniões aos sábados.
-
+- Duração: 20~40 minutos.
 
 ### 3.4. Revisão da Sprint
 
 - Verificar o que foi feito.
 - Verificar o que não foi feito e o motivo.
 - Será realizado nas reuniões aos sábados.
+- Duração: 10~15 minutos.
 
 ### 3.5. Retrospectiva da Sprint
 
 - Verificar o que deu certo.
 - Verificar o que deu errado.
 - Verificar o que fazer para melhorar.
+- Duração: 15~25 minutos.
 
 ### 4. Gerenciamento
 
