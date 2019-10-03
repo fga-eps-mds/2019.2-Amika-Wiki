@@ -13,6 +13,7 @@
   - [Definição de Pronto](docs/projeto/definicaopronto)
   - [Especificação de Casos de Uso](docs/projeto/especificacaocasosdeuso)
   - [Identidade Visual](docs/projeto/identidadevisual)
+  - [Metodologia](docs/projeto/metodologia)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
