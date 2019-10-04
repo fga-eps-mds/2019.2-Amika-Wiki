@@ -45,9 +45,9 @@ Dentre os papéis da equipe estão: Devops, Product Owner, Scrum Master e equipe
 - Seguir técnicas de programação;
 - Criar testes para códigos produzidos.
 
-## 3. Ritos
+## 3. Ritos do Scrum
 
-Abaixo ritos do Scrum e do XP(eXtreme Programming) que serão realizados pelo Time Scrum do projeto Amika. Para cada rito está descrito seus objetivos, o tempo máximo de realização deles, os dias e horários em que ocorrerão.
+Abaixo alguns ritos do Scrum que serão realizados pelo time do projeto Amika.
 
 ### 3.1. Sprint
 
@@ -55,39 +55,62 @@ Abaixo ritos do Scrum e do XP(eXtreme Programming) que serão realizados pelo Ti
 - Garantir entrega contínua;
 - time box: segunda à domingo [1 semana].
 
-### 3.2. Daily Meeting
+### 3.2. Planejamento da Sprint
+
+- Determinar o que poderá ser entregue na Sprint que se inicia;
+- Definir pareamentos para a sprint;
+- Será realizado nas reuniões aos sábados;
+- Duração: 20~40 minutos.
+
+### 3.3. Revisão da Sprint
+
+- Verificar o que foi feito;
+- Verificar o que não foi feito e o motivo;
+- Será realizado nas reuniões aos sábados;
+- Duração: 10~15 minutos.
+
+### 3.4. Retrospectiva da Sprint
+
+- Verificar o que deu certo;
+- Verificar o que deu errado;
+- Verificar o que fazer para melhorar;
+- Duração: 15~25 minutos.
+
+## 3. Ritos do XP(Extreme Programming)
+
+Abaixo alguns ritos do XP que serão realizados pelo time do projeto Amika.
+
+### 3.1. Planning Poker
+
+- Pontuar histórias de acordo com o esforço;
+- Facilita a elaboração de um cronograma;
+
+### 3.2. Stand-up Meeting
 
 - Reunião diária da equipe;
+- Essas reuniões devem ser feitas em pé, para que a reunião seja rápida e com todo o grupo focado;
 - Tem como objetivo o compartilhamento das tarefas que estão sendo realizadas por cada membro, tendo que ser respondida as seguintes perguntas:
     - O que foi feito?
     - O que será feito?
     - Se há algum impedimento?
 
-- Dailys presenciais: segunda, terça, quinta e sexta.
-- Dailys online: quarta.
+- Dailys presenciais: segunda, terça, quinta e sexta;
+- Dailys online: quarta;
 - Duração: 8~15 minutos.
 
-### 3.3. Planejamento da Sprint
+### 3.3. Pair Programming
 
-- Determinar o que poderá ser entregue na Sprint que se inicia.
-- No planejamento da sprint é utilizada a técnica "Planning Poker".
-- Definir pareamentos para a sprint.
-- Será realizado nas reuniões aos sábados.
-- Duração: 20~40 minutos.
+- Programação em pares, na nossa equipe trabalhamos com trios também;
+- Compartilhamento de conhecimento sobre das regras de negócio do projeto por todos da equipe de desenvolvimento;
+- Nivelação de conhecimento técnico dos programadores;
+- Elevação dos níveis de atenção ao código produzido;
+- Fortalece a prática de Propriedade Coletiva do Código.
 
-### 3.4. Revisão da Sprint
+### 3.4 Rodízio de pessoas
 
-- Verificar o que foi feito.
-- Verificar o que não foi feito e o motivo.
-- Será realizado nas reuniões aos sábados.
-- Duração: 10~15 minutos.
-
-### 3.5. Retrospectiva da Sprint
-
-- Verificar o que deu certo.
-- Verificar o que deu errado.
-- Verificar o que fazer para melhorar.
-- Duração: 15~25 minutos.
+- Revezamento das equipes de pareamento;
+- Uniformizar os códigos produzidos;
+- Compartilhar o código com todos da equipe.
 
 ### 4. Gerenciamento
 
