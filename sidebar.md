@@ -14,6 +14,7 @@
   - [Especificação de Casos de Uso](docs/projeto/especificacaocasosdeuso)
   - [Identidade Visual](docs/projeto/identidadevisual)
   - [Metodologia](docs/projeto/metodologia)
+  - [Earned Value Management](docs/projeto/evm)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
