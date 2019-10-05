@@ -1,6 +1,6 @@
 # EVM
 
-### Earned Valued Management
+### Gestão de valor agregado(EVM)
 O método EVM permite que o planejador análise com dados reais o desempenho de custos e prazos em relação ao que foi planejado, e depois reajustar o orçamento e realizar tendências. Ele compara o que foi planejado com o que está sendo executado e serve assim como parâmentro para avaliar se o projeto tem gastado mais dinheiro que o previsto, ou se está gastando mais rápido pelo projeto estar adiantado.
 
 Para ser implementado é necessário possuir um cronograma físico-financeiro elaborado através de uma EAP, ROADMAP ou plano de custos da equipes. E ele funciona através de três principais grandezas apresentados abaixo.
