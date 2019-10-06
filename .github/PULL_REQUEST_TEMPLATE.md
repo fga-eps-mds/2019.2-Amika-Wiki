@@ -7,7 +7,7 @@
 - [ ] Adição de nova fucionalidade.
 
 **Issue relacionada**  
-<!-- Link com a isse -->
+<!-- Adicionar HOTFIX com as issues relacionadas ao abrir o PR. Ex.: Fix issue #15 -->
 
 **Screenshots**  
 <!-- Se aplicável, adicione imagens da tela para ajudar a explicar a mudança feita. -->
