@@ -7,7 +7,8 @@
 - [ ] Adição de nova fucionalidade.
 
 **Issue relacionada**  
-<!-- Link com a isse -->
+<!-- Adicionar FIX com as issues relacionadas ao abrir o PR. Ex.: Fix #15 -->
+FIX #
 
 **Screenshots**  
 <!-- Se aplicável, adicione imagens da tela para ajudar a explicar a mudança feita. -->
