@@ -18,5 +18,5 @@
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
-  - [Roadmap do produto](docs/roadmap/roadmapProduto)
+  - [Roadmap do Produto](docs/roadmap/roadmapProduto)
   - [Roadmap dos Papéis](docs/roadmap/roadmapPapeis)
