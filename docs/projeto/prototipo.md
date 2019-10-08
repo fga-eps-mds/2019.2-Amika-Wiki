@@ -58,6 +58,12 @@ Tela com a opção do administrador matricular um novo aluno ou lista de alunos 
 ## 3.Protótipos de Alta Fidelidade
 As duas primeiras versões do protótipo foram realizadas antes da reunião com o cliente, logo todos os requisitos ainda não haviam sido levantado. Já a terceira foi feita após o levantamento dos requisitos do cliente, porém sua identidade visual não foi validada pelo cliente. Já a quarta versão a identidade visual foi validada pelo cliente.
 
+<p align="center">
+    <a src="https://fga-eps-mds.github.io/2019.2-Amika-Wiki/">
+        <img src="./assets/img/prototipo.gif">
+    </a>
+</p>
+
 ### Versão 1:
 <iframe style="border: none;" width="800" height="450" src="https://marvelapp.com/cd4d84e" allowfullscreen></iframe>
 <a href="https://marvelapp.com/cd4d84e">Versão 1</a>
