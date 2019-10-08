@@ -44,29 +44,26 @@
 ## 2.1. O que deu certo?  
 
 * Troca de conhecimento entre EPS e MDS
-* Consegui implementar uma funcionalidade olhando o que outro pareamento tinha feito
-* Quando o pareamento ocorreu, foi muito produtivo
+* Implementação de funcionalidade com base em outro pareamento
+* Pareamento produtivo
 * Empenho dos MDS no início da semana
-* Cobrança entre MDS
+* Cobrança entre MDS's
 
 
 
 ## 2.2. O que deu errado? 
 
-* Talvez tenha ficado muita coisa pra essa sprint e a gente nem tinha percebido na última reunião
+* Sobrecarga de tarefas, por conta das refatorações necessárias
 * Dificuldade de horário para pareamento
 * Códigos complicados de entender
-* Nao houve pareamento
 * Apareceram muitos problemas para serem resolvidos
-* Dessa vez não teve pareamentos marcados
-* Os dailys às vezes não aconteceram
-* Dailys online
+* Os dailys não aconteceram todos os dias
 * Falta de planejamento de membros
 
 ## 2.3. Como melhorar?
 
-* Explicar seus códigos
 * Deixar claro os horários que cada um tem
+* Diminuir a quantidade de atividades, com base nos horários livres da semana
 
 # 3. Burndown Chart
 ![Sprint 7 - Burndown](../../assets/img/burndown/burndown7.png)

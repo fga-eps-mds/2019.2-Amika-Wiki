@@ -2,7 +2,7 @@
 
 **Data de Início:** 28/09/19
 
-**Data de Término:** 05/10/19
+**Data de Término:** 06/10/19
 
 **Total de Pontos Planejados:** _78*_
 
