@@ -15,6 +15,7 @@
   - [Identidade Visual](docs/projeto/identidadevisual)
   - [Metodologia](docs/projeto/metodologia)
   - [Gestão de valor agregado (EVM)](docs/projeto/evm)
+  - [Protótipo de Alta Fidelidade](docs/projeto/prototipo)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
