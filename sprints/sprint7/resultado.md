@@ -22,10 +22,9 @@
 * US03 - Auto gerenciar matricula
 * DOC24 - Refatorar wiki
 * DOC25 - Plano de metodologia
-<!-- * DOC26 - Criar EVM -->
-<!-- * DOC31 - Documentar Roadmap de Deploy -->
+* DOC26 - Criar EVM
+* DOC31 - Documentar Roadmap de Deploy
 * DOC34 - Documentar resultado sprint 6 e planejamento sprint 7
-<!-- * Criar Home Page   -->
 
 ## 1.2. O não foi feito e por que não foi feito?
 * US01 - Cadastrar Usuário
@@ -37,7 +36,8 @@
     * Falta de tempo para pareamento
 * Página do Admin 
     * Priorização baixa
-
+* Criar Home Page  
+    * Faltaram alguns ajustes no Pull Request
 
 # 2. Retrospectiva
 
@@ -82,5 +82,8 @@
 
 # 7. Relato do Scrum Master
 <p align = "justify">
+    Nesta sprint houve muita refatoração nas histórias de usuário que estavam praticamente prontas. O que foi bom para melhorar a qualidade do nosso código, mas ao mesmo tempo atrapalho no andamento da sprint.
+    Os dailys não ocorreram da forma esperada, só aconteceu daily presencial na segunda e na terça. Nos outros dias era para acontecer o daily online, mas não funcionou bem, sendo que muitos membros não participaram.
+    Perdemos muito tempo com o ambiente, algumas vezes por desconhecimento e outras por falha do ambiente mesmo. 
 </p>
 
