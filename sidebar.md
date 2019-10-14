@@ -16,6 +16,7 @@
   - [Metodologia](docs/projeto/metodologia)
   - [Gestão de valor agregado (EVM)](docs/projeto/evm)
   - [Protótipo de Alta Fidelidade](docs/projeto/prototipo)
+  - [Backlog de Documentos](docs/projeto/backlogDocumentos)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
