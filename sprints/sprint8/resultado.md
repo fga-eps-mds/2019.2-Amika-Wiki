@@ -20,8 +20,8 @@
 
 ## 1.1 O que foi feito?
 * US01 - Cadastrar Usuário(Backend)
-* US11 - Manter Agendas da Felicidade(Backend)
 * DOC34 - Documentar resultado sprint 7 e planejamento sprint 8
+* US04 - Manter Grupo(Backend)
 * Criar Home Page
 * Adicionar identidade visual na aplicação
 
@@ -29,11 +29,10 @@
 * US01 - Cadastrar Usuário(Frontend)
     * Falta estilizar e ajustar arrumar funcionalidades
 * US04 - Manter Grupo(Frontend)
-    * Faltam alguns detalhes
-* US04 - Manter Grupo(Backend)
     * Faltam alguns ajustes e testes
 * US10 - Realizar Formulários de felicidade autentica(Backend)
 * US10 - Realizar Formulários de felicidade autentica(Frontend)
+* US11 - Manter Agendas da Felicidade(Backend)
 * US11 - Manter Agendas da Felicidade(Frontend)
     * Revisão do PR foi tardia e foram requisitados ajustes
     * Faltam os testes
