@@ -14,7 +14,7 @@
 | US11 - Manter Agendas da Felicidade(Backend) | :x: |
 | DOC35 - Preparação para entrega da 1ª Release | :white_check_mark: |
 | DOC36 - Documentar resultado sprint 7 e planejamento sprint 8 | :x: |
-| Criar Home Page | :x: |
+| Criar Home Page | :white_check_mark: |
 | Adicionar identidade visual na aplicação | :white_check_mark: |
 
 
@@ -88,7 +88,7 @@
     Essa sprint foi bastante improdutiva, a maior parte do grupo de desenvolvedores estavam muito sobrecarregado com outras atividades, incluindo a equipe de EPS. Tendo em vista essa alta improdutividade, o Mateus Oliveira(PO) propôs que nós alterassemos o planejamento/revisão/retrospectiva das sprints para o domingo, para ter o sábado livre apenas para desenvolver, e toda a equipe concordou com isso.
 </p>
 <p align = "justify">
-    A equipe de desenvolvimento ainda está com muita dificuldade técnica e muita dependência da equipe de EPS, além disso alguns problemas em relação ao ambiente continuam gerando um overhead na hora de desenvolver. 
+    A equipe de desenvolvimento ainda está com muita dificuldade técnica e muita dependência da equipe de EPS, além disso alguns problemas em relação ao ambiente continuam gerando um overhead na hora de desenvolver.
 </p>
 
 
