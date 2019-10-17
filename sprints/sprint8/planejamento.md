@@ -34,7 +34,7 @@
 | US11 - Manter Agendas da Felicidade | :x: |
 | DOC35 - Preparação para entrega da 1ª Release | :white_check_mark: |
 | DOC36 - Documentar resultado sprint 7 e planejamento sprint 8 | :x: |
-| Criar Home Page | :x: |
+| Criar Home Page | :white_check_mark: |
 | Adicionar identidade visual na aplicação | :white_check_mark: |
 
 ### US01 - Cadastrar Usuário
