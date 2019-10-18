@@ -18,6 +18,7 @@
   - [Protótipo de Alta Fidelidade](docs/projeto/prototipo)
   - [Backlog de Documentos](docs/projeto/backlogDocumentos)
   - [NFR](docs/projeto/nfr)
+  - [Plano de Gerenciamento da Qualidade](docs/projeto/plano_qualidade)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
