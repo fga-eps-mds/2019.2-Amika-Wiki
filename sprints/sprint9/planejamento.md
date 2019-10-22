@@ -4,11 +4,11 @@
 
 **Data de Término:** 20/10/19
 
-**Total de Pontos Planejados:** _34*_
+**Total de Pontos Planejados:** _13*_
 
 **Dívidas técnicas:** _40*_
 
-**Pontos totais:** _74*_
+**Pontos totais:** _53*_
 
 ## Introdução
 <p align = "justify"> 
@@ -28,16 +28,17 @@
  
 | História | É Dívida Técnica? |
 | -------- | :----: |
-| US01 - Cadastrar Usuário(Frontend) - 8 | :white_check_mark: |
-| US04 - Manter Grupo(Frontend) - 13 | :white_check_mark: |
-| US10 - Realizar Formulários de felicidade autentica(Frontend) - 8 | :white_check_mark: |
-| US10 - Realizar Formulários de felicidade autentica(Backend) - 8 | :white_check_mark: |
+| US01 - Cadastrar Usuário(Frontend) | :white_check_mark: |
+| US04 - Manter Grupo(Frontend) | :white_check_mark: |
+| US10 - Realizar Formulários de felicidade autentica(Frontend) | :white_check_mark: |
+| US10 - Realizar Formulários de felicidade autentica(Backend) | :white_check_mark: |
 | US11 - Manter Agendas da Felicidade(Frontend) | :white_check_mark: |
 | US11 - Manter Agendas da Felicidade(Backend) | :white_check_mark: |
-| US12 - Realizar Agendas da Felicidade(Backend) | :x: |
-| US12 - Realizar Agendas da Felicidade(Front) | :x: |
 | DOC35 - Preparação para entrega da 1ª Release | :white_check_mark: |
 | DOC37 - Documentar resultado sprint 8 e planejamento sprint 9 | :x: |
+| Configurar PWA | :x: |
+| Criar página admin | :x: |
+| Configurar PWA | :x: |
 | Integrar login do usuário com o sistema | :x: |
 
 ### US01 - Cadastrar Usuário
@@ -55,10 +56,6 @@
 ### US11 - Manter Agendas da Felicidade
 * **Responsáveis:** Arthur, Maicon, Matheus Roberto
 * **Pontuação:** 13
-
-### US12 - Realizar Agendas da Felicidade
-* **Responsáveis:** Será definido ao decorrer da sprint com a finalização das dívidas
-* **Pontuação:** 21
 
 ### DOC37 - Documentar resultado sprint 8 e planejamento sprint 9
 * **Responsáveis:** Matheus Roberto
