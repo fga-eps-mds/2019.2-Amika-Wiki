@@ -74,6 +74,16 @@
 
 # 7. Relato do Scrum Master
 <p align = "justify">
+    <p align = "justify">
+        Essa sprint foi muito abaixo do esperado, pois foi dedicada para finalizar as dívidas e nem isso foi feito. Alguns integrantes da equipe tiveram um compromisso na sexta, sábado e domingo, e isso contribuiu para o baixo rendimento nessa sprint. Mas o principal motivo do baixo rendimento é a dedicação da equipe no projeto, nem toda a equipe está tendo o projeto como prioridade.
+    </p>
+    <p align = "justify">
+        Outro ponto que atrapalha muito a evolução das atividades é a dificuldade em trabalhar em equipe, alguns integrantes da equipe não seguem a prática do pareamento. A questão da disponibilidade também atrapalha muito essa prática, pois o único dia que conseguimos parear presencialmente é no sábado, sendo que os pareamentos via hangouts não tem a mesma eficiência. 
+    </p>
+    <p align = "justify">
+        A equipe de desenvolvimento ainda está com muita dificuldade técnica e muita dependência da equipe de EPS, além disso alguns problemas em relação ao ambiente continuam gerando um overhead na hora de desenvolver. Esse é um problema que já existia na sprint passada e continua a existir nessa.
+    </p>
+
 </p>
 
 
