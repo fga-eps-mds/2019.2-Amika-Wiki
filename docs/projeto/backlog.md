@@ -64,4 +64,4 @@ Won't | Não serão implementados em um primeiro momento, são requisitos menos 
 
 ## Versão 1
 
-- [Versão 1 do Backlog do Projeto](/backlogProjeto-versao1.md)
+- [Versão 1 do Backlog do Projeto](docs/projeto/backlog-versao1)
