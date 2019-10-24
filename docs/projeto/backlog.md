@@ -4,7 +4,7 @@
 
 1. [Versão 3](#_versão-3)
 2. [Versão 2](#_versão-2)
-2. [Versão 2](#_versão-1)
+2. [Versão 1](#_versão-1)
 
 ## Backlog do Produto
 # Priorização
