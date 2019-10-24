@@ -25,3 +25,7 @@
 - RoadMaps
   - [Roadmap do Produto](docs/roadmap/roadmapProduto)
   - [Roadmap dos Papéis](docs/roadmap/roadmapPapeis)
+- Treinamentos
+  - [Metodologias Ágeis](docs/treinamentos/metodologiasAgeis)
+  - [Gitflow](docs/treinamentos/gitflow)
+  - [Docker](docs/treinamentos/docker)
