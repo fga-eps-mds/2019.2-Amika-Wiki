@@ -27,3 +27,12 @@
 - RoadMaps
   - [Roadmap do Produto](docs/roadmap/roadmapProduto)
   - [Roadmap dos Papéis](docs/roadmap/roadmapPapeis)
+- Treinamentos
+  - [Metodologias Ágeis](docs/treinamentos/metodologiasAgeis)
+  - [Gitflow](docs/treinamentos/gitflow)
+  - [Docker](docs/treinamentos/docker)
+  - [Simulação Sprint](docs/treinamentos/simulacao)
+  - [Django Rest](docs/treinamentos/djangoRest)
+  - [Code Academy](docs/treinamentos/codeacademy)
+  
+  
