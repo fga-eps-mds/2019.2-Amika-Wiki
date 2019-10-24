@@ -29,3 +29,8 @@
   - [Metodologias Ágeis](docs/treinamentos/metodologiasAgeis)
   - [Gitflow](docs/treinamentos/gitflow)
   - [Docker](docs/treinamentos/docker)
+  - [Simulação Sprint](docs/treinamentos/simulacao)
+  - [Django Rest](docs/treinamentos/djangoRest)
+  - [Code Academy](docs/treinamentos/codeacademy)
+  
+  
