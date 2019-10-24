@@ -20,6 +20,8 @@
   - [NFR](docs/projeto/nfr)
   - [Plano de Gerenciamento da Qualidade](docs/projeto/plano_qualidade)
   - [Minimo Produto Viável](docs/projeto/mvp)
+- Testes de Usabilidade
+  - [Modelo de Testes de Usabilidade](docs/projeto/testesUsabilidade)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
