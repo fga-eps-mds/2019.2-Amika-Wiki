@@ -28,18 +28,18 @@
  
 | História | É Dívida Técnica? |
 | -------- | :----: |
-| US01 - Cadastrar Usuário(Frontend) - Maicon   | :white_check_mark: |
-| US04 - Manter Grupo(Frontend) - Mateus | :white_check_mark: |
-| US10 - Realizar Formulários de felicidade autentica(Frontend) - Danilo e Gabi | :white_check_mark: |
-| US10 - Realizar Formulários de felicidade autentica(Backend) - Cantuaria  | :white_check_mark: |
-| US12 - Realizar agendas da felicidade(Frontend) - Ithalo e Maicon | :x: | 
-| US12 - Realizar agendas da felicidade(Backend) - Ithalo e Maicon | :x: |
-| US18 - Visualizar informações de atendimento psicológico - Danilo e Gabi  | :x: |
-| DOC37 - Documentar resultado sprint 9 e planejamento sprint 10 - Matheus | :x: | 
-| US06 - Adicionar humor do dia(back) - Arthur e Rafael | :x:|
-| US06 - Adicionar humor do dia(front) - Arthur e Rafael | :x: |
-| US05 - Visualizar perfil(back) - Matheus e Gustavo | :x: |
-| US05 - Visualizar perfil(front) - Matheus e Gustavo  | :x: |
+| US01 - Cadastrar Usuário(Frontend)  | :white_check_mark: |
+| US04 - Manter Grupo(Frontend) | :white_check_mark: |
+| US10 - Realizar Formulários de felicidade autentica(Frontend) | :white_check_mark: |
+| US10 - Realizar Formulários de felicidade autentica(Backend) | :white_check_mark: |
+| US12 - Realizar agendas da felicidade(Frontend) | :x: | 
+| US12 - Realizar agendas da felicidade(Backend) | :x: |
+| US18 - Visualizar informações de atendimento psicológico | :x: |
+| DOC37 - Documentar resultado sprint 9 e planejamento sprint 10 | :x: | 
+| US06 - Adicionar humor do dia(back)| :x:|
+| US06 - Adicionar humor do dia(front)| :x: |
+| US05 - Visualizar perfil(back) | :x: |
+| US05 - Visualizar perfil(front) | :x: |
 | Configurar PWA | :x: |
 | Preparar treinamento testes do frontend | :x: |
 | Integrar login do usuário com o sistema | :white_check_mark: |
