@@ -69,11 +69,11 @@
 
 ### US08 - Visualizar gráfico de humor do dia(Frontend)
 * **Responsáveis:** Arthur e Gabi
-* **Pontuação:** 5
+* **Pontuação:** 8
 
 ### US08 - Visualizar gráfico de humor do dia(Backend)
 * **Responsáveis:** Arthur e Gabi
-* **Pontuação:** 8
+* **Pontuação:** 5
 
 ### DOC37 - Documentar resultado sprint 10 e planejamento sprint 11
 * **Responsáveis:** Matheus Roberto
