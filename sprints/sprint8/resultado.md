@@ -4,8 +4,8 @@
 
 | História | Foi concluída? |
 | -------- | :----: |
-| US01 - Cadastrar Usuário(Frontend) | :white_check_mark: |
-| US01 - Cadastrar Usuário(Backend) | :x: |
+| US01 - Cadastrar Usuário(Frontend) | :x: |
+| US01 - Cadastrar Usuário(Backend) | :white_check_mark: |
 | US04 - Manter Grupo(Frontend) | :x: |
 | US04 - Manter Grupo(Backend) | :white_check_mark: |
 | US10 - Realizar Formulários de felicidade autentica(Frontend) | :x: |

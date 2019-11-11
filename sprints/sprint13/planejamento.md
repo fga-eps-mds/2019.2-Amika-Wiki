@@ -1,17 +1,21 @@
 # Planejamento da Sprint 13
 
-**Data de Início:** 04/11/19
+**Data de Início:** 11/11/19
 
-**Data de Término:** 10/11/19
+**Data de Término:** 17/11/19
 
-**Total de Pontos Planejados:** _128*_
+**Total de Pontos Planejados:** _121*_
 
-**Dívidas técnicas:** _58*_
+**Dívidas técnicas:** _71*_
 
-**Pontos totais:** _ 70*_
+**Pontos totais:** _50*_
 
 ## Introdução
 <p align = "justify"> 
+    O foco desta sprint será a refatoração do código, teste de usabilidade com o usuário e início de teste no frontend, pois ainda não temos. Além disso, serão finalizadas as dívidas das US's que serão apresentadas na 2ª release. 
+</p>
+<p align = "justify"> 
+    Infelizmente houve a necessidade de remover a US09, de mandar notificação push, pois não seria possível finalizar ela com a quantidade de tarefas que ainda temos.
 </p>
 
 ## Papéis Scrum
@@ -27,81 +31,70 @@
 
 | História | É Dívida Técnica? |
 | -------- | :----: |
-| US10 - Realizar Formulários de felicidade autentica(Frontend) Gustavo e Danilo 8| :white_check_mark: | 
-| US12 - Realizar agendas da felicidade(Frontend) Maicon e Cantuária 13| :white_check_mark: |
-| US12 - Realizar agendas da felicidade(Backend) Maicon e Cantuária 13| :white_check_mark: -  |
-| US19 - Manter materiais(Frontend) Arthur e Rafael 8| :white_check_mark: |
-| Adicionar imagem do usuário(Frontend) Cantuária 8| :white_check_mark: |
-| Adicionar tela de grupos(* Talvez utilizar página do perfil) Ithalo | :x: |
-| Refatorar tela de registro de matricula 8 Matheus| :x: |
-| Teste de front do componente turma 13 Matheus| :x: |
-| Teste de usabilidade com cliente 8 Mateus| :x: |
-| Tratar erros de retorno do frontend Gabi 5| :x: |
-| Alterar componentes atuais para componentes do angular material Mateus 8| :x: |
-| DOC37 - Documentar resultado sprint 12 e planejamento sprint 13 Matheus | :x: |
+| US10 - Realizar Formulários de felicidade autentica(Frontend) | :white_check_mark: | 
+| US12 - Realizar agendas da felicidade(Frontend) | :white_check_mark: |
+| US12 - Realizar agendas da felicidade(Backend) | :white_check_mark: -  |
+| US19 - Manter materiais(Frontend) | :white_check_mark: |
+| Adicionar imagem do usuário(Frontend) | :white_check_mark: |
+| Adicionar tela de grupos | :x: |
+| Refatorar tela de criar agenda | :x: |
+| Refatorar tela de registro de matricula| :x: |
+| Teste de front do componente turma | :x: |
+| Teste de usabilidade com cliente | :x: |
+| Tratar erros de retorno do frontend| :x: |
+| Alterar componentes atuais para componentes do angular material | :x: |
+| DOC47 - Documentar resultado sprint 12 e planejamento sprint 13 | :x: |
 
 ### US10 - Realizar Formulários de felicidade autentica(Frontend)
-* **Responsáveis:** Mateus
+* **Responsáveis:** Gustavo e Danilo
 * **Pontuação:** 8
 
 ### US12 - Realizar agendas da felicidade(Frontend)
-* **Responsáveis:** Maicon e Gustavo
+* **Responsáveis:** Maicon e Cantuária
 * **Pontuação:** 13
 
 ### US12 - Realizar agendas da felicidade(Backend) 
-* **Responsáveis:** Maicon e Gustavo
-* **Pontuação:** 8
-
-### US08 - Visualizar gráfico de humor do dia(Frontend)
-* **Responsáveis:** Arthur e Ithalo
-* **Pontuação:** 8
-
-### US08 - Visualizar gráfico de humor do dia(Backend)
-* **Responsáveis:** Arthur e Ithalo
-* **Pontuação:** 8
-
-### US19 - Manter materiais(Front)
-* **Responsáveis:** Danilo e Rafael
+* **Responsáveis:** Maicon e Cantuária
 * **Pontuação:** 13
 
-### DOC37 - Documentar resultado sprint 11 e planejamento sprint 12
+### US19 - Manter materiais(Frontend)
+* **Responsáveis:** Arthur e Rafael
+* **Pontuação:** 8
+
+### DOC47 - Documentar resultado sprint 12 e planejamento sprint 13
 * **Responsáveis:** Matheus Roberto
 * **Pontuação:** 5
 
-### Adicionar spinner para carregamento de páginas
-* **Responsáveis:** Gabriele
-* **Pontuação:** 3
-
-### Adicionar imagem do usuário
+### Adicionar imagem do usuário(Frontend)
 * **Responsáveis:** Vinícius
-* **Pontuação:** 5
-
-### Refatorar tela de adicionar humor
-* **Responsáveis:** Matheus
-* **Pontuação:** 5
-
-### Refatorar tela de cadastro
-* **Responsáveis:** Mateus
-* **Pontuação:** 5
+* **Pontuação:** 8
 
 ### Refatorar tela de registro de matricula
 * **Responsáveis:** Matheus
+* **Pontuação:** 8
+
+### Adicionar tela de grupos
+* **Responsáveis:** Ithalo
 * **Pontuação:** 8
 
 ### Refatorar tela de criar agenda
 * **Responsáveis:** Mateus
 * **Pontuação:** 8
 
-### Refatorar tela de grupos
-* **Responsáveis:** Matheus
-* **Pontuação:** 13
-
-### Refatorar tela de visualizar informações de atendimento
-* **Responsáveis:** Cantuária
+### Tratar erros de retorno do frontend
+* **Responsáveis:** Gabriele
 * **Pontuação:** 5
 
-### Treinamento teste de front
+### Teste de usabilidade com cliente
 * **Responsáveis:** Mateus
+* **Pontuação:** 8
+
+### Alterar componentes atuais para componentes do angular material
+* **Responsáveis:** Mateus
+* **Pontuação:** 8
+
+### Teste de front do componente turma
+* **Responsáveis:** Matheus
 * **Pontuação:** 13
 
 

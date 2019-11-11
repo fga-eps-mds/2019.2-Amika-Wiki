@@ -4,7 +4,7 @@
 
 **Data de Término:** 20/10/19
 
-**Total de Pontos Planejados:** _13*_
+**Total de Pontos Planejados:** 93*_
 
 **Dívidas técnicas:** _40*_
 
@@ -36,9 +36,6 @@
 | US11 - Manter Agendas da Felicidade(Backend) | :white_check_mark: |
 | DOC35 - Preparação para entrega da 1ª Release | :white_check_mark: |
 | DOC37 - Documentar resultado sprint 8 e planejamento sprint 9 | :x: |
-| Configurar PWA | :x: |
-| Criar página admin | :x: |
-| Configurar PWA | :x: |
 | Integrar login do usuário com o sistema | :x: |
 
 ### US01 - Cadastrar Usuário
