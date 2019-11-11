@@ -2,23 +2,23 @@
 
  # 1. Revisão
 
-| História | É Dívida Técnica? |
+| História | Foi concluída? |
 | -------- | :----: |
-| US10 - Realizar Formulários de felicidade autentica(Frontend) | :white_check_mark: | 
-| US12 - Realizar agendas da felicidade(Frontend) | :white_check_mark: |
-| US12 - Realizar agendas da felicidade(Backend) | :white_check_mark: -  |
+| US10 - Realizar Formulários de felicidade autentica(Frontend) | :x: | 
+| US12 - Realizar agendas da felicidade(Frontend) | :x: |
+| US12 - Realizar agendas da felicidade(Backend) | :x: |
 | US08 - Visualizar gráfico de humor do dia(Frontend) | :white_check_mark: |
 | US08 - Visualizar gráfico de humor do dia(Backend) | :white_check_mark: |
-| US19 - Manter materiais(Front) | :white_check_mark: |
-| Adicionar spinner para carregamento de páginas | :x: |
+| US19 - Manter materiais(Front) | :x: |
+| Adicionar spinner para carregamento de páginas | :white_check_mark: |
 | Adicionar imagem do usuário | :x: |
-| Refatorar tela de adicionar humor | :x: | 
-| Refatorar tela de cadastro | :x: |
+| Refatorar tela de adicionar humor | :white_check_mark: | 
+| Refatorar tela de cadastro | :white_check_mark: |
 | Refatorar tela de registro de matricula | :x: |
 | Refatorar tela de criar agenda | :x: |
-| Refatorar tela de grupos | :x: |
-| Refatorar tela de visualizar informações de atendimento | :x: |
-| DOC37 - Documentar resultado sprint 11 e planejamento sprint 12 | :x: |
+| Refatorar tela de grupos | :white_check_mark: |
+| Refatorar tela de visualizar informações de atendimento | :white_check_mark: |
+| DOC37 - Documentar resultado sprint 11 e planejamento sprint 12 | :white_check_mark: |
 | Treinamento teste de front | :x: |
 
 ## 1.1 O que foi feito?
@@ -45,7 +45,7 @@
 * Refatorar tela de registro de matricula
     * Não foi finalizada a estilização
 * Refatorar tela de criar agenda
-    * Falta aceitar PR
+    * Falta realizar solicitações do PR
 * Treinamento teste de front
     * Ng test roda, mas não dá feedback dos erros
 
@@ -79,6 +79,12 @@
 ![Sprint 12 - Burndown de Risco](../../assets/img/burndown_risco/burndown_risco12.png)
 
 # 7. Relato do Scrum Master
+<p align = "justify">
+    A maior parte dos pontos entregues foram feitos por parte da equipe de EPS e o resto dos pontos foram feitos por apenas 3 integantes de MDS. Isto mostra a dificuldade técnica que a maior parte do grupo de MDS tem em relação as tecnologias e também reflete o esforço da maior parte dos integrantes do grupo.
+</p>
+<p align = "justify">
+    O velocity não está sendo levado em conta para o planejamento, pois precisamos atribuir tarefas para todos os membros da equipe, mesmo sabendo que não será feito por parte de alguns. Como estamos fazendo todos os pareamentos em duplas/individuais,    
+</p>
 
 
 

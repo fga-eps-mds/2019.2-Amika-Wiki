@@ -2,23 +2,23 @@
 
  # 1. Revisão
 
-| História | É Dívida Técnica? |
+| História | Foi concluída? |
 | -------- | :----: |
-| US01 - Cadastrar Usuário | :white_check_mark: |
+| US01 - Cadastrar Usuário | :x: |
 | US02 - Manter turma | :x: |
 | US03 - Auto gerenciar matricula | :x: |
 | DOC12 - Documento de arquitetura | :white_check_mark: |
-| DOC20 - Adicionando Roadmap do Product Owner | :x: |
-| DOC22 - Canvas do projeto | :x: |
-| DOC23 - Adicionar Manual de Identidade Visual da aplicação | :x: |
+| DOC20 - Adicionando Roadmap do Product Owner | :white_check_mark: |
+| DOC22 - Canvas do projeto | :white_check_mark: |
+| DOC23 - Adicionar Manual de Identidade Visual da aplicação | :white_check_mark: |
 | DOC24 - Refatorar wiki | :x: |
 | DOC25 - Plano de metodologia | :x: |
 | DOC26 - Criar EVM | :x: |
-| DOC27 - Definição de pronto | :x: |
-| DOC28 - Roadmap do Scrum Master | :x: |
-| DOC30 - Burndown Riscos | :x: |
-| DOC32 - Documentar resultado sprint 5 e planejamento sprint 6 | :x: |
-| DOC33 - Criar Especificação dos casos de uso | :x: |
+| DOC27 - Definição de pronto | :white_check_mark: |
+| DOC28 - Roadmap do Scrum Master | :white_check_mark: |
+| DOC30 - Burndown Riscos | :white_check_mark: |
+| DOC32 - Documentar resultado sprint 5 e planejamento sprint 6 | :white_check_mark: |
+| DOC33 - Criar Especificação dos casos de uso | :white_check_mark: |
 | AMB03 - Configurar Deploy continuo de produção do backend | :white_check_mark: | 
 | AMB05 - Configurar Deploy continuo de homologação do backend | :white_check_mark: | 
 | AMB08 - Configurar Deploy continuo de produção do frontend | :white_check_mark: | 

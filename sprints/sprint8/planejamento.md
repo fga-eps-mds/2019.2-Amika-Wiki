@@ -4,7 +4,7 @@
 
 **Data de Término:** 13/10/19
 
-**Total de Pontos Planejados:** _81*_
+**Total de Pontos Planejados:** 68*_
 
 **Dívidas técnicas:** _24*_
 

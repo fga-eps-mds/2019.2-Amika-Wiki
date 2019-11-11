@@ -2,18 +2,18 @@
 
  # 1. Revisão
 
-| História | É Dívida Técnica? |
+| História | Foi concluída? |
 | -------- | :----: |
 | US01 - Cadastrar Usuário(Frontend) | :white_check_mark: |
-| US01 - Cadastrar Usuário(Backend) | :white_check_mark: |
+| US01 - Cadastrar Usuário(Backend) | :x: |
 | US04 - Manter Grupo(Frontend) | :x: |
-| US04 - Manter Grupo(Backend) | :x: |
+| US04 - Manter Grupo(Backend) | :white_check_mark: |
 | US10 - Realizar Formulários de felicidade autentica(Frontend) | :x: |
 | US10 - Realizar Formulários de felicidade autentica(Backend) | :x: |
 | US11 - Manter Agendas da Felicidade(Frontend) | :x: |
 | US11 - Manter Agendas da Felicidade(Backend) | :x: |
-| DOC35 - Preparação para entrega da 1ª Release | :white_check_mark: |
-| DOC36 - Documentar resultado sprint 7 e planejamento sprint 8 | :x: |
+| DOC35 - Preparação para entrega da 1ª Release | :x: |
+| DOC36 - Documentar resultado sprint 7 e planejamento sprint 8 | :white_check_mark: |
 | Criar Home Page | :white_check_mark: |
 | Adicionar identidade visual na aplicação | :white_check_mark: |
 
