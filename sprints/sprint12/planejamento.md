@@ -8,7 +8,7 @@
 
 **Dívidas técnicas:** _58*_
 
-**Pontos totais:** _ 70*_
+**Pontos totais:** _70*_
 
 ## Introdução
 <p align = "justify"> 

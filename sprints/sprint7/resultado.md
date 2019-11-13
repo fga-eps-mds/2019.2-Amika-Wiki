@@ -1,18 +1,18 @@
 # Resultado da Sprint 7
 
  # 1. Revisão
-
-| História | É Dívida Técnica? |
+ 
+| História | Foi concluída? |
 | -------- | :----: |
-| US01 - Cadastrar Usuário | :white_check_mark: |
-| US02 - Manter turma | :white_check_mark: |
+| US01 - Cadastrar Usuário | :x: |
+| US02 - Manter turma | :x: |
 | US03 - Auto gerenciar matricula | :white_check_mark: |
 | DOC24 - Refatorar wiki | :white_check_mark: |
 | DOC25 - Plano de metodologia | :white_check_mark: |
 | DOC26 - Criar EVM | :white_check_mark: |
-| DOC31 - Documentar Roadmap de Deploy | :x: |
-| DOC34 - Documentar resultado sprint 6 e planejamento sprint 7 | :x: |
-| DOC35 - Preparação para entrega da 1ª Release | :x: |
+| DOC31 - Documentar Roadmap de Deploy | :white_check_mark: |
+| DOC34 - Documentar resultado sprint 6 e planejamento sprint 7 | :white_check_mark: |
+| DOC35 - Preparação para entrega da 1ª Release | :white_check_mark: |
 | Criar Home Page | :x: |
 | Criar Página do administrador | :x: |
 | Adicionar identidade visual na aplicação | :x: |

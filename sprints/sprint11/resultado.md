@@ -2,21 +2,21 @@
 
  # 1. Revisão
 
-| História | É Dívida Técnica? |
+| História | Foi concluída? |
 | -------- | :----: |
 | US01 - Cadastrar Usuário(Frontend) | :white_check_mark: |
-| US10 - Realizar Formulários de felicidade autentica(Frontend) | :white_check_mark: |
+| US10 - Realizar Formulários de felicidade autentica(Frontend) | :x: |
 | US10 - Realizar Formulários de felicidade autentica(Backend) | :white_check_mark: |
-| US12 - Realizar agendas da felicidade(Frontend) | :white_check_mark: |
-| US12 - Realizar agendas da felicidade(Backend) | :white_check_mark: |
+| US12 - Realizar agendas da felicidade(Frontend) | :x: |
+| US12 - Realizar agendas da felicidade(Backend) | :x: |
 | US08 - Visualizar gráfico de humor do dia(Frontend) | :x: |
 | US08 - Visualizar gráfico de humor do dia(Backend) | :x: |
 | US19 - Manter materiais(Front) | :x: |
-| US19 - Manter materiais(Backend) | :x: |
-| Adicionando navbar e sidebar | :x: |
-| Adicionando bottom navigation | :x: |
-| Refatorar tela de turmas | :x: |
-| DOC37 - Documentar resultado sprint 10 e planejamento sprint 11 | :x: |
+| US19 - Manter materiais(Backend) | :white_check_mark: |
+| Adicionando navbar e sidebar | :white_check_mark: |
+| Adicionando bottom navigation | :white_check_mark: |
+| Refatorar tela de turmas | :white_check_mark: |
+| DOC37 - Documentar resultado sprint 10 e planejamento sprint 11 | :white_check_mark: |
 
 ## 1.1 O que foi feito?
 * US01 - Cadastrar Usuário(Frontend)
