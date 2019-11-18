@@ -2,7 +2,7 @@
 Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar como usuários reais interagem com sua aplicação e através disto buscar pontos de melhoria.
 
 ## Participantes
-- Professor da disciplna de Felicidade de Universidade de Brasilia(Professor Wander)
+- Professor Wander da disciplina de Tópicos Especiais em Engenharia de Software com o tema de Felicidade ministrada na Universidade de Brasilia (UnB)
 - Mediador do teste: Mateus de Oliveira
 
 
@@ -23,7 +23,7 @@ Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar co
 
 * Público: O teste de usabilidade será aplicado para o professor Wander, da disciplina de Felicidade.
 
-* Local: ITRAC - UnB.
+* Local: ITRAC - FGA, UnB.
 
 * Horário: 16:30h
 
@@ -45,7 +45,6 @@ Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar co
     - Problemas na realização: Na primeira tentativa o usuário clicou para adicionar aplicação na tela inicial, porém antes de confirmar já saiu da tela para verificar se havia efetuado o download
     - Considerações sobre o erro: Por se tratar de uma medida de segurança padrão recomendada pelo próprio PWA, o popup de confirmação é necessário, logo para este caso não podem ser tomadas medidas quanto a isto, talvez uma resposta mais rápida do pop-up auxiliaria.
     - Experência do Usuário: O usuário não demonstrou qualquer insatisfação ou dúvida além do problema citado acima, o banner para download apareceu imediatamente e o download foi realizado corretamente, o usuário não exitou e nem precisou de qualquer comentário adicional para realizar o download, o fez por conta própria.
-
 
     #### Atividade 2
     - Criar uma agenda da felicidade
