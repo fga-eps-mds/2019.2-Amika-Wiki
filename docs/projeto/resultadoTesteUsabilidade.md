@@ -107,3 +107,17 @@ Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar co
     - Problemas na realização: Ao clicar para gerar os grupos o tempo de carregamento foi alto(cerca de 7 segundos) e sem nenhum feedback para o usuário de que os grupos estavam sendo gerados, deixando o usuário confuso sem saber se a ação estava realmente sendo executada.
     - Considerações sobre o erro: Deve ser adicionado um alerta de sucesso ou erro em todas as atividades para fornecer para o usuário sempre algum feedback sobre o que está acontecendo, o tempo de carregamento deve ser diminuido.
     - Experiência do usuário: Após os grupos serem gerados(com o desconforto devido ao tempo de carregamento sem o feedback) o usuário foi visualizar os alunos de cada grupo, porém acabou apertando para editar o grupo e não imediatamente no painel colapsado para expandir e apresentar o restante das informações, um dos motivos que pode ter ocasionado neste erro foi o da tela anterior de turmas, na qual clicar diretamente no painel que é semelhante não gerava nenhum tipo de interação, logo podem ser levadas em consideração algum tipo diferente de design para telas que tenham este menu colapsado e telas que não tenham.
+
+
+## Considerações
+Através do feedback e dos resultados dos testes forám levantados algumas alterações necessárias na aplicação, sendo estas:
+- Botão para retorno rápido a homepage
+- Criação de tela com alunos que responderam cada agenda como homepage do professor
+- Alertas de feedback instantaneos ao realizar alguma atividade(Na qual ocorreu erro ou sucesso)
+- Adição de tooltips nos icones para melhorar compreendimento do usuário
+- Adição de uma tela inicial no login com algumas explicações a respeito da aplicação(Por exemplo, de como é feito o processo de matrícula, explicando que o professor necessita previamente cadastrar o aluno)
+- Ajustes de design para padronizações de certas telas
+- Criar seeds com atividades já previstas
+- Adicionar lista de alunos que pertencem a turma
+
+Devido ao tempo disponível e necessidade de outras refatorações, a equipe irá planejar a Sprint utilizando como base estes resultados, porém nem todos poderão ser atendidos imediatamente, aqueles que demonstraram uma maior insatisfação do usuário, terão uma prioridade aumentada.
