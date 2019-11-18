@@ -117,8 +117,15 @@ Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar co
         - Analisar se o usuário conseguiu excluir rapidamente uma das agendas da disciplina
         - Analisar quantos caminhos foram necessários até realizar a atividade
 
-
     Atividade 3
+    - Criar turma
+      * Pedir que o usuário crie uma nova turma
+        - Analisar quantas etapas o usuário precisou para criar uma turma
+        - Analisar os alunos daquela turma
+        - Colher sugestões de melhorias
+        - Colher dificuldades encontradas
+
+    Atividade 4
     - Ver gráfico humor do dia
         * Induzir usuário a vero gráfico de humor do dia
             - Analisar se o usuário achou intuitivo o uso do gráfico
@@ -127,29 +134,7 @@ Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar co
             - Recolher sugestões de melhorias do usuário
 
 
-    Atividade 4
-    - Gerar Grupos
-      * Pedir que o usuário gere os grupos da disciplina
-        - Analisar quantas etapas o usuário precisou para gerar os grupos
-        - Analisar quantos grupos foram formados
-        - Analisar se a quantidade de alunos por grupo foi de acordo
-        - Analisar se a listagem de grupos foi correta
-        - Colher sugestões de melhorias
-        - Colher dificuldades encontradas
-        
-    
     Atividade 5
-    - Enviar Notificação
-      * Pedir que o usuário envie uma notificação para os alunos
-        - Analisar quantas etapas o usuário precisou para enviar a notificação
-        - Analisar se a notificação foi enviada corretamente para os usuários com aplicativo
-        - Analisar se a forma que a notificação foi enviada foi satisfatória para os usuários
-        - Colher sugestões de melhorias
-        - Colher dificuldades encontradas
-        
-        
-        
-    Atividade 6
     - Gerar Grupos
       * Pedir que o usuário gere os grupos da disciplina
         - Analisar quantas etapas o usuário precisou para gerar os grupos
@@ -158,15 +143,5 @@ Teste de usabilidade é uma técnica de caixa-preta, com objetivo de observar co
         - Analisar se a listagem de grupos foi correta
         - Colher sugestões de melhorias
         - Colher dificuldades encontradas
-        
-        
-    Atividade 7
-    - Criar turma
-      * Pedir que o usuário crie uma nova turma
-        - Analisar quantas etapas o usuário precisou para criar uma turma
-        - Analisar os alunos daquela turma
-        - Colher sugestões de melhorias
-        - Colher dificuldades encontradas
-
 
 

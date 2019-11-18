@@ -22,6 +22,7 @@
   - [Minimo Produto Viável](docs/projeto/mvp)
 - Testes de Usabilidade
   - [Modelo de Testes de Usabilidade](docs/projeto/testesUsabilidade)
+  - [Resultado Testes de Usabilidade - Professor](docs/projeto/resultadoTesteUsabilidade)
 - [Atas](atas/indice)
 - [Sprints](sprints/indice)
 - RoadMaps
