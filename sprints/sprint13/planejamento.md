@@ -4,11 +4,11 @@
 
 **Data de Término:** 17/11/19
 
-**Total de Pontos Planejados:** _121*_
+**Total de Pontos Planejados:** _111*_
 
-**Dívidas técnicas:** _71*_
+**Dívidas técnicas:** _50*_
 
-**Pontos totais:** _50*_
+**Pontos totais:** _61*_
 
 ## Introdução
 <p align = "justify"> 
