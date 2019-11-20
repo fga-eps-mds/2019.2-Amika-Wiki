@@ -20,6 +20,7 @@
   - [NFR](docs/projeto/nfr)
   - [Plano de Gerenciamento da Qualidade](docs/projeto/plano_qualidade)
   - [Minimo Produto Viável](docs/projeto/mvp)
+  - [Postmortem](docs/projeto/postmortem)
 - Testes de Usabilidade
   - [Modelo de Testes de Usabilidade](docs/projeto/testesUsabilidade)
   - [Resultado Testes de Usabilidade - Professor](docs/projeto/resultadoTesteUsabilidade)
