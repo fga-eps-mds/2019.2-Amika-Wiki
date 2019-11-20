@@ -20,6 +20,11 @@
 <p align = "justify"> 
     A pontuação desta última sprint, por conta da não participação da maior parte dos membros na última sprint. Foi feita com base no que falta para finalizar a issue, no caso das dívidas, e para as novas issues foi levado em conta issues anteriores similares.
 </p>
+<p align = "justify"> 
+    Por se tratar da última sprint, e por serem atividades de refinamento em sua maioria simples, foi acordado que não seriam realizados pareamentos, como uma forma de atacar a maior quantidade de issues possível. Uma parte dos membros sempre relata falta de tempo em comum, logo esta seria também uma forma de mitigar este problema para que todos consigam desenvolver suas atividades da melhor maneira possível.
+</p>
+
+
 
 ## Papéis Scrum
 
