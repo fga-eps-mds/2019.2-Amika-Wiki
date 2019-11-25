@@ -28,4 +28,4 @@ O índice de desempenho de Prazo é dado pela divisão entre o valor agregado e 
 
 
 ### Gráficos EVM do Amika
-<div style="margin-left: -80px"><iframe src="https://docs.google.com/spreadsheets/d/1pqCOrz1ZFHvKTjH1cfhF7G4C5Y6itmJU920OA3-PcyQ/edit?rm=minimal"frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"  webkitallowfullscreen="true"></iframe></div>
+<div style="margin-left: -80px"><iframe src="https://docs.google.com/spreadsheets/d/1A-rJgOODQUxQQ21lqtW9gQW3NrB9h8WyvMuvPyE_bIk/edit?rm=minimal#gid=1444792691"frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"  webkitallowfullscreen="true"></iframe></div>
