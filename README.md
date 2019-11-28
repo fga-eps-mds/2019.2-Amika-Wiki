@@ -24,6 +24,15 @@
 - [Homologação](https://amika-stg.herokuapp.com/)
 - [Produção](https://amika-prod.herokuapp.com/)
 
+
+## Imagens
+
+<p align="center">
+    <a>
+        <img src="./assets/img/AmikaScreenshot.png">
+    </a>
+</p>
+
 ## Sobre
 
 Amika é um Progressive Web App com o objetivo de auxiliar a organização da disciplina de Tópicos Especiais em Engenharia de Software, com abordagem em Felicidade, da Universidade de Brasília. Assim como também proporcionar para os alunos um ambiente de interação e ajuda para lidar com problemas de saúde mental, fornecendo uma experiência mais agradável.
