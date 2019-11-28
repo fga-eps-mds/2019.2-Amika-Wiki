@@ -15,8 +15,8 @@
 
     </head>
     <body>
-      <nav>
-    <ul class="nav">
+      <nav class="desktop-only">
+    <ul class="nav" style="margin-right: 8em;">
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projeto</a>
           <div class="dropdown-menu">
@@ -74,6 +74,12 @@
         .app-nav a {
           font-size: 1.5em;
         }
+
+        @media screen and (max-width: 800px) {
+          .desktop-only {
+            display: none;
+          }
+}
       </style>
       <script>
         window.$docsify = {
