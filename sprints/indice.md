@@ -42,3 +42,4 @@
     - [Resultado](sprints/sprint13/resultado)
 - Sprint 14
     - [Planejamento](sprints/sprint14/planejamento)
+    - [Resultado](sprints/sprint14/resultado)
