@@ -1,31 +1,34 @@
 - [Introdução](introducao)
 - Projeto
-  - [Documento de Visão](docs/projeto/documentovisao)
-  - [Documento de Arquitetura](docs/projeto/documentoarquitetura)
   - [Termo de Abertura do Projeto](docs/projeto/tap)
   - [Estrutura Analitica do Projeto](docs/projeto/eap)
-  - [Backlog do Produto](docs/projeto/backlog)
-  - [Plano de comunicação](docs/projeto/planocomunicacao)
-  - [Gerência de Configuração de Software](docs/projeto/planogerencia)
   - [Definição de Pronto](docs/projeto/definicaopronto)
-  - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
   - [Modelo Canvas](docs/projeto/canvas)
-  - [Definição de Pronto](docs/projeto/definicaopronto)
-  - [Especificação de Casos de Uso](docs/projeto/especificacaocasosdeuso)
-  - [Identidade Visual](docs/projeto/identidadevisual)
   - [Metodologia](docs/projeto/metodologia)
-  - [Gestão de valor agregado (EVM)](docs/projeto/evm)
-  - [Protótipo de Alta Fidelidade](docs/projeto/prototipo)
-  - [Backlog de Documentos](docs/projeto/backlogDocumentos)
-  - [NFR](docs/projeto/nfr)
-  - [Plano de Gerenciamento da Qualidade](docs/projeto/plano_qualidade)
-  - [Minimo Produto Viável](docs/projeto/mvp)
   - [Postmortem](docs/projeto/postmortem)
+- Produto
+  - [Protótipo de Alta Fidelidade](docs/projeto/prototipo)
+  - [Identidade Visual](docs/projeto/identidadevisual)
+  - [Documento de Visão](docs/projeto/documentovisao)
+  - [Documento de Arquitetura](docs/projeto/documentoarquitetura)
+  - [NFR](docs/projeto/nfr)
+  - [Especificação de Casos de Uso](docs/projeto/especificacaocasosdeuso)
+  - [Minimo Produto Viável](docs/projeto/mvp)
+- Gerencia
+  - [Plano de comunicação](docs/projeto/planocomunicacao)
+  - [Plano de Gerenciamento de Risco](docs/projeto/gerenciamentorisco)
+  - [Plano de Gerenciamento da Qualidade](docs/projeto/plano_qualidade)
+  - [Gestão de valor agregado (EVM)](docs/projeto/evm)
+  - [Gerência de Configuração de Software](docs/projeto/planogerencia)
+- Backlog
+  - [Backlog do Produto](docs/projeto/backlog)
+  - [Backlog de Documentos](docs/projeto/backlogDocumentos)
 - Testes de Usabilidade
   - [Modelo de Testes de Usabilidade](docs/projeto/testesUsabilidade)
   - [Resultado Testes de Usabilidade - Professor](docs/projeto/resultadoTesteUsabilidade)
-- [Atas](atas/indice)
-- [Sprints](sprints/indice)
+- Reuniões
+  - [Atas](atas/indice)
+  - [Sprints](sprints/indice)
 - RoadMaps
   - [Roadmap do Produto](docs/roadmap/roadmapProduto)
   - [Roadmap dos Papéis](docs/roadmap/roadmapPapeis)
@@ -36,5 +39,3 @@
   - [Simulação Sprint](docs/treinamentos/simulacao)
   - [Django Rest](docs/treinamentos/djangoRest)
   - [Code Academy](docs/treinamentos/codeacademy)
-  
-  
