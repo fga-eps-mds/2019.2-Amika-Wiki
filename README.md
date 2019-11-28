@@ -28,13 +28,22 @@
 
 Amika é um Progressive Web App com o objetivo de auxiliar a organização da disciplina de Tópicos Especiais em Engenharia de Software, com abordagem em Felicidade, da Universidade de Brasília. Assim como também proporcionar para os alunos um ambiente de interação e ajuda para lidar com problemas de saúde mental, fornecendo uma experiência mais agradável.
 
-### Protótipo
+### Aplicação
+#### Professor
 
 <p align="center">
     <a src="https://fga-eps-mds.github.io/2019.2-Amika-Wiki/">
-        <img src="./assets/img/prototipo.gif">
+        <img src="./assets/img/professor.png">
     </a>
-</p>
+</p> <br>
+
+#### Aluno
+<p align="center">
+    <a src="https://fga-eps-mds.github.io/2019.2-Amika-Wiki/">
+        <img src="./assets/img/aluno.png">
+    </a>
+</p> <br>
+
 
 ## Tecnologias Utilizadas
 
